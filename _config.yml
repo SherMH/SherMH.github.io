@@ -1,61 +1,56 @@
-# Developer's Note: This is a sample _config.yml file offered with
-# jekyll-theme-prologue for your convenience. To use it, move it to your
-# project's root directory. Please note that the following lines are
-# NECESSARY for Prologue to work correctly:
-#
-# theme: jekyll-theme-prologue
-# collections: [sections]
-#
-# They activate the theme and tell Jekyll to find your homepage content
-# in /_sections. Note where "sections" starts with an underscore
-# and where it doesn't. The social settings will make links to
-# Twitter, etc., but only if you give the URL.
-#
-# Also, be sure to customize url and baseurl for your site.
-#
-# ---------------------------------------------------------------
-#
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+url: https://shermh.github.io/#
+baseurl: https://shermh.github.io/#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Mundo Kpop
-subtitle: Grupos Asiaticos
-description: >- # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
-author: Your Incredible Name
-email: mamanihuancasherli@gmail.com
-avatar: assets/images/avatar.jpg
+title: Alfabetización Estadística
+email: mailto:islp.bolivia@gmail.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-# You'll want to customize url and baseurl for your own site:
-baseurl: "" 
-url: "" 
 
-# Social settings
-facebook_url:
-github_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-pinterest_url:
-slack_url:
-twitter_url:
+# Team names, titles and social links
+people:
+- name: Instituto Nacional de Estadística
+  pic: ine
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
 
-# Google Analytics Tracking ID goes here:
-google_analytics:
+- name: Carrera de Estadística - UMSA
+  pic: stat
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
-# The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
-collections: [sections]
+- name: Fundación Aru
+  pic: arulogo
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
