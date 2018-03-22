@@ -10,17 +10,17 @@ if(empty($_POST['name'])  		||
 	return false;
    }
 
-$name = $_POST['name'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$email_address = strip_tags(htmlspecialchars($_POST['email']));
+$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
 $to = 'mamanihuancasherli@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "Consultas para el alfabetismo estadistico:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $islp.bolivia@gmail.com";
-mail($to,$email_subject,$email_body,$headers);
-return true;
+$email_subject = "Contacto desde la web de parte de:  $name";
+$email_body = "Hola Sherli, recibiste un mensaje desde la planilla de contacto.\n\n"."Estos son los detalles:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$headers = "From: noreply@alfabetizacionEstadistica.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers .= "Reply-To: $email_address";
+$result = mail($to,$email_subject,$email_body,$headers);
+die($result);
 ?>
