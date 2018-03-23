@@ -1,34 +1,27 @@
 <?php
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<title>Formulario de contacto</title>
-<link rel="stylesheet" href="css.css">
-</head>
-<body>
-<h1>Formulario de contacto</h1>
-<form name='formulario' id='formulario' method='post' action='confirmacion.php' target='_self' enctype="multipart/form-data"> 
 
-<br>NOMBRE: <input type='text' name='Nombre' id='Nombre'> 
+// Check for empty fields
+if(empty($_POST['name'])  		||
+   empty($_POST['email']) 		||
+   empty($_POST['phone']) 		||
+   empty($_POST['message'])	||
+   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+   {
+	echo "No arguments Provided!";
+	return false;
+   }
 
-<br>E-MAIL:<input type='text' name='email' id='email' pattern="^[a-zA-Z0-9.!#$%'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" 
- required	value="ejemplo@hotmail.com" 
-onclick="if(this.value=='ejemplo@hotmail.com') this.value=''" onblur="if(this.value=='') this.value='ejemplo@hotmail.com'">
+$name = $_POST['name'];
+$email_address = $_POST['email'];
+$phone = $_POST['phone'];
+$message = $_POST['message'];
 
-<br>TELEFONO:<input type='text' name='telefono' id='telefono' value="Con Codigo de Area" 
-onclick="if(this.value=='Con Codigo de Area') this.value=''" onblur="if(this.value=='') this.value='Con Codigo de Area'">
-<br>ASUNTO: <input type='text' name='asunto' id='asunto'>
-<br>
-MENSAJE:<br>
-<textarea name="mensaje" cols="35" rows="10" id="mensaje"></textarea>
-<br>
-Si desea puede adjuntar un archivo:<input  type='file' name='archivo1' id='archivo1' >
- <br>
-
-<input  id=boton-enviar type='submit' value='Enviar'> 
-
-</form>
-</body>
-</html>
+// Create the email and send the message
+$to = 'smamani@aru.org.bo'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$email_subject = "Contacto desde la web de parte de:  $name";
+$email_body = "Hola Sherli, recibiste un mensaje desde la planilla de contacto.\n\n"."Estos son los detalles:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$headers = "From: smamani@aru.org.bo\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers .= "Reply-To: $email_address";
+$result = mail($to,$email_subject,$email_body,$headers);
+return true;|	
 ?>
