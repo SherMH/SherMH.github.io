@@ -1,27 +1,50 @@
 <?php
 
-// Check for empty fields
-if(empty($_POST['name'])  		||
-   empty($_POST['email']) 		||
-   empty($_POST['phone']) 		||
-   empty($_POST['message'])	||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
-	echo "No arguments Provided!";
-	return false;
-   }
+// PHP Mailer previously installed
+// See https://github.com/DopplerRelay/docker-php/blob/master/Dockerfile
+include_once "/usr/lib/vendor/phpmailer/phpmailer/PHPMailerAutoload.php";
 
-$name = $_POST['name'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+// Get username and password from environment variables
+$username = getenv('DOPPLERRELAY_USERNAME');
+$password = getenv('DOPPLERRELAY_PASSWORD');
 
-// Create the email and send the message
-$to = 'smamani@aru.org.bo'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "Contacto desde la web de parte de:  $name";
-$email_body = "Hola Sherli, recibiste un mensaje desde la planilla de contacto.\n\n"."Estos son los detalles:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: smamani@aru.org.bo\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";
-$result = mail($to,$email_subject,$email_body,$headers);
-return true;|	
+// Relay SMTP service configuration
+$host = 'smtp.dopplerrelay.com';
+$port = 587;
+
+// Custom data
+$fromEmail = 'you@yourdomain.com';
+$fromName = 'Your Name';
+$to1Email = 'recipient1@example.com';
+$to1Name = 'Recipient1 Name';
+$to2Email = 'recipient2@example2.com';
+$to2Name = 'Recipient2 Name';
+$subject = 'Hello from Doppler Relay, PHP Mailer!';
+$text = "Doppler Relay speaks plaintext";
+$html = "Doppler Relay speaks HTML";
+
+// Send message using PHP Mailer
+$mail = new PHPMailer;
+$mail->IsSMTP();
+$mail->Host = $host;
+$mail->Port = $port;
+$mail->SMTPAuth = true;
+$mail->AuthType ='LOGIN';
+$mail->Username = $username;
+$mail->Password = $password;
+$mail->From = $fromEmail;
+$mail->FromName = $fromName;
+$mail->AddAddress($to1Email, $to1Name);
+$mail->AddAddress($to2Email, $to2Name);
+$mail->IsHTML(true);
+$mail->Subject = $subject;
+$mail->Body = $html;
+$mail->AltBody = $text;
+
+if(!$mail->Send()) {
+   echo 'Message could not be sent.';
+   echo 'Mailer Error: ' . $mail->ErrorInfo;
+   exit;
+}
+echo 'Message has been sent';
 ?>
