@@ -9,10 +9,11 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
 			
             // get values from FORM
-            var name = $("input#name").val();
+            var first_name = $("input#first_name").val();
+            var last_name = $("input#last_name").val();
             var email = $("input#email").val();
-            var phone = $("input#phone").val();
-            var message = $("textarea#message").val();
+            var telephone = $("textarea#telephone").val();
+			var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -22,10 +23,11 @@ $(function() {
                 url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
+                    first_name: first_name,
+                    last_name: last_name,
                     email: email,
-                    message: message
+                    telephone: telephone,
+					message: message
                 },
                 cache: false,
                 success: function() {
@@ -46,7 +48,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Lo siento " + firstName + ", tu correo no pudo ser enviado!, no olviden inscribirse en la parte superior");
+                    $('#success > .alert-danger').append("<strong>Lo siento " + first_name + ", tu correo no pudo ser enviado!, no olviden inscribirse en la parte superior");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
