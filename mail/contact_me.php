@@ -24,30 +24,27 @@ if(isset($_POST['email'])) {
  
     // Se valida que los campos del formulairo estén llenos
  
-    if(!isset($_POST['first_name']) ||
+    if(!isset($_POST['InputName1']) ||
  
-        !isset($_POST['last_name']) ||
+        !isset($_POST['InputEmail1']) ||
  
-        !isset($_POST['email']) ||
+        !isset($_POST['InputSubject1']) ||
  
-        !isset($_POST['telephone']) ||
+        !isset($_POST['message1']) {
  
-        !isset($_POST['message'])) {
  
         died('Lo sentimos pero parece haber un problema con los datos enviados.');       
  
     }
  //En esta parte el valor "name" nos sirve para crear las variables que recolectaran la información de cada campo
     
-    $first_name = $_POST['first_name']; // requerido
+    $InputName1 = $_POST['InputName1']; // requerido
  
-    $last_name = $_POST['last_name']; // requerido
+    $InputEmail1 = $_POST['InputEmail1']; // requerido
  
-    $email_from = $_POST['email']; // requerido
+    $InputSubject1 = $_POST['InputSubject1']; // requerido
  
-    $telephone = $_POST['telephone']; // no requerido 
-
-    $message = $_POST['message']; // requerido
+    $message1 = $_POST['message1']; // no requerido 
  
     $error_message = "Error";
 
@@ -105,15 +102,13 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "Nombre: ".clean_string($first_name)."\n";
+    $email_message .= "Nombre: ".clean_string($InputName1)."\n";
  
-    $email_message .= "Apellido: ".clean_string($last_name)."\n";
+    $email_message .= "Email: ".clean_string($InputEmail1)."\n";
  
-    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Motivo: ".clean_string($InputSubject1)."\n";
  
-    $email_message .= "Teléfono: ".clean_string($telephone)."\n";
- 
-    $email_message .= "Mensaje: ".clean_string($message)."\n";
+    $email_message .= "Mensaje: ".clean_string($message1)."\n";
   
  
 //Se crean los encabezados del correo
