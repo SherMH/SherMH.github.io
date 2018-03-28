@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
     // Edita las dos líneas siguientes con tu dirección de correo y asunto personalizados
  
     $email_to = "
- islp.bolivia@gmail.com";
+ mamanihuancasherli@gmail.com";
  
     $email_subject = "Proyecto Alfabetizacion Estadistica";   
  
