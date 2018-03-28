@@ -9,25 +9,23 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
 			
             // get values from FORM
-            var first_name = $("input#first_name").val();
-            var last_name = $("input#last_name").val();
-            var email = $("input#email").val();
-            var telephone = $("textarea#telephone").val();
-			var message = $("textarea#message").val();
-            var firstName = name; // For Success/Failure Message
+            var InputName1 = $("input#InputName1").val();
+            var InputEmail1 = $("input#InputEmail1").val();
+            var InputSubject1 = $("input#InputSubject1").val();
+            var message1 = $("textarea#message1").val();
+            var InputName1 = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
-            if (firstName.indexOf(' ') >= 0) {
-                firstName = name.split(' ').slice(0, -1).join(' ');
+            if (InputName1.indexOf(' ') >= 0) {
+                InputName1 = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
-                    first_name: first_name,
-                    last_name: last_name,
-                    email: email,
-                    telephone: telephone,
-					message: message
+                    InputName1: InputName1,
+                    InputEmail1: InputEmail1,
+                    InputSubject1: InputSubject1,
+                    message1: message1
                 },
                 cache: false,
                 success: function() {
