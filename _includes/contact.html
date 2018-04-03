@@ -1,35 +1,55 @@
+---
+layout: contact
+title: Contacto
+permalink: /contact/
+---
 
-<!-- Contact Start -->
+<div id="contactwrap"></div>
 
-<section id="{{ page.section-type }}" class="container content-section text-center">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">  
+            <h4>Escríbenos!</h4>
+            <div class="hline"></div>
+                <p>{{ site.about }}</p>
+                <!-- En la siguiente linea se debe poner el Token del correo electronico al que se desea que lleguen los mensajes. El token 5341565c9db880d7ee1010a91709a435 debe ser reemplazado -->
+<form action="https://getsimpleform.com/messages?form_api_token=00a371a43a816607df6f005c4bffc438." method="post">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />               
 
-      {{ page.content | markdownify }}
+<div class="form-group">
+                    <label for="InputName1">Tu nombre</label>
+                    <input type="text" name="Name:" class="form-control" id="exampleInputEmail1">
+                  </div>
+                  <div class="form-group">
+                    <label for="InputEmail1">Correo electronico</label>
+                    <input type="email" name="Email:" class="form-control" id="exampleInputEmail1">
+                  </div>
+                  <div class="form-group">
+                    <label for="InputSubject1">Asunto</label>
+                    <input type="text" name="Asunto:" class="form-control" id="exampleInputEmail1">
+                  </div>
+                  <div class="form-group">
+                    <label for="message1">Mensaje</label>
+                    <textarea class="form-control" name="Message:" id="message1" rows="3"></textarea>                   
+                  </div>
+                  <button type="submit" class="btn btn-theme">Enviar</button> 
+  </form>
+                
+        </div><! --/col-lg-8 -->
 
-      {% if site.email %}
-        {% if site.email contains '@' %}
-          {% assign newemail = site.email | split: '@' %}
-            <p>
-            <script>
-              function join_at_email(user, domain){
-              return (user && domain)?(user + "@" + domain):"";
-              }
-              document.write('<a href="mailto:'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '">'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '</a>'
-              );
-              </script>
-            </p>
-        {% else %}
-          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {% endif %}
-      {% endif %}
-
-    </div>
-  </div>
-</section>
-
-<!-- Contact End -->
+        <div class="col-lg-4">
+            <h4>Nuestra Dirección</h4>
+            <div class="hline"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+                <p>
+                    Email: {{ site.email }}<br/>
+                    Tel: {{ site.tel }}
+                </p>               
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
