@@ -1,37 +1,54 @@
-
-exclude:
-  - "/vendor/"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "LICENSE.md"
-  - "*.gemspec"
-
-keep_files:
-  - "CNAME"
-  - ".git"
-  - ".gitignore"
-
-
+url: https://alfabetizacion-estadistica-bolivia.github.io/
+baseurl: https://alfabetizacion-estadistica-bolivia.github.io/
 # Site settings
-title: Plataforma de Microdatos y Encuestas
-subtitle: "Fundación Aru"
-url: "https://udata-aru.github.io" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: ""
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+title: Alfabetización Estadística
+email: mailto:islp.bolivia@gmail.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+
+# Team names, titles and social links
+people:
+- name: Instituto Nacional de Estadística
+  pic: ine
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: https://twitter.com/ineoficialbo?lang=es
+    - title: facebook
+      url: https://www.facebook.com/ineboliviaoficial/
+
+- name: Carrera de Estadística - UMSA
+  pic: stat
+  position: Lead Marketer
+  social:
+    - title: facebook
+      url: https://www.facebook.com/Carrera-de-Estad%C3%ADstica-UMSA-1268600956524094/
+    - title: google-plus
+      url: http://www.universia.com.bo/estudios/umsa/estadistica/st/177521
+
+- name: Fundación Aru
+  pic: arulogo
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/arufoundation?lang=es
+    - title: facebook
+      url: https://www.facebook.com/FundacionARU
+    - title: google-plus
+      url: https://www.aru.org.bo/
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/IslpBolivia
+  - title: facebook
+    url: https://www.facebook.com/alfabetizacion.estadisticaboliviana.7
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
-
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+permalink: pretty
