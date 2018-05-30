@@ -37,8 +37,8 @@ It's just one more [jekyll](https://github.com/jekyll/jekyll) theme. Maybe it's 
 # Site settings
 title: "gjuniioor"
 bye_message: "Thx!"
-baseurl: "/clyell/"
-url: "https://gjuniioor.github.io"
+baseurl: ""
+url: ""
 disqus: gjuniioor
 
 # Header settings
