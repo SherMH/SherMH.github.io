@@ -1,58 +1,22 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
-            </div>
+<header class="row">
+  <div class="col-lg-8 col-lg-offset-2">
+    <h1 class="">gjuniioor</h1>
+    <p>
+    <span class="reserved">char</span> nick[<span class="number">9</span>] = <span class="string">"{{ site.nick }}"</span>;
+    </p>
+    <p>
+    printf(<a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">"https://{{ site.source_code.server }}/<span class="reserved">%s\n</span>"</span></a>,nick);
+    </p>
+    <p>
+    printf(<span class="string">"<span class="reserved">%s\x40</span>{{ site.mail.domain }}<span class="reserved">\x2e\\\b</span>{{ site.mail.ext }}<span class="reserved">\n</span>"</span>,nick);
+    </p>
+    <!-- <p>
+            printf(<a href="https://{{ site.blog.nick }}.{{ site.blog.server }}" target="_blank"><span class="string">"https://<span class="reserved">%s</span>.{{ site.blog.server }}<span class="reserved">\n</span>"</span></a>,nick);
+        </p> -->
+    <p>
+    puts(<a href="{{ site.baseurl }}misc/pubkey.gpg.txt" target="_blank"><span class="string">"5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"</span></a>);
+    </p>
+  </div>
+</header>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services"><span style="color: darkred;">Categorías</span></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio"><span style="color: darkred;">Normas y Guías</span></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about"><span style="color: darkred;">Fechas importantes</span></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team"><span style="color: darkred;">Comite Evaluador</span></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact"><span style="color: darkred;">Contacto</span></a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading"><span style="color: black;">Competencia Boliviana de Posters Estadísticos</span></div>
-                <div class="intro-lead-in"><span style="color: black;">Primera versión: 2018 - 2019</span></div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyYgkPbHrD74-9MGvJf5vdHVuhqI25ySdvfsUYITZwE-eWTw/viewform" class="page-scroll btn btn-xl">Inscribete Aquí!!!</a>
-            </div>
-        </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
-
+{% include menu.html %}
