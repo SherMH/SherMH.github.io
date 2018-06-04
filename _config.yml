@@ -1,23 +1,7 @@
-# Site settings
-title: "gjuniioor"
-bye_message: "Thx!"
-baseurl: ""
-url: ""
-disqus: gjuniioor
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Header settings
-nick: "gjuniioor"
-mail:
-    domain: "protonmail"
-    ext: "ch"
-source_code:
-    server: "github.com"
-    nick: "gjuniioor"
-blog:
-    server: "wordpress.com"
-    nick: "gjuniioor"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+auto: true # automatically update your jekyll
+server: true # runs a local server
+paginate: 10 # pagination basted on number of posts
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
 
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
