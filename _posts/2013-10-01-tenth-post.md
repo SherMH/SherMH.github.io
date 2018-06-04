@@ -1,6 +1,6 @@
 ---
 layout: post_page
-title: Bluth
+title: Encuesta de Movilidad y Estratificación Social.
 ---
 
 {% include bluth.html %}
