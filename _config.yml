@@ -37,10 +37,10 @@ my:
         pinterest: https://www.pinterest.com/miblah/
         tel: 15532915861
         address:
-            country: China
-            state: Beijing
-            city: Beijing
-            distribute: ChaoYang
+            country: Bolivia
+            state: La Paz
+            city: Prov Murillo
+            distribute: Fundación ARU
             postcode: 000000
             cell: "AnHuiLi"
     skills:
