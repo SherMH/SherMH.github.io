@@ -1,17 +1,26 @@
-<header class="site-header">
+
+<!-- Intro Start -->
+
+<header class="intro">
+  <div class="intro-body">
     <div class="container">
-        <a id="site-header-brand" href="/" title="{{ site.name }}">
-            <span class="octicon octicon-mark-github"></span> {{ site.name }}
-        </a>
-        <nav class="site-header-nav" role="navigation">
-            {% for nav in site.navs %}
-            <a href="{{ nav.href }}"
-               class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center"
-               target="{{ nav.target | default: _self }}"
-               title="{{ nav.label }}">
-                {{ nav.label }}
+      <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="brand-heading">&nbsp;</h1>
+            <h1 class="brand-heading">&nbsp;</h1>
+            <span class="intro-text">{{ content }}</span>
+            <h5>&nbsp;</h5>
+            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+              {% if site.me-img contains "https://" %}
+                <img class="img-me" src="{{ site.me-img }}" alt="">
+              {% else %}
+                <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+              {% endif %}
             </a>
-            {% endfor %}
-        </nav>
+          </div>
+        </div>
     </div>
+  </div>
 </header>
+
+<!-- Intro End -->
