@@ -1,19 +1,6 @@
-# -*- mode: gitignore; -*-
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#*
-
+*.lock
+.DS_Store
 _site/
 .sass-cache/
-*.swp
-pkg/
-test/
-_deploy/*
-Rakefile
-.jekyll-metadata
-/.idea/
+_config.yml
+Gemfile
