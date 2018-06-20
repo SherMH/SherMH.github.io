@@ -40,9 +40,9 @@ my:
             country: Bolivia
             state: La Paz
             city: Prov Murillo
-            distribute: Fundación ARU
+            distribute: Unidad de Datos
             postcode: 000000
-            cell: "AnHuiLi"
+            cell: "Fundación ARU"
     skills:
         frontend: ["HTML | Markdown", "CSS | SASS", "JS | jQuery", "Bootstrap"]
         backend: ["PHP", "MySQL", "Redis", "Regex", "Laravel", "OSC"]
