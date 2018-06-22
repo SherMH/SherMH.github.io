@@ -3,7 +3,7 @@ title: "EVALUACION DE IMPACTO-PROGRAMA DE EDUCACIÓN FINANCIERA-BANCO UNIÓN S.A
 layout: post
 category: note
 tags: [php, framework]
-excerpt: "El presente documento se enfoca en realizar la evaluación de impacto generados por los talleres de educación financiera otorgados por el Banco Unión SA."
+excerpt: "El presente documento se enfoca en realizar la evaluación del impacto generado por los talleres de educación financiera otorgados por el Banco Unión SA."
 ---
 
 # Información General
@@ -89,44 +89,44 @@ Financiero. Se emplearon 2 cuestionarios diferentes en el proyecto, uno para aca
 
  __Secciones Cuestionario Primera Fase__
  
- __ Sección 1:__ Persona.
+ __Sección 1:__ Persona.
+  
+ __Sección 2:__ Características de la vivienda.
  
- __ Sección 2:__ Características de la vivienda.
+ __Sección 3:__ Características demográficas.
  
- __ Sección 3:__ Características demográficas.
+ __Sección 4:__ Ingresos y gastos del hogar.
  
- __ Sección 4:__ Ingresos y gastos del hogar.
+ __Sección 5:__ Conocimiento.
  
- __ Sección 5:__ Conocimiento.
+ __Sección 6:__ Relación con el sistemafinanciero.
  
- __ Sección 6:__ Relación con el sistemafinanciero.
- 
- __ Sección 7:__ Aversión al riesgo.
+ __Sección 7:__ Aversión al riesgo.
   
   
  __Secciones Cuestionario Segunda Fase__
  
- __ Sección 1:__ Persona.
+ __Sección 1:__ Persona.
  
- __ Sección 2:__ Características de la vivienda.
+ __Sección 2:__ Características de la vivienda.
  
- __ Sección 3:__ Características demográficas.
+ __Sección 3:__ Características demográficas.
  
- __ Sección 4:__ Condición de trabajo.
+ __Sección 4:__ Condición de trabajo.
  
- __ Sección 5:__ Características de ingresos y gastos del hogar.
+ __Sección 5:__ Características de ingresos y gastos del hogar.
  
- __ Sección 6:__ Aversión al riesgo y actitud ante talleres de capacitación.
+ __Sección 6:__ Aversión al riesgo y actitud ante talleres de capacitación.
  
- __ Sección 7:__ Participación en otros talleres de capacitación.
+ __Sección 7:__ Participación en otros talleres de capacitación.
  
- __ Sección 8:__ Crédito.
+ __Sección 8:__ Crédito.
  
- __ Sección 9:__ Ahorro.
+ __Sección 9:__ Ahorro.
  
- __ Sección 10:__ Presupuesto.
+ __Sección 10:__ Presupuesto.
  
- __ Sección 11:__ Indicadores de crecimiento.
+ __Sección 11:__ Indicadores de crecimiento.
  
  
 ##  Recolección de datos
