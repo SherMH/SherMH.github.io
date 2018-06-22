@@ -131,26 +131,32 @@ Financiero. Se emplearon 2 cuestionarios diferentes en el proyecto, uno para aca
  
 ##  Recolección de datos
 
-__-__ Tipo de operativo: Una combinación de trabajo de recolección de información en salas donde se
+__- Tipo de operativo:__ Una combinación de trabajo de recolección de información en salas donde se
 impartieron los talleres y 3 días de búsqueda en campo de los beneficiarios que no pudieron
 asistir a las reuniones programadas para la segunda fase del programa.
 
-- `Poblacion Objetivo:` Los grupos de interés gestionados por el BUSA fueron:1) Alumnos de la
+__- Poblacion Objetivo:__ Los grupos de interés gestionados por el BUSA fueron:1) Alumnos de la
 ESBAPOL; 2) Estudiantes de la ESAE; 3) Grupos de Madres del programa PAN-MANITOS;
 4) Productores asociados a CONAMYPE y FEDEMYPE.
 
-- `Cobertura espacial:` Los talleres y reuniones se desarrollaron en los municipios de La Paz y El
+__- Cobertura espacial:__ Los talleres y reuniones se desarrollaron en los municipios de La Paz y El
 Alto.
-- `Cobertura temporal:` Se planifico 7 reuniones durante el mes de abril de 2017 para la primera fase
+__- Cobertura temporal:__ Se planifico 7 reuniones durante el mes de abril de 2017 para la primera fase
 y 8 reuniones durante los meses de julio y agosto de 2017 para la segunda fase.
-- ` Cobertura temática:` Llenado de formularios de encuesta, atreves de entrevistas directas antes de
+
+__- Cobertura temática:__ Llenado de formularios de encuesta, atreves de entrevistas directas antes de
 cada taller o reunión con los grupos de interés.
-- `Personal:` 20 personas en campo (16 encuestadores y 4 supervisores)
-- `Unidad de Observación:` Segmentos vulnerables de la población que carecen de conocimientos
+
+__- Personal:__ 20 personas en campo (16 encuestadores y 4 supervisores)
+
+__- Unidad de Observación:__Segmentos vulnerables de la población que carecen de conocimientos
 financieros, los que fueron identificados y gestionados por el BUSA.
-- `Tiempo de llenado del cuestionario:` 10-25 minutos.
-- `Carga de trabajo:` mínimo de 3 entrevistas por taller o reunión.
-- `Tipo de trabajo:` Remunerado.
+
+__- Tiempo de llenado del cuestionario:__ 10-25 minutos.
+
+__- Carga de trabajo:__ mínimo de 3 entrevistas por taller o reunión.
+
+__- Tipo de trabajo:__ Remunerado.
 
 El proceso de recolección de información se organiza en dos fases: (1) la primera fase corresponde
 a la aleatorización de los participantes para la conformación de grupos de tratamiento y control;
