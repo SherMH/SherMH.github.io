@@ -1,65 +1,221 @@
 ---
-title: "Martin Fowler: 控制反转"
+title: "Encuesta de Medición de Igualdad de Oportunidades"
 layout: post
 category: translation
 tags: [pattern]
-excerpt: "Martin Fowler 针对 '控制反转' 这个概念给出了自己的解释, 以澄清当下对该概念的迷思. 以及常用的实现方式和示例"
+excerpt: "El documento presenta los resultados y conclusiones de la Encuesta
+Piloto de Medición de Igualdad de Oportunidades (EMIO)."
 ---
-_原文在 2005/06/26 发表于 <http://martinfowler.com/bliki/InversionOfControl.html>_
+El documento presenta los resultados y conclusiones de la Encuesta
+Piloto de Medición de Igualdad de Oportunidades (EMIO). Cuyo
+objetivo general era obtener información de resultados, circunstancias,
+decisiones y preferencias que influyan en situaciones de desigualdad de
+oportunidades de la población objeto de estudio que son jóvenes entre 18
+y 25 años de edad, de quienes se presume habrían concluido su formación
+académica. La prueba piloto de la EMIO somete a prueba la metodología,
+diseño en contenidos y el levantamiento de información en dos etapas: la
+primera etapa, información circunstancial, de preferencias y limitantes de
+los padres y abuelos de los jóvenes, en una encuesta a los hogares, y la
+segunda etapa, información directa de los jóvenes en una encuesta en línea a través de la red social "Facebook". El levantamiento de información
+incluye métodos cuantitativos y elementos usados de manera sistemática.
 
-在使用框架的时候, 经常会遇到 '控制反转', 它也的确是框架的一个典型特征.
+- __Referencia: Unidad de Micro Datos y Encuestas__
+- __Año: 2011 Diciembre__
+- __País: Bolivia__
+- __Fuente: Personas de 18 a 25 años de edad__
+- __Patrocinador(es): Fundación ARU__
 
-举个简单的例子, 假如我正在写一个命令行程序, 用于获取用户信息. 我可能会这样做:
+# Diseño de Instrumentos
 
-```ruby
-  #ruby
-  puts 'What is your name?'
-  name = gets
-  process_name(name)
-  puts 'What is your quest?'
-  quest = gets
-  process_quest(quest)
-```
+Una primera etapa comprende el levantamiento de información sobre
+variables circunstanciales (fuera del control del individuo) de la poblaci
+ón objeto de estudio, que son los jóvenes de 18 a 25 años de edad, se
+lo realiza a él informante indirecto, indagando información sobre caracter
+ísticas generales, de empleo, y de formación educativa de los padres de
+los jóvenes entre 18 y 25 años de edad. Una segunda etapa comprende la
+medición de los resultados de los jóvenes de 18 a 25 años de edad, a través
+de una variable resultado del logro educativo ajustado por variables proxies
+de calidad. La medición de calidad educativa se la realiza mediante
+una prueba de razonamiento lógico, en línea. Para este levantamiento de
+información en línea, se consideró como medio masivo de información el uso del Facebook, dada la amplia cobertura de usuarios inscritos en el
+rango de la población objetivo.
 
-在这样的交互中, 我的代码处于控制地位: 它决定什么时候询问用户, 什么时候读取用户响应, 什么时候去处理响应.
+# Desarrollo y participación ciudadana
 
-但是, 如果是在图形界面中做同样的事情的话, 我则会配置一个视窗:
+La Población objetivo del proyecto son las personas ede ntre 18 y 25
+años, de ambos sexos, de las cuales se presume habrían culminado su
+formación educativa formal, y que habitan en las ciudades de La Paz,
+Cochabamba y Santa Cruz, no existe restricción respecto, a que estas
+personas habiten en hogares particulares o colectivos. El levantamiento
+de información cubre tres de las ciudades capitales.
 
-```ruby
-  require 'tk'
-  root = TkRoot.new()
-  name_label = TkLabel.new() {text "What is Your Name?"}
-  name_label.pack
-  name = TkEntry.new(root).pack
-  name.bind("FocusOut") {process_name(name)}
-  quest_label = TkLabel.new() {text "What is Your Quest?"}
-  quest_label.pack
-  quest = TkEntry.new(root).pack
-  quest.bind("FocusOut") {process_quest(quest)}
-  Tk.mainloop()
-```
+# Información Técnica
 
-可以发现这两种方式有一个重要的区别: 它们的控制流不同 - 尤其是对 `process_name` 和 `process_quest` 这两个方法在何时被调用的控制上. 在命令行的程序里, 我自己控制这些方法何时被调用, 但是在图形界面中则不是这样. 我把控制权交给了视窗系统(`Tk.mainloop` 命令). 然后它根据我创建表单时的绑定关系来决定何时调用我的方法. 控制权被反转了 - 框架来调用我而不是我去调用框架了. 这个现象就是 '控制反转' (也被称为 '好莱坞法则' - '不要打电话(调用)给我们, 我们会给你打').
+## Muestreo
 
+En base a la temática de la encuesta, se construye un marco muestral
+maestro en base al Censo Nacional de Población y Vivienda 2001 (CNPV-
+2001), esto, con la finalidad de obtener un marco muestral de áreas geográficas el cual contenga variables auxiliares que permitan abordar de mejor
+forma la temática de la encuesta. Como resultado de la construcción del
+marco muestral, se genero el estrato de riqueza, cuyo origen viene asociado
+al análisis de componentes principales. Para la construcción, de dicho
+método se considera a las variables de equipamiento del hogar, caracter
+ísticas de la vivienda y acceso a servicios básicos. El estrato define 5
+niveles de igual dimensión cuyo corte es dado por los quintiles del primer
+componente principal, se elige el empleo de este estrato, a razón de que
+muestra estabilidad en el tiempo. La asignación de la muestra en los estratos
+se lo realiza en forma de U, otorgando 35% a los estratos 1 y 5 y
+10% a los otros 3. Para el cálculo del tamaño de la muestra se considera
+los indicadores, y las medidas del el error máximo de estimación relativo,
+el coeficiente de confiabilidad, el efecto de diseño, la tasa de no respuesta
+, y los niveles de desagregación. Del tamaño muestral, se selecciona 114,
+184 y 193 hogares para cada ciudad Cochabamba, La Paz y Santa Cruz
+respectivamente.
 
->对于框架来说, 一个重要的特性就是, 扩展框架的用户代码经常被框架自身在内部调用, 而非在用户应用代码. 框架经常扮演着协调并同步应用活动的主程序. '控制反转' 让框架有能力作为一个可扩展的骨架提供服务, 而用户则通过自己写的方法去修改和定制框架已有的功能.
->
->-- Ralph Johnson and Brian Foote
+## Cuestionario
 
-'控制反转' 是区分框架和库的关键所在. 一个库基本上就是你可以调用的一系列方法(一般被组织进类里面). 每个方法在被调用时做一些事情然后把控制权移交给客户代码.
+El recojo de información inicial se la realizó al informante indirecto,
+indagando información de características generales como empleo y formaci
+ón educativa de los padres de los jóvenes entre 18 y 25 años de edad.
+El cuestionario es aplicado en una entrevista a los hogares, a través del
+cuestionario EMIO-E1, buscando la información de las circunstancias en
+t-1 y t-2.
 
-而框架则包含了更多的抽象设计, 有更多的内置行为. 使用框架, 你得通过子类继承或者通过插入自己的类, 以把你想要的行为放到框架中的各个地方, 然后框架负责适时调用你的代码.
+En la segunda etapa se buscó verificar el logro educativo, el cual es
+medido por un test normalizado que contabiliza el número de aciertos en
+pruebas de lenguaje y matemática para alumnos de los últimos cursos de secundaria que revisa los aspectos de comprensión lectora, práctica metalingüística, numeración, operaciones con números naturales, fracciones
+comunes y geometría plana.
 
-有很多方式插入你自己的代码. 在上面的 Ruby 示例中, 我们使用 `text entry field` 的 `bind` 方法, 给其传入一个事件名称和一个匿名函数. 每当 `text entry box` 检测到该事件时, 就会调用匿名函数中的代码. 像这样使用匿名函数很方便, 但可以很多语言都不支持这种方式.
+## Recolección de datos 
 
-另一种方式是, 由框架定义事件, 并让客户端代码订阅这些事件. .NET 是该方式的一个很好的例子, 它允许我们在 widgets 上声明事件, 然后我们便可以通过委托来绑定一个方法到某个事件.
+El recojo de información de la EMIO se hizo en dos etapas. En la
+primera, se recogio información de variables circunstanciales (fuera del
+control del individuo) de la población objeto de estudio, que son los jóvenes
+de 18 a 25 años de edad.
 
-上面两种方式(实际上两个并无实质区别)对于特定案例来说能很好的工作, 但有时候, 你希望能在单个扩展中组合调用多个方法. 对于这种情况, 框架可以为这些相关调用定义一个接口, 让客户端代码去实现.
+En la segunda etapa se hizo el recojo de información en línea, etapa
+que conllevo problemas referidos a la sub representatividad y al sesgo de
+selección ya que no hubo respuesta por parte del informante directo solo
+hubo 23 personas que respondieron ''Me gusta'' a la prueba en línea.
 
-EJB 即是如此. 你在开发一个 session bean 的时候, 可以实现很多方法让 EJB 容器在各个生命周期点调用. 比如, Session Bean 接口定义了 ejbRemove, ejbPassivate(存储到二级存储), 和 ejbActivate(从钝态恢复). 你只能控制他们做什么, 但无法控制何时去做. 容器调用我们, 而非反之.
+En la toma de información se tuvo la participación de estudiantes de la
+Universidad Mayor de San Ándres de La Paz, la Universidad Privada Boliviana
+de Cochabamba y la Universidad Privada de Santa Cruz de forma
+gratuita, bajo la iniciativa ARU, de ofrecer un curso gratuito de manejo
+de información llamado DESARROLLO DE ENCUESTA a cambio de
+su participación como encuestadores brindando al participante un conocimiento
+amplio de los Microdatos, comprendidos desde el levantamiento
+de información, a través de encuestas estructuradas; hasta el análisis de la
+información mediante un programa estadístico - econométrico que brinda
+solidez a la presentación de resultados.
 
-上述都是比较复杂的 '控制反转' 情景, 但是你也可能在更简单的情境中遇到 '控制反转'. 模板方法即为一例: 超类定义控制流, 子类通过覆写或实现抽象方法来扩展超类. 比如在 JUnit 中, 框架去调用 setUp 和 tearDown 方法, 为你创建或者清理文本夹具. JUnit 框架去调用, 你的代码去响应 - 控制再次被反转了.
+Conjuntamente con la instrucción en programas de mayor aplicación
+en el tema: como ser SPSS y STATA, buscando la formación de Investigadores
+Jóvenes.
 
-随着 IoC(Inversion of Control) 容器的兴起, 现在出现了很多对 '控制反转' 的误解: 有些人把这里所讲的一般原则和某种容器的特殊实现(如依赖注入)相混淆. 名字本身也有些混淆视听(和令人啼笑皆非), 因为 IoC 容器一般被当做 EJB 的竞争对手, 然而 EJB 本身实际上也用了很多(或更多) '控制反转'.
+Logrando conformar brigadas con aquellos que demostraron compromiso
+con la iniciativa, todos a cargo de un jefe de equipo, en los tiempos
+disponibles de cada uno de los encuestadores.
 
-__语源__: 我能记起最早的 '控制反转' 的出处是 Johnson 和 Foote 在 1988 年出版于 _The Journal of Object-Oriented Programming_ 的一篇论文. 它正是那种历久弥新的论文之一 - 即使十五年之后的今天也值得一读. 他们觉得自己是从别的地方借用了这个名词(但是忘了具体哪里了). 之后 '控制反转' 便潜入面向对象社区, 出现在 GoF 的书中. 至于更有趣的 '好莱坞法则' 则貌似发源于 Richard Sweet 在 1983 年发表于 _Mesa_ 杂志的一篇文章. 在某个设计目标列表中他写道: "不要打电话给我们, 我们会给你打 (好莱坞法则): 如果用户想要针对某个事件和工具进行交流, Tajo 会去通知工具, 工具只要做好准备就行. 而非去实现一种类似 '询问用户意图然后执行' 的模型." John Vlissider 也在为 C++ 写的一篇报道中很好的解释了 '好莱坞法则' 背后的概念. (感谢 Brian Foote 和 Ralph Johnson 为此词源提供的帮助.)
+## Proceso de datos
+
+Los cuestionarios llenados en la toma de información de los informantes
+indirectos, fuerón transcritos a una base datos a través de una plantilla
+diseñada en Cspro bajo el formato del cuestionario logrando generar una
+base de información, a fin de que esta base de información pueda ser transportada
+a una base compatible con el programa STATA para su posterior
+análisis.
+
+Para validar la base de datos se usa los resultados, provenientes de
+los de cuadros descriptivos y cruce de variables, logrando con este hecho
+encontrar anomalías como: datos incoherentes y falta de respuesta, para
+despues sacar resultados finales tomando algunas consideraciones para
+lograr la base final logrando sacar alguna idea concluyente de la información.
+
+## Evaluación de datos
+
+Con las variables buscadas en la primera etapa se buscó la estimación
+de la proporción de la desigualdad observada en los resultados educativos
+de los jóvenes de 18 a 25 años de edad que se pueden atribuir a la
+desigualdad de oportunidades. Bajo el marco teórico propuesto por Jhon
+Roemer (1994) se busco asociar el logro educativo en relación a variables
+çircunstanciales"sobre las cuales el individuo no tiene control. Uno de los
+principales objetivos es estimar la reducción de la desigualdad de logro
+educativo que se alcanza si estas Çircunstancias"no tienen ningún efecto
+sobre los logros o, equivalentemente, si no hay diferencias en circunstancias
+de las personas.
+
+La generación de tres componentes, ayuda a evaluar las circunstancias
+externas que rodean al individuo, para concluir, si son determinantes para
+un joven respecto a la igualdad de oportunidades comparado con cualquier
+otro o si estas oportunidades dependen exclusivamente de sus aptitudes
+individuales y estas circunstancias externas no estan directamente involucradas
+a las oportunidades que pueda llegar a tener.
+
+Componentes a ser consideradas:
+
+- Educación
+- Riqueza
+- Tenencia
+
+# Documentación Técnica
+
+## Documentación Técnica
+
+El proyecto en su desarrollo da paso a la generación:
+
+- Diseño de metodología
+- Diseño de contenido
+- Protocolo de campo
+- Diseño de muestra
+- Presupuesto
+- Propuesta de proyecto ''Encuesta de Medición de Igualdad de Oportunidades
+''
+
+## Otros Materiales
+
+Adicionalmente a los productos se encuentra:
+
+- Complemento de análisis económico
+- Material Bibliográfico de consulta
+
+# Base de Datos
+
+## Política de acceso
+
+- Autorización acceso
+Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundación ARU
+
+- Contactos
+Alvaro Chirino Gutierrez achirino@aru.org.bo
+
+- Confidencialidad
+La base final, no podrá darse a conocer al público ni a las entidades
+u organismos oficiales, ni a las autoridades públicas, solo únicamente
+los resúmenes numéricos, si no se cuenta con la autorización, para
+no deducir de ellos información alguna de carácter individual que
+pudiera utilizarse para fines comerciales, o cualquier otro diferente
+del propiamente estadístico
+
+- Condiciones de Acceso
+El acceso a los microdatos es de uso público y de carácter gratuito,
+estará disponible en la página Web udata@aru.org.bo.
+
+- Requisitos de cita
+Se autoriza el uso de la información contenida en esta portal. Queda
+en cambio prohibida la copia o reproducción de los datos en cualquier
+medio electrónico (redes, bases de datos, cd rom, diskettes)
+que permita la disponibilidad de esta información a multiples usuarios
+sin el previo visto bueno de la Red Boliviana de micro datos y
+encuestas por medio escrito
+
+- Derechos y responsabilidades
+Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
+
+## Archivo de datos
+
+Información recopilada en la página de la web udata@aru.org.bo.
+
+## Grupo de Variables
+
+Información recopilada en la página de la web udata@aru.org.bo.
