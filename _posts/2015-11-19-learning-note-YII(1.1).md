@@ -90,28 +90,46 @@ Financiero. Se emplearon 2 cuestionarios diferentes en el proyecto, uno para aca
  __Secciones Cuestionario Primera Fase__
  
  __ Sección 1:__ Persona.
+ 
  __ Sección 2:__ Características de la vivienda.
+ 
  __ Sección 3:__ Características demográficas.
+ 
  __ Sección 4:__ Ingresos y gastos del hogar.
+ 
  __ Sección 5:__ Conocimiento.
+ 
  __ Sección 6:__ Relación con el sistemafinanciero.
+ 
  __ Sección 7:__ Aversión al riesgo.
+  
   
  __Secciones Cuestionario Segunda Fase__
  
  __ Sección 1:__ Persona.
+ 
  __ Sección 2:__ Características de la vivienda.
+ 
  __ Sección 3:__ Características demográficas.
+ 
  __ Sección 4:__ Condición de trabajo.
+ 
  __ Sección 5:__ Características de ingresos y gastos del hogar.
+ 
  __ Sección 6:__ Aversión al riesgo y actitud ante talleres de capacitación.
+ 
  __ Sección 7:__ Participación en otros talleres de capacitación.
+ 
  __ Sección 8:__ Crédito.
+ 
  __ Sección 9:__ Ahorro.
+ 
  __ Sección 10:__ Presupuesto.
+ 
  __ Sección 11:__ Indicadores de crecimiento.
  
- ## Recolección de datos
+ 
+##  Recolección de datos
 
 - `Tipo de operativo:` Una combinación de trabajo de recolección de información en salas donde se
 impartieron los talleres y 3 días de búsqueda en campo de los beneficiarios que no pudieron
@@ -175,8 +193,9 @@ El proyecto adoptó la técnica CAPI (Entrevistas personales asistidas por un or
 ón de información con dispositivos móviles (tablets), el sistema desarrollado en CsPro y la sincronizaci
 ón en línea con dropbox, las encuestas se realizaron en un 55% en los dispositivos móviles y
 un 45% en papel.
+
   
- ## Indicadores del Proyecto
+##  Indicadores del Proyecto
  
  Los indicadores planteados dentro del estudio, se pueden clasificar en tres grandes categorías:
 
@@ -197,6 +216,7 @@ __3. Indicadores de comportamiento/hábitos.__
 - Actitud de ahorro
 - Tenencia de un préstamo formal o informal
 - Elaboración de presupuesto familiar
+
 
 ## Evaluación de datos
 La evaluación de la base de datos se da por:
@@ -232,7 +252,7 @@ DEL BANCO UNIÓN S.A."(primera y segunda fase).
 
 # Base de Datos
 
-##Política de Acceso
+## Política de Acceso
 
 - Autorización acceso
 Banco Union S.A. y Corporación Andina de Fomento CAF
