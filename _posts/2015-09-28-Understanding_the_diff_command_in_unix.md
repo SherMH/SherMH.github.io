@@ -1,193 +1,197 @@
 ---
-title: "理解 diff 命令"
+title: "Comunidad-i III"
 layout: post
 category: translation
 tags: [linux]
-excerpt: "Unix 系统管理员来经常需要去知道两个文件之间有什么差异. diff 命令就是干这个的. 我现在就准备讲讲 diff. 它是一个经常被用到却不是很被了解的命令. 我希望 Unix 使用者在读完这篇文章之后能够正确了解这个命令的用途并从中获益."
+excerpt: "El documento presenta los resultados y conclusiones del Sistema de Monitoreo Baso den la Comunidad SMBC, Comunidad-i en Bolivia, cuyo objetivo consiste básicamente en la recolección y difusión de información acerca de las condiciones de vida y las necesidades de los habitantes de una determinada comunidad."
 ---
-_原文在 2009/04/17 发表于 <http://unix.worldiswelcome.com/understanding-the-diff-command-in-unix>_
+# Información General
 
-Unix 系统管理员来经常需要去知道两个文件之间有什么差异. `diff` 命令就是干这个的. 我现在就准备讲讲 `diff`. 它是一个经常被用到却不是很被了解的命令. 我希望 Unix 使用者在读完这篇文章之后能够正确了解这个命令的用途并从中获益. 另外一个有用的命令是: [`comm`][comm] 命令. 我们开始吧...
+- __Referencia: Unidad de Micro Datos y Encuestas.__
+- __Año: 2017 junio.__
+- __País: Bolivia.__
+- __Fuente: Comunidades Pampa Grande, Mataral y Los Negros pertenecientes al municipio de
+Pampa Grande del departamento de Santa Cruz de la Sierra.__
+- __Patrocinador(es): Sistema de Monitoreo Basado en la Comunidad.__
+- __Instituciones Participantes: Fundación ARU.__
 
-示例文件分别是 _first_ 文件和 _second_ 文件. 如下:
+Fundación ARU es una organización independiente comprometida a promover investigación aplicada,
+objetiva y de alta calidad que informe e influya a la creación de políticas en Bolivia.
 
-```
-wiw_labs:$ nl first
-1 computer
-2 modem
-3 monitor
-4 phone
-5 switch
+Fundación ARU, lleva como uno de sus fundamentos, la creencia de que las políticas más efectivas son
+aquellas que proporcionan oportunidades a las personas para construir una vida mejor y que estas
+promueven sociedades cohesionadas y vibrantes. La formulación de cualquier política recomendada
+deberá estar basada en evidencia obtenida a partir de una investigación aplicada objetiva y de alta
+calidad, capaz no sólo de promover el debate de política pública sino buscando también influenciar
+el proceso de toma de decisiones.
 
-wiw_labs:$ nl second
-1 cable
-2 mobile
-3 screen
-4 modem
-5 phone
-6 server
-```
+El Sistema de Monitoreo Baso den la Comunidad SMBC, Comunidad-i en Bolivia es un proyecto
+que busca trabajar con la comunidad y para la comunidad, consiste básicamente en la recolección
+y difusión de información acerca de las condiciones de vida y las necesidades de sus habitantes, por
+estas razones en una primera instancia Fundación Aru busca concretar acuerdos y convenios con las
+diferentes autoridades y representantes de la comunidad.
 
-`diff` 命令用来比较这两个文件之间的差异
-
-# diff 命令的用法
-
-我命先从 `diff` 的用法说起. `diff` 通常这样使用:
-
-    diff first_file second_file
-
-这条命令意即: first_file 和 second_file 有什么不同
-
-# diff 命令如何工作
-
-`diff` 命令的运作原理就是, 想法设法的让 _first_ 文件和 _second_ 文件一样. 它希望通过更改(c), 删除(d) _first_ 文件中的行以使其和 _second_ 文件一模一样. 如果需要, 它还会把 _second_ 文件中的行附加到 _first_ 文件中. 如果你明白我说的什么, 很好, 如果不明白也随便. 当我使用示例给你解释的时候你就会明白的.
-
-`diff` 就是通过下面的这些步骤来生成这两个文件的差异报告的:
-
-1. 它从 _first_ 文件和 _second_ 文件的第 1 行开始. 如果它们不一样, `diff` 便顺着 _first_ 文件往下找, 直到找到和 _second_ 文件中相似的条目.
-
-2. 如果在 _first_ 文件中没有找到和 _second_ 文件第 1 行相同的行, 它就再从 _second_ 文件的第 2 行开始. 它会在 _first_ 文件中开始找. 然后提议做什么(附加, 更改或删除)
-
-# 示例
-理论讲得够多了. 我们来点实际例子好解释的更通透一点.
-我把这两个文件并排来放, 好理解起来更容易一些. 另外行号也一并显示了出来.
-
-```
-wiw_labs:$ paste first second|nl
-1 computer cable
-2 modem mobile
-3 monitor screen
-4 phone modem
-5 switch phone
-6           server
-
-wiw_labs:$ diff first second
-1c1,3
-< computer
-—
-> cable
-> mobile
-> screen
-3d4
-< monitor
-5c6
-< switch
-—
-> server
-```
-
-现在, 看一下上面 `paste` 命令带行号的输出. 注意下面几点:
-
-- _first_ 文件的第 2 行(modem) 和 _second_ 文件的第 4 行(modem) 一致. 所以, 如果我们把 _first_ 文件中的第 1 行换成 _second_ 文件中的 1 到 3 行, 这两个文件的第一部分便都一样了. 输出看起来就会是这样的:
-
-```
-wiw_labs:$ paste first second|nl
-1 cable cable
-2 mobile mobile
-3 screen screen
-4 modem modem
-5 monitor phone
-6 phone server
-7 switch
-```
-
-- _first_ 文件的第 4 行(phone) 和 _second_ 文件的第 5 行一致. 这意味着如果我们删除 _first_ 文件中的第 3 行(也就是目前的第 4 行), 这两个文件的第二部分便都一样了.
-
-```
-wiw_labs:$ paste first second|nl
-1 cable cable
-2 mobile mobile
-3 screen screen
-4 modem modem
-5 phone phone
-6 switch server
-```
-
-- _first_ 文件的第 5 行(switch)可用 _second_ 文件的第 6 行(server)替换. 至此, 这两个文件完全一样了.
-
-```
-wiw_labs:$ paste first second|nl
-1 cable cable
-2 mobile mobile
-3 screen screen
-4 modem modem
-5 phone phone
-6 server server
-```
-
-现在, `diff` 命令的输出更容易理解了:
-
->**1c1,3**: 更改 _first_ 文件的第一行为 _second_ 文件的 1 到 3 行
->
->**3d4**: 从 _first_ 文件中删除第 3 行(modem).
->
->**5c6**: 更改 _first_ 文件中的第 5 行(switch) 为 _second_ 文件中的第 6 行(server)
+La principal finalidad del proyecto es que la comunidad pueda contar con un sistema de informaci
+ón innovador, útil y oportuno, para poder identificar las necesidades de la población, y que además
+sea usada para la toma de decisiones, en este sentido la Fundación actúa solo como un guía en
+todas las actividades, involucrando a la población en cada etapa del proceso y principalmente en la
+etapa de la recolección de información, para ello se crean convenios con centros educativos, institutos
+agrupaciones sociales, etc.
 
 
-现在, 反过来再看一下:
+#Diseño de Instrumentos
 
-```
-wiw_labs:$ paste second first | nl
-1 cable computer
-2 mobile modem
-3 screen monitor
-4 modem phone
-5 phone switch
-6 server
+La metodología esta diseñada para generar una serie de indicadores que logren capturar aspectos
+de la pobreza multidimensional, empleo juvenil y Emprendedurismo.
 
-wiw_labs:$ diff second first
-1,3c1
-< cable
-< mobile
-< screen
-—
-> computer
-4a3
-> monitor
-6c5
-< server
-—
-> switch
-```
+__Planificación:__ Definición del presupuesto y el cronograma de trabajo, preparación de los instrumentos
+de procesamiento y recolección de información (formularios de listado, cuestionario,
+manuales y protocolos de campo, planillas), conformación de cargas de trabajo en base a informaci
+ón de fuentes secundarias.
 
-- 我们看到 _first_ 文件的第 4 行(modem) 和 _second_ 文件的第 2 行一致. 所以如果我们把 _first_ 文件的 1 到 3 行替换为 _second_ 文件的第 1 行, 我们得到如下输出:
+__Sencibilizacion:__ Establecer un diálogo informativo con las autoridades locales y habitantes
+acerca del proyecto. Formar mesas de diálogo con autoridades.
 
-```
-wiw_labs:$ paste second first | nl
-1 computer computer
-2 modem modem
-3 phone monitor
-4 server phone
-5 switch
-```
+__Recolección de información:__ Durante el trabajo en campo se visitó a todos las viviendas y
+se entrevistó a todos los hogares presentes, de la zona urbana de cada comunidad, para realizar
+el llenado del cuestionario; que demora aproximadamente 45 minutos, conjuntamente a este
+trabajo se realizó el llenado del Formulario de Identficación y Listado del Hogar .
 
-- 现在, _second_ 文件的第 3 行(monitor) 在 _first_ 文件中并不存在. 所以, 把它附加到 _first_ 文件的第 4 行(modem)后面. 要记住 `diff` 命令的输出中的行号永远指的是原始的行号. 现在, 输出看起来是这样的:
+__Procesamiento:__ Se sistematiza el instrumento de captura y la información recolectada.
 
-```
-wiw_labs:$ paste second first | nl
-1 computer computer
-2 modem modem
-3 monitor monitor
-4 phone phone
-5 server switch
-```
-
-- _first_ 文件的第 6 行(server)需要改成 _second_ 文件的第 5 行(switch). 更改之后, 两个文件便都一样了:
-
-```
-1 computer computer
-2 modem modem
-3 monitor monitor
-4 phone phone
-5 switch switch
-```
-
-现在, 更容易理解 `diff` 命令的输出了:
-
->**1,3c1**: 把 _first_ 文件的第 1 到 3 行改为 _second_ 文件的第 1 行.
->
->**4a3**: 在 _first_ 文件的第 4 行(modem)后面附加上 _second_ 文件的第 3 行(monitor).
->
->**6c5**: 把 _first_ 文件的第 6 行(server)改为 _second_ 文件的第 5 行(switch).
-
-[comm]: http://unix.worldiswelcome.com/how-to-find-common-lines-between-two-text-files-in-unix
+__Validación Se realiza una vercación y validación de los datos.
+v Gestión Se realizan cálculos de los indicadores clave.
+v Formulación Se analizan los hallazgos.
+v Integración de la información Se espera que las autoridades locales integren los resultados
+de la información para producir políticas locales.
+v Difusión Los resultados del proyecto son presentados a las autoridades gubernamentales y
+locales de la comunidad.
+2.1. Desarrollo y Participación ciudadana
+Dado que la iniciativa Comunidad-i es un proyecto que busca trabajar con la comunidad y para
+la comunidad, trata de involucrar a la población en cada etapa del proceso, principalmente en la
+etapa de la recolección de información, para ello se crean convenios con centros educativos de cada
+comunidad, para contar con la disponibilidad y la cooperación de los hogares se elabora el plan de
+sensibilización destinado a crear conanza y legitimidad con el proyecto, de esta manera la Fundación
+ARU actúa como un guía en todas las actividades de la iniciativa.
+3. Información Técnica
+3.1. Metodología
+La principal nalidad de la iniciativa es que la comunidad pueda contar con un sistema de informaci
+ón innovador, útil y oportuno, para poder identicar las necesidades de la población, y que
+además sea usada para la toma de decisiones, en las áreas que la comunidad considere clave.
+Debido a esta razón se realizó un censo de derecho para el proyecto, registrando la información de
+todos los individuos que conforman el hogar, aunque no se encuentren presentes en el momento del
+relevamiento de información; cubriendo de esta manera a toda la población que se encuentra dentro
+de la mancha urbana de cada comunidad , tomando cuidado la cobertura delas mismas.
+3.1.1. Población
+En esta oportunidad la iniciatica Comunidad-i realizo el empadronamiento en de 4 comunidades
+del municipio de Pampa Grande del departamento de Santa Cruz:
+1. Pampa Grande
+2. Mataral
+3. Los Negros
+4. Barrio Chaqueño
+3.2. Cuestionario
+Para una adecuada captura de información, se empleo un formulario y un cuestioario para el
+proyecto.
+Formulario de Identicación y Listado del Hogar
+El formulario está destinado a registrar el tipo de establecimiento existente al interior de los predios
+que conforman el manzano, e identicar a la totalidad de hogares existentes.
+Cuestionario de Enpadronamiento La estructura del cuestionario, está orientado a recolectar
+información adecuada para medir los indicadores propuestos en la parte de temática
+El cuestionario esta compuesto por las siguientes secciones:
+Sección 0: Códigos de Ubicación.
+Sección 1: Identicación de la Vivienda.
+Sección 2: Características de la Vivienda.
+Sección 3: Gastos del Hogar.
+Sección 4: Ingresoso no Laborales del Hogar.
+Sección 5: Características Generales del Hogar y sus Miembros.
+ Parte 1: Demográcas.
+ Parte 2: Educación.
+ Parte 3: Salud.
+Sección 6: Empleo.
+ Parte 1: Condición de Actibidad.
+ Parte 2: Ingresos dl trabajador asalariado.
+ Parte 3: Ingresos del trabajador independiente.
+ Parte 4: Informalidad
+3.3. Recolección de datos
+Durante el trabajo en campo se realizaron dos actividades de forma simultánea: el llenado del
+Formulario de Identicación y Listado del Hogar y por otro lado la entrevista a los hogares (empadronamiento).
+Tipo de operativo: 8 dias de recorrido por las areas urbanas de las comunidades.
+Poblacion Objetivo: Habitantes del area urbana de las 4 comunidades.
+Cobertura espacial: 4 comunidades del municipio de Pamapa Grande del departameto de Santa
+Cruz: Pampa Grande, Mataral, Los Negros y Barrio Chaqueño
+Cobertura temporal: junio de 2017
+Cobertura temática: Llenado del Formulario de Identicación y Listado del Hogar y el empadronamiento
+o registro de información de los miembros de todos los hogares existentes en las
+comunidades mencionadas, atreves de entrevistas directas.
+Personal: 55 personas en campo aproximada mente (51 empadronadores y 4 coordinadores)
+Unidad de Observación: Viviendas, hogares y todos los miembros que las conforman.
+Tiempo de llenado del cuestionario: 30-45 minutos.
+Carga de trabajo: 4 a 5 entrevistas por dia.
+Tipo de trabajo: No remunerado (Voluntario).
+El proceso de recolección de información se realizo en 8 dias deacuerdo al siguiente detalle:
+Cuadro 1: Personal de Campo
+Comunidad Dias en campo Fecha Nro. empadronadores
+Pampagrande 2 17 y 18 de junio 23
+Mataral 2 17 y 18 de junio 11
+Los Negros 8 15 al 24 de Junio 17
+Barrio Chaqueño 1 24 de junio 12*
+* Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
+3.4. Proceso de datos
+Captura: Plantilla de entrada de datos en CSentry y Aplicación CBMS3 cargadas en 40 tablets.
+Consistencia: Árbol lógico de programación en la aplicación.
+Transmisión: En línea vía internet y respaldo Backup del dispositivo.
+Validacion: Depuración - consolidación de la base (validación interna) y Consultas en el servidor
+por el usuario (validación externa)
+El proyecto adoptó la técnica CAPI (Entrevistas personales asistidas por un ordenador) recolecci
+ón de información con dispositivos móviles (tablets), el sistema desarrollado en CsPro y la sincronizaci
+ón en línea con dropbox, la totalidad de entrevistas se realizaron en los dispositivos móviles,
+mientras que el formulario de identicación y listado del hogar se realizó en papel
+3.5. Indicadores del Proyecto
+Los indicadores planteados dentro de la iniciativa, se clasican en dos categorías:
+1. Pobreza multidimensional
+2. Emprendimiento y desempleo Juvenil
+4. Documentación
+4.1. Documentación técnica
+Los documentos técnicos generados del proyecto son:
+Propuesta de trabajo y metodología de la iniciativa Comunidad-i.
+Documento: Problemas de la juventud en un mercado laboral local en Bolivia.
+Revista: Estadísticas de demografía, salud, educación y empleo de las comunidades de Pampa
+Grande, Mataral, Los Negros y Barrio Chaqueño.
+Archivo de mapas georeferenciados.
+Archivo de puntos georeferenciados.
+Archivo de mapas temáticos
+Plataforma de consulta estadística en línea.
+4.2. Otros Materiales
+Adicionalmente a los documentos citados, se encuentran otros materiales del proyecto:
+Temática
+ Cuestionario SISTEMA DE MONITOREO BASADO EN LA COMUNIDAD - VALLES
+CRUCEÑOS - 2017.
+ Matriz de Indicadores.
+Trabajo de Campo
+ Material de Capacitación (manuales, presentaciones).
+ Material de organización (convocatorias, planillas, cronogramas).
+ Mapas cartográcos
+ Informe trabajo de campo
+Sensibilización
+ Tríptico
+ Calendario
+ Cuña Radial
+5. Base de Datos
+5.1. Política de Acceso
+Autorización acceso
+Unidad de micro datos y encuestas udata@aru.org.bo - Fundación ARU
+Contactos
+Administración: administracion@aru.org.bo - Unidad de micro datos y encuestas udata@aru.org.bo
+Condencialidad
+La base nal, no podrá darse a conocer al público ni a las entidades u organismos ociales, ni
+a las autoridades públicas, esto para no deducir de ellos información alguna de carácter individual
+que pudiera utilizarse para nes comerciales, o cualquier otro diferente del propiamente
+estadístico.
+Condiciones de Acceso
+El acceso a los microdatos, con previa autorización, estará disponible en la páginaWeb www.aru.org.bo.
+Derechos y responsabilidades
+Fundación ARU - Unidad de Microdatos y Encuestas 2017.
+5.2. Archivo de datos
+Información disponible, a nivel agregado para uso con REDATAM.
+5.3. Grupo de variables
+Variables de tipo cuantitativa y cualitativa, contenidas en el diccionario de la base de datos
