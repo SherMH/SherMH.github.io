@@ -1,65 +1,255 @@
 ---
-title: "Martin Fowler: 控制反转"
+title: "Encuesta a las Micro Y Pequeñas Empresas"
 layout: post
 category: translation
 tags: [pattern]
-excerpt: "Martin Fowler 针对 '控制反转' 这个概念给出了自己的解释, 以澄清当下对该概念的迷思. 以及常用的实现方式和示例"
+excerpt: "El diseño y formulación de la Encuesta Micro y Pequeñas Empresas prioriza
+dos tipos de objetivos: De Panel y Experimental."
 ---
-_原文在 2005/06/26 发表于 <http://martinfowler.com/bliki/InversionOfControl.html>_
+El diseño y formulación de la Encuesta Micro y Pequeñas Empresas prioriza
+dos tipos de objetivos: De Panel y Experimental. Por lo cual la encuesta
+rescata variables que pueden asumirse y adecuarse como dinámicas y aquellas
+que tratan de categorizar a la empresa en un tiempo según las características
+inherentes a la actividad económica que realiza.
 
-在使用框架的时候, 经常会遇到 '控制反转', 它也的确是框架的一个典型特征.
+- __Referencia: Unidad de Micro Datos y Encuestas__
+- __Año: 2012 Junio__
+- __País: Bolivia__
+- __Fuente: Micro y pequeños empresarios de la ciudad de La Paz y El Alto__
+- __Patrocinador(es): Cooperación Andina de Fomento__
 
-举个简单的例子, 假如我正在写一个命令行程序, 用于获取用户信息. 我可能会这样做:
+# Diseño de Instrumentos
 
-```ruby
-  #ruby
-  puts 'What is your name?'
-  name = gets
-  process_name(name)
-  puts 'What is your quest?'
-  quest = gets
-  process_quest(quest)
-```
+## Panel
 
-在这样的交互中, 我的代码处于控制地位: 它决定什么时候询问用户, 什么时候读取用户响应, 什么时候去处理响应.
+Objetivo Principal
 
-但是, 如果是在图形界面中做同样的事情的话, 我则会配置一个视窗:
+- Capturar la dinámica de variación de Producción y Productividad
+de las Micro y Pequeñas Empresas distinguiendo los cambios en la
+estructura de producción ya sea por variaciones tecnológicas y/o de
+administración.
 
-```ruby
-  require 'tk'
-  root = TkRoot.new()
-  name_label = TkLabel.new() {text "What is Your Name?"}
-  name_label.pack
-  name = TkEntry.new(root).pack
-  name.bind("FocusOut") {process_name(name)}
-  quest_label = TkLabel.new() {text "What is Your Quest?"}
-  quest_label.pack
-  quest = TkEntry.new(root).pack
-  quest.bind("FocusOut") {process_quest(quest)}
-  Tk.mainloop()
-```
+Objetivos Secundarios:
 
-可以发现这两种方式有一个重要的区别: 它们的控制流不同 - 尤其是对 `process_name` 和 `process_quest` 这两个方法在何时被调用的控制上. 在命令行的程序里, 我自己控制这些方法何时被调用, 但是在图形界面中则不是这样. 我把控制权交给了视窗系统(`Tk.mainloop` 命令). 然后它根据我创建表单时的绑定关系来决定何时调用我的方法. 控制权被反转了 - 框架来调用我而不是我去调用框架了. 这个现象就是 '控制反转' (也被称为 '好莱坞法则' - '不要打电话(调用)给我们, 我们会给你打').
+- Distinguir la evolución de empresas que no poseen una adhesión
+y representatividad formal en el mercado regulado.
+- Identificar los principales indicadores de restricción a crecer.
+- Definir indicadores de resultados como categorización sobre su
+estado en comparación a los que participan en el mercado regulado.
 
+## Experimento
 
->对于框架来说, 一个重要的特性就是, 扩展框架的用户代码经常被框架自身在内部调用, 而非在用户应用代码. 框架经常扮演着协调并同步应用活动的主程序. '控制反转' 让框架有能力作为一个可扩展的骨架提供服务, 而用户则通过自己写的方法去修改和定制框架已有的功能.
->
->-- Ralph Johnson and Brian Foote
+Objetivo Principal
 
-'控制反转' 是区分框架和库的关键所在. 一个库基本上就是你可以调用的一系列方法(一般被组织进类里面). 每个方法在被调用时做一些事情然后把控制权移交给客户代码.
+- Analizar el efecto de la reducción del arancel del registro a Fundempresa
+sobre las empresas unipersonales y el efecto de la obtención de
+la matrícula comercial sobre indicadores de productividad y bienestar.
 
-而框架则包含了更多的抽象设计, 有更多的内置行为. 使用框架, 你得通过子类继承或者通过插入自己的类, 以把你想要的行为放到框架中的各个地方, 然后框架负责适时调用你的代码.
+Objetivos Secundarios:
 
-有很多方式插入你自己的代码. 在上面的 Ruby 示例中, 我们使用 `text entry field` 的 `bind` 方法, 给其传入一个事件名称和一个匿名函数. 每当 `text entry box` 检测到该事件时, 就会调用匿名函数中的代码. 像这样使用匿名函数很方便, 但可以很多语言都不支持这种方式.
+- Identificar las principales características de los propietarios y/o
+agentes decisores de las firmas que puedan distinguir sus preferencias
+y comportamientos en el mercado que participan.
+- Reconocer las percepciones de los agentes decisores de los negocios
+sobre el ingreso al mercado formal.
+- Generar indicadores de resultados sobre sus decisiones de participación en los mercados dadas sus características financieras.
+- Definir los escenarios de acción de los agentes decisores sobre las
+ventajas de formalización dadas las características de tamaño,
+ubicación y tipo de industria en la que participan.
 
-另一种方式是, 由框架定义事件, 并让客户端代码订阅这些事件. .NET 是该方式的一个很好的例子, 它允许我们在 widgets 上声明事件, 然后我们便可以通过委托来绑定一个方法到某个事件.
+# Desarrollo y participación ciudadana
 
-上面两种方式(实际上两个并无实质区别)对于特定案例来说能很好的工作, 但有时候, 你希望能在单个扩展中组合调用多个方法. 对于这种情况, 框架可以为这些相关调用定义一个接口, 让客户端代码去实现.
+Las unidades de información son la unidades económicas, de los micro y pequeños empresarios de las ciudades de La Paz y El Alto, personas que tienen
+sus instalaciones en el lugar donde se les realizó la entrevista, según los rubros
+seleccionados para el experimento que no estan registrados en FUNDEMPRESA,
+identificados según el ''Clasificador de Actividades Económicas de Bolivia'',
+CAEB:
 
-EJB 即是如此. 你在开发一个 session bean 的时候, 可以实现很多方法让 EJB 容器在各个生命周期点调用. 比如, Session Bean 接口定义了 ejbRemove, ejbPassivate(存储到二级存储), 和 ejbActivate(从钝态恢复). 你只能控制他们做什么, 但无法控制何时去做. 容器调用我们, 而非反之.
+Transformación de materia prima:
 
-上述都是比较复杂的 '控制反转' 情景, 但是你也可能在更简单的情境中遇到 '控制反转'. 模板方法即为一例: 超类定义控制流, 子类通过覆写或实现抽象方法来扩展超类. 比如在 JUnit 中, 框架去调用 setUp 和 tearDown 方法, 为你创建或者清理文本夹具. JUnit 框架去调用, 你的代码去响应 - 控制再次被反转了.
+- Elaboración de productos alimenticios y bebidas ''código 15 de la
+CAEB''
+- Fabricación de productos textiles ''código 17 de la CAEB''
+- Fabricación de prendas de vestir, adobo y teñido de de pieles ''código
+18 de la CAEB'' 
+- Curtido y adobo de cueros ''código 19 de la CAEB'' 
+- Fabricación de muebles, industrias manufactureras ''código 36 de la
+CAEB'' 
 
-随着 IoC(Inversion of Control) 容器的兴起, 现在出现了很多对 '控制反转' 的误解: 有些人把这里所讲的一般原则和某种容器的特殊实现(如依赖注入)相混淆. 名字本身也有些混淆视听(和令人啼笑皆非), 因为 IoC 容器一般被当做 EJB 的竞争对手, 然而 EJB 本身实际上也用了很多(或更多) '控制反转'.
+Servicios:
 
-__语源__: 我能记起最早的 '控制反转' 的出处是 Johnson 和 Foote 在 1988 年出版于 _The Journal of Object-Oriented Programming_ 的一篇论文. 它正是那种历久弥新的论文之一 - 即使十五年之后的今天也值得一读. 他们觉得自己是从别的地方借用了这个名词(但是忘了具体哪里了). 之后 '控制反转' 便潜入面向对象社区, 出现在 GoF 的书中. 至于更有趣的 '好莱坞法则' 则貌似发源于 Richard Sweet 在 1983 年发表于 _Mesa_ 杂志的一篇文章. 在某个设计目标列表中他写道: "不要打电话给我们, 我们会给你打 (好莱坞法则): 如果用户想要针对某个事件和工具进行交流, Tajo 会去通知工具, 工具只要做好准备就行. 而非去实现一种类似 '询问用户意图然后执行' 的模型." John Vlissider 也在为 C++ 写的一篇报道中很好的解释了 '好莱坞法则' 背后的概念. (感谢 Brian Foote 和 Ralph Johnson 为此词源提供的帮助.)
+- Venta, mantenimiento y reparación de vehículos automotores y motocicletas;
+venta por menor de combustible para automotores ''código
+50 de la CAEB''
+
+# Información Técnica
+
+## Muestreo
+
+El diseño muestral emplea un diseño complejo de tipo panel, bifásico, estratificado y experimental, con una muestra de Micro y Pequeñas empresas
+(MYPES), repartidas en las ciudades de La Paz y El Alto.
+
+Para la construcción del marco de primera fase se emplea como base estructural
+el concepto de un marco de áreas, este marco proviene de la información
+del CNPV-2001 y se emplea como área geográfica (UPM) a la denominada zona
+censal, se elige esta unidad debido a su cobertura en tamaño dado que alberga
+en promedio 18 manzanos con continuidad geográfica.
+
+La información que contiene el marco fue obtenida de tres fuentes que tienen
+la codificación de la CIIU, estas son:
+
+- Pregunta p46 y p47 del CNPV-2001
+- Pregunta Listado de fuentes sobre empresas formales 2010
+- Listado de micro y pequeñas empresas (formales e informales) 2008 en las
+ciudades de La Paz y El Alto proveniente de registros de la prefectura del
+departamento.
+
+A partir de estas fuentes un mapeo y la agregación de información a nivel de
+las zonas censales, se crea probabilidades para cada actividad económica de inter
+és a nivel de cada zona censal, sumandose las frecuencias registradas por las
+dos fuentes provenientes de registros administrativos para calcular las probabilidades.
+Mediante un análisis se observa que existe un patrón de asociación
+de ciertas actividades en zonas visibles dentro de ambas ciudades, sin embargo,
+esto no sucede para todas las actividades e.g. la 15 en La Paz y El Alto, y la 36
+en El Alto, dato que ayuda a la identificación de actividades por zonas censales.
+
+## Cuestionario
+
+El cuestionario presenta divisiones que hacen referencia; a la empresa, las
+características del empresario, las percepciones del empresario y un test sobre
+las aptitudes de emprendimiento que tiene.
+
+Empresa:
+
+- Variables de Identificación
+- Características generales del negocio y grado de formalización
+- Generación de empleos
+- Ingresos y Gastos
+- Activos
+- Patrimonio y relación con el sistema financiero
+- Producción
+
+Características del empresario:
+
+- Características generales del informante y su hogar
+
+Percepciones:
+
+- Empresa
+- Mercado
+- Capital humano
+
+Test:
+
+- Aptitudes para el emprendimiento
+
+## Recolección de datos 
+
+La recolección de datos se dio a partir de cuatro brigadas para las ciudades
+de La Paz y El Alto, dos para cada una respectivamente, conformadas cada una
+por cinco encuestadores un supervisor y un responsable de ciudad.
+
+La recolección de información incluyo dos etapas de trabajo: ''Actualización'', las brigadas debían recorrer las zonas censales destinadas en búsqueda de
+la localización de unidades económicas o productivas de los microempresarios y
+concertar una cita con ellos; ''Cuestionarios'', las unidades localizadas donde se
+lograron concertar citas debían ser visitas en esta etapa para realizar la entrevista
+con el correspondiente llenado de cuestionarios.
+
+La actualización abarca zonas censales completas seleccionadas por el área
+de muestreo. La revisión de cuestionarios se dio en dos tiempos: ''en campo''
+con la revisión de los supervisores y ''en gabinete'' con la revisión del área de
+sistemas; ambos con el acceso a los encuestadores y el trabajo en campo sobre
+el llenado de cuestionarios.
+
+## Proceso de datos
+
+Con la contratación de personal y capacitación se realizo: la crítica, codificación y transcripción de la información recogida, con el fin de depurar la
+información capturada es decir: la falta de respuesta, incoherencia en las respuestas,
+argumentos inválidos e imputación de códigos en las respuestas abiertas
+para la conformación de la base de datos y generación de una base de datos a
+través de una plantilla en Cspro.
+
+Esta etapa dio inicio a la mitad del operativo de campo, para mejora del
+llenado del cuestionario con la revisión en gabinete, para su posterior corrección
+en campo.
+
+## Evaluación de datos
+
+La evaluación de la información capturada es dada por el cálculo de indicadores,
+mismos propuestos para el cumplimiento de los objetivos trazados.
+
+Indicadores que miden:
+
+- Demografía empresarial
+- Formalización
+- Productividad ''Ingresos y gastos''
+- Costos directos
+- Gastos ''Recursos humanos''
+- Activos
+- Pasivos
+- Patrimonio
+- Percepciones
+- Aptitudes
+
+en la población objetivo del proyecto.
+
+# Documentación Técnica
+
+## Documentación Técnica
+
+El proyecto en su desarrollo da paso a la generación:
+
+- Diseño de contenido
+- Protocolo de campo
+- Diseño de muestra
+- Presupuesto de operativo de campo
+- Base de datos bruta
+- Informe final sobre la encuesta a los micro y pequeños empresarios MyPES.
+
+## Otros Materiales
+
+Adicionalmente a los productos se encuentra:
+
+- Planilla de actualización de zonas censales.
+- Cuestionario a las MyPES.
+
+# Base de Datos
+
+## Política de acceso
+
+- Autorización acceso
+Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundación ARU
+
+- Contactos
+Alvaro Chirino Gutierrez achirino@aru.org.bo
+
+- Confidencialidad
+La base final, no podrá darse a conocer al público ni a las entidades
+u organismos oficiales, ni a las autoridades públicas, solo únicamente
+los resúmenes numéricos, si no se cuenta con la autorización, para
+no deducir de ellos información alguna de carácter individual que
+pudiera utilizarse para fines comerciales, o cualquier otro diferente
+del propiamente estadístico
+
+- Condiciones de Acceso
+El acceso a los microdatos es de uso público y de carácter gratuito,
+estará disponible en la página Web udata@aru.org.bo.
+
+- Requisitos de cita
+Se autoriza el uso de la información contenida en esta portal. Queda
+en cambio prohibida la copia o reproducción de los datos en cualquier
+medio electrónico (redes, bases de datos, cd rom, diskettes)
+que permita la disponibilidad de esta información a multiples usuarios
+sin el previo visto bueno de la Red Boliviana de micro datos y
+encuestas por medio escrito
+
+- Derechos y responsabilidades
+Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
+
+## Archivo de datos
+
+Información recopilada en la página de la web udata@aru.org.bo.
+
+## Grupo de Variables
+
+Información recopilada en la página de la web udata@aru.org.bo.
