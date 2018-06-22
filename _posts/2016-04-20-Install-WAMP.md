@@ -1,119 +1,242 @@
 ---
-title: "手动安装 WAMP 环境"
+title: "Supervisión Técnica de la ENCUESTA DE MOVILIDAD Y ESTRATIFICACIÓN SOCIAL"
 layout: post
 category: translation
 tags: [wamp, tuts]
-excerpt: "虽然集成环境很方便, 但是也经常遇到各种奇怪问题, 所以我最终打算自己搭建 WAMP 环境. 搜索网络在 stackoverflow 网站看到此问答, 按照其步骤安装成功. 所以将其整理翻译出来, 以备将来参考"
+excerpt: "La labor desempeñada por Fundación Aru fue de la supervisión ex post de
+la EMES"
 ---
-_原回答在 2014/04/30 由 `user256743` 发表于 <http://superuser.com/questions/748117/how-to-manually-install-apache-php-and-mysql-on-windows>_
+La labor desempeñada por Fundacion Aru fue de la supervisión ex post de
+la EMES, realizada después, de concluido el operativo de campo. Se buscó detectar
+los errores ajenos al muestreo, que se producen durante la captura de la
+información (errores en la labor de los entrevistadores, declaraciones incorrectas
+o ausencia de respuesta de los informantes) o en las operaciones posteriores al
+trabajo de campo (errores de codificación y transcripción). Se evaluó cada UPM
+y se le asignó una puntuación a partir de criterios.
 
-# 环境
+- __Referencia: Unidad de Micro Datos y Encuestas__
+- __Año: 2009 Mayo__
+- __País: Bolivia__
+- __Fuente: Encuesta de Movilidad y Estratificación Social__
+- __Patrocinador(es): Programa de las Naciones Unidas para el Desarrollo__
 
-我的系统是 Win7 32 位
+# Diseño de Instrumentos
 
-如果你的系统是 64 的, 建议尽量下载并使用 64 位的各软件
+Dos aspectos son fundamentales para la calidad de una encuesta de hogares:
+el diseño de la muestra y la calidad del levantamiento de información. La
+selección de una muestra representativa de hogares de una población de interés
+determinada es crucial para cualquier encuesta de hogares. Un adecuado diseño de muestra permite no sólo maximizar la representatividad de la muestra
+seleccionada sino también minimizar costos. Sin embargo, no menos crucial es
+asegurar que el operativo de recolección de información respete al máximo los
+criterios establecidos por el diseño muestral.
 
-你当然可以下载自己想要的版本的各软件, 也可以把各软件装到自己想要的目录中
-但是为了避免不必要的麻烦, 建议完全跟着教程来
+Insumos: Para la realización del trabajo de supervisión de la Encuesta de Desigualdad
+y Movilidad Social en Bolivia será necesario el acceso oportuno a los
+documentos:
 
-# 参考
+- Diseño de la muestra
+- Cuestionario final
+- Plan del operativo de campo
+- Cartografía de las UPM
+- Lista de Localidades y Centros Poblados por UPM, del área rural
+- Manuales de capacitación de supervisores
+- Manuales de capacitación de encuestadores
 
-- http://httpd.apache.org/docs/current/platform/windows.html
-- http://www.php.net/manual/en/install.windows.apache2.php
+Tareas: Las tareas a realizarse en la Supervisión de Campo de la Encuesta Nacional
+sobre Movilidad y Estratificación Social 2009, con especial énfasis en el
+Área Rural consisten en:
 
-# 准备
+- Realizar la revisión de la Georeferenciación de las UPMs seleccionadas
+para el Encuesta 
+- Desarrollar una estrategia para el monitoreo geográfico del Operativo
+de Campo
+- Elaborar una estrategia de Selección de UPMs a ser supervisadas
+bajo criterios de selección que estén en directa relación a la dificultad
+de realizar la encuesta
+- Coordinar el Plan de trabajo a llevarse a cabo por Equipos Mori, en
+sus facetas 
+- Ejecutar la Estrategia de Supervisión diseñada, verificando que los
+supervisores realicen los controles 
 
-1. 下载 &nbsp;&nbsp;[Apache][apacheDown]
-2. 下载 &nbsp;&nbsp;[PHP][phpDown]
-3. 下载 &nbsp;&nbsp;[MySQL][mysqlDown]
-4. 下载 &nbsp;&nbsp;[VS2012][vsDown][可选]
+A pesar de la importancia de los operativos de supervisión, conjunto y ex
+post, para garantizar la representatividad de la muestra seleccionada y la calidad
+de la información recogida, limitaciones presupuestarias hacen que la realización
+de estos operativos para la totalidad de la muestra sea prácticamente imposible.
+Sin embargo es recomendable al menos supervisar una proporción no menor al
+10 por ciento de las UPMs no de los hogares. En el caso de la EMES, el 10 por
+ciento de las 500 UPMs equivaldría a supervisar 50 UPMs. Dado el diseño de
+muestra y los elevados costos fijos de traslado hacia/desde el área rural, de la
+encuesta la estrategia de supervisión más adecuada supondría una combinación
+de supervisión conjunta (SC) de los estratos más pobres generalmente rurales
+y dispersos.
 
-# 安装
+# Desarrollo y participación ciudadana
 
-### 安装 Apache
+A pesar de la importancia de los operativos de supervisión, conjunto y ex
+post, para garantizar la representatividad de la muestra seleccionada y la calidad
+de la información recogida, limitaciones presupuestarias hacen que la realización
+de estos operativos para la totalidad de la muestra sea prácticamente imposible.
+Sin embargo es recomendable al menos supervisar una proporción no menor al
+10 por ciento de las UPMs no de los hogares. En el caso de la EMES, el 10 por
+ciento de las 500 UPMs equivaldría a supervisar 50 UPMs. Dado el diseño de
+muestra y los elevados costos fijos de traslado hacia/desde el área rural, de la
+encuesta la estrategia de supervisión más adecuada supondría una combinación
+de supervisión conjunta (SC) de los estratos más pobres generalmente rurales
+y dispersos.
 
-解压 Apache 到 C 盘根目录, 解压完后目录应该像这样: `C:\Apache24\bin`
+# Información Técnica
 
-打开 cmd, 运行
+## Muestreo
 
-    cd C:\Apache24\bin
-    httpd.exe
+Cambios en los criterios de selección de la muestra, tanto a nivel de Unidades
+Primarias de Muestreo (UPMs) como a nivel de hogares, pueden disminuir
+la representatividad de la muestra, especialmente en los casos en los que estos
+cambios no están debidamente justificados o documentados.
+Para asegurar una que los hogares entrevistados sean los hogares seleccionados
+y que las entrevistas respeten los procedimientos de recolección establecidos,
+es conveniente utilizar técnicas de supervisión conjunta y/o técnicas de supervisión ex post.
 
-如果不报错, 则说明安装正常
+## Cuestionario
 
-如果报找不到 `MSVCR110.dll`, 则需要安装 `VS2012`
+La Encuesta de Movilidad y Estratificación Social del Programa de las Naciones
+Unidas para el Desarrollo
 
-如果报无法绑定 80 端口, 检查是否有其他程序占用 80 端口, 关闭之
+## Recolección de datos 
 
-如果报 `Could not reliably determine the ...`:
+La estructura de organización de la supervisión del Operativo de Supervisión
+en el Área Rural, consiste en un coordinador nacional de operaciones en el área
+rural, apoyado por un coordinador de logística, y nueve supervisores de campo
+departamentales y un especialista a cargo de la transcripción. Los encuestadores,
+son los observadores y ejecutores de las normas establecidas en el manual
+del encuestador y del supervisor.
+En el Operativo de Supervisión en el área rural: Se tendrán aproximadamente
+9 encuestadores en todo el país, uno por departamento, los cuales se unirán
+a la brigada de ejecución de la encuesta de Equipos Mori, como observadores
+del seguimiento del operativo y ejecutores de un operativo de reentrevista. Se
+planifica enviar a cada uno de los encuestadores a los centros de Operación establecidos
+por Equipos Mori en cada Departamento, y desde la ciudad realizar
+el desplazamiento hasta las UPMs elegidas para realizar la supervisión
+El trabajo de supervisión y evaluación de la EMES tendrá una duración aproximada
+de 10 semanas, distribuidas de acuerdo al cronograma. La metodología
+de supervisión consiste en verificar a través de la observación de supervisores
+el levantamiento de la información y contrastar mencionado operativo con los
+lineamientos preestablecidos en el Manual del Supervisor así como en el Manual
+del Encuestador, para asegurarse que el diseño muestral se cumpla a cabalidad.
 
-- 打开 `C:\Apache2\conf\httpd.conf`
-- 找到 `ServerName` 这一行, 替换为:
+## Supervisión Conjunta 
 
-        ServerName localhost
+Se denomina supervisión conjunta al procedimiento de supervisión que se
+realiza en el momento de la entrevista, y por lo general, en conjunto con el
+operativo de campo. La supervisión conjunta tiene el objetivo de garantizar que
+tanto las UPMs como los hogares entrevistados sean efectivamente aquellos seleccionados
+por el diseño de la muestra. En esta etapa los supervisores deben
+asegurar el buen uso de la información geográfica para la ubicación y delimitaci
+ón de las UPMs así como el adecuado levantamiento de una actualización
+cartográfica y demográfica de los hogares de la UPM que permita utilizar los
+procedimientos de selección de los hogares previstos en el diseño de muestra.
+Finalmente, la entrevista conjunta también permite analizar la calidad de la informaci
+ón recolectada contrastando los procedimientos utilizados en la encuesta
+con los previstos en los manuales de capacitación de supervisores y encuestadores
+de campo. Los modelos de los Formularios de Supervisión Conjunta a ser
+utilizados son: Formulario de observación conjunta, Formulario de transcripción.
 
-确保防火墙没有屏蔽 Apache
+## Evaluación de datos
 
-打开 `http://localhost`, 如果你看到 `It Works` 字样, 说明运行成功
+Una vez concluido el operativo de campo es necesario realizar una evaluación
+no sólo de la calidad de la información obtenida sino también de representatividad
+de la muestra encuestada. Para analizar la supervisión y ejecución de la
+EMES se planea utilizar 3 tipos de indicadores, aquellos que se refieren a medir
+si los encuestadores llegaron a todos los lugares seleccionados en el diseño muestral,
+el segundo set se centra en analizar las divergencias que pudieron existir
+en el listado general de localidades y viviendas, componentes de los mismos y
+visitas para asegurarse que se responda el cuestionario bajo los procesos que
+debe emplear el encuestador para garantizar una alta calidad en la recopilación
+en el levantamiento de información y finalmente el último apartado de indicadores
+de reentrevista referidos al flujo y consistencia de preguntas realizadas en la
+reentrevista, haciendo especial énfasis en las secciones señalas clave por el ente
+financiador. Todo ello nos servirá para poder calificar el grado de calidad con
+que fue levantada la información en cada UPM bajo supervisión.
 
-如果你想要开机自动启动 Apache, 运行 `httpd.exe -k install`. 然后可以在 windows 服务中控制 Apache2.4, 让其自动启动
+Grupos de Indicadores de buena calidad en el desarrollo de la
+entrevista:
 
-### 安装 PHP
+- Indicadores de delimitación geográfica de la UPM
+- Indicadores de Comparación de Información levantada
+- Indicadores de evaluación de variables clave de la EMES, en sus secciones
+cinco, ocho y nueve especialmente
+- Sistema de Evaluación de las UPMs seleccionadas bajo observación
+- Indicadores de delimitación geográfica por UPM
+- Indicadores de Comparación de Información levantada
+- Indicadores de Re entrevista
+- Promedio Total de indicadores de calidad de la UPM
 
-在 C 盘根目录新建文件夹 `PHP/`, 解压 PHP  压缩包 到此文件夹中, 路径看上去是这样: `C:\PHP\ext`
+# Documentación Técnica
 
-在 `C:\PHP` 目录中, 重命名 `php.ini-production` 或者 `php.ini-development` 为 `php.ini`
+## Documentación Técnica
 
-打开 `php.ini`, 找到 `extension_dir = "ext"` 这一行并取消注释(去掉行前的 ;)
+Los productos finales del trabajo se supervisión y evaluación de la Encuesta
+de Desigualdad y Movilidad Social en Bolivia serán los siguientes:
 
-### 配置 Apache 使用 PHP
+- Informe preliminar de supervisión
+- Informe final de supervisión
+- Informe final de Evaluación y Análisis de Calidad de la Supervisión Conjunta
+en el Área Rural
 
-打开 `C:\Apache24\conf\httpd.conf`
+## Otros Materiales
 
-在所有的 `LoadModule` 那些行的下面, 添加下列内容:
+Adicionalmente a los productos, se encuentran los materiales usados para el
+proyecto:
 
-    LoadModule php5_module C:/PHP/php5apache2_4.dll
+- Estrategia de supervisión
+- Diseño de Formulario de Observación
+- Diseño de Formulario de Transcripción
+- Diseño de Formulario de Reentrevista
 
-    <IfModule php5_module>
-        DirectoryIndex index.html index.php
-        AddHandler application/x-httpd-php .php
-        PHPIniDir "C:/PHP"
-    </IfModule>
+# Base de Datos
 
-进入 `C:\Apache24\bin`, 运行 `httpd.exe`, 如果没有错误产生, 说明配置正常
+## Política de acceso
 
-在 `C:\Apache24\htdocs\` 下, 新建一个 `phpinfo.php` 文件, 内容如下:
+- Autorización acceso
 
-    <?php phpinfo(); ?>
+Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundaci
+ón ARU
 
-打开 `http://localhost/phpinfo.php`, 如果你看到类似如下输出, 说明 PHP 解析正常:
+- Contactos
 
-![phpinfo output](/images/posts/201604/phpinfoOutput.png)
+Alvaro Chirino Gutierrez achirino@aru.org.bo
 
-### [可选] 启用 PHP MySql 扩展
+- Confidencialidad
 
-打开 `C:\PHP\php.ini`
+La base final, no podrá darse a conocer al público ni a las entidades
+u organismos oficiales, ni a las autoridades públicas, solo únicamente
+los resúmenes numéricos, si no se cuenta con la autorización, para
+no deducir de ellos información alguna de carácter individual que
+pudiera utilizarse para fines comerciales, o cualquier otro diferente
+del propiamente estadístico
 
-找到 `php_mysqli` 或 `php_pdo_mysql`, 取消注释
+- Condiciones de Acceso
 
-现在, 你变可以使用 `mysqli` 或 `PDO` 来操作 MySQL 数据库了
-
-### 安装 MySQL
-
-双击下载的 MySQL 文件
-
-选择 Developer default
-
-安装时会让你配置 root 密码
-
-安装完后, 可以右击右下角的 MySQL Notifier 图标, 禁用其开机自启动
-
-### DONE
-
-你现在已经配置完成整个 WAMP 环境了
+  El acceso a los microdatos es de uso público y de carácter gratuito,
+estará disponible en la página Web udata@aru.org.bo.
 
 
-[apacheDown]: http://www.apachelounge.com/download/VC11/binaries/httpd-2.4.20-win32-VC11.zip "httpd-2.4.20-win32-VC11.zip "
-[phpDown]: http://windows.php.net/downloads/releases/php-5.6.20-Win32-VC11-x86.zip "php-5.6.20-Win32-VC11-x86.zip"
-[mysqlDown]: https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.27.0.msi "mysql-installer-web-community-5.6.27.0.msi"
-[vsDown]: https://www.microsoft.com/en-us/download/details.aspx?id=30679 "vs download site"
+- Requisitos de cita
+
+Se autoriza el uso de la información contenida en esta portal. Queda
+en cambio prohibida la copia o reproducción de los datos en cualquier
+medio electrónico (redes, bases de datos, cd rom, diskettes)
+que permita la disponibilidad de esta información a multiples usuarios
+sin el previo visto bueno de la Red Boliviana de micro datos y
+encuestas por medio escrito
+
+- Derechos y responsabilidades
+
+Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
+
+## Archivo de datos
+
+Información recopilada en la página de la web udata@aru.org.bo.
+
+## Grupo de Variables
+
+Información recopilada en la página de la web udata@aru.org.bo.
