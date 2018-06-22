@@ -1,162 +1,197 @@
 ---
-title: "Encuesta de Medición de Igualdad de Oportunidades"
+title: "Encuesta a las Micro Y Pequeñas Empresas"
 layout: post
 category: translation
 tags: [pattern]
-excerpt: "El documento presenta los resultados y conclusiones de la Encuesta
-Piloto de Medición de Igualdad de Oportunidades (EMIO)."
+excerpt: "El diseño y formulación de la Encuesta Micro y Pequeñas Empresas prioriza
+dos tipos de objetivos: De Panel y Experimental."
 ---
-El documento presenta los resultados y conclusiones de la Encuesta
-Piloto de Medición de Igualdad de Oportunidades (EMIO). Cuyo
-objetivo general era obtener información de resultados, circunstancias,
-decisiones y preferencias que influyan en situaciones de desigualdad de
-oportunidades de la población objeto de estudio que son jóvenes entre 18
-y 25 años de edad, de quienes se presume habrían concluido su formación
-académica. La prueba piloto de la EMIO somete a prueba la metodología,
-diseño en contenidos y el levantamiento de información en dos etapas: la
-primera etapa, información circunstancial, de preferencias y limitantes de
-los padres y abuelos de los jóvenes, en una encuesta a los hogares, y la
-segunda etapa, información directa de los jóvenes en una encuesta en línea a través de la red social "Facebook". El levantamiento de información
-incluye métodos cuantitativos y elementos usados de manera sistemática.
+El diseño y formulación de la Encuesta Micro y Pequeñas Empresas prioriza
+dos tipos de objetivos: De Panel y Experimental. Por lo cual la encuesta
+rescata variables que pueden asumirse y adecuarse como dinámicas y aquellas
+que tratan de categorizar a la empresa en un tiempo según las características
+inherentes a la actividad económica que realiza.
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
-- __Año: 2011 Diciembre__
+- __Año: 2012 Junio__
 - __País: Bolivia__
-- __Fuente: Personas de 18 a 25 años de edad__
-- __Patrocinador(es): Fundación ARU__
+- __Fuente: Micro y pequeños empresarios de la ciudad de La Paz y El Alto__
+- __Patrocinador(es): Cooperación Andina de Fomento__
 
 # Diseño de Instrumentos
 
-Una primera etapa comprende el levantamiento de información sobre
-variables circunstanciales (fuera del control del individuo) de la poblaci
-ón objeto de estudio, que son los jóvenes de 18 a 25 años de edad, se
-lo realiza a él informante indirecto, indagando información sobre caracter
-ísticas generales, de empleo, y de formación educativa de los padres de
-los jóvenes entre 18 y 25 años de edad. Una segunda etapa comprende la
-medición de los resultados de los jóvenes de 18 a 25 años de edad, a través
-de una variable resultado del logro educativo ajustado por variables proxies
-de calidad. La medición de calidad educativa se la realiza mediante
-una prueba de razonamiento lógico, en línea. Para este levantamiento de
-información en línea, se consideró como medio masivo de información el uso del Facebook, dada la amplia cobertura de usuarios inscritos en el
-rango de la población objetivo.
+## Panel
+
+Objetivo Principal
+
+- Capturar la dinámica de variación de Producción y Productividad
+de las Micro y Pequeñas Empresas distinguiendo los cambios en la
+estructura de producción ya sea por variaciones tecnológicas y/o de
+administración.
+
+Objetivos Secundarios:
+
+- Distinguir la evolución de empresas que no poseen una adhesión
+y representatividad formal en el mercado regulado.
+- Identificar los principales indicadores de restricción a crecer.
+- Definir indicadores de resultados como categorización sobre su
+estado en comparación a los que participan en el mercado regulado.
+
+## Experimento
+
+Objetivo Principal
+
+- Analizar el efecto de la reducción del arancel del registro a Fundempresa
+sobre las empresas unipersonales y el efecto de la obtención de
+la matrícula comercial sobre indicadores de productividad y bienestar.
+
+Objetivos Secundarios:
+
+- Identificar las principales características de los propietarios y/o
+agentes decisores de las firmas que puedan distinguir sus preferencias
+y comportamientos en el mercado que participan.
+- Reconocer las percepciones de los agentes decisores de los negocios
+sobre el ingreso al mercado formal.
+- Generar indicadores de resultados sobre sus decisiones de participación en los mercados dadas sus características financieras.
+- Definir los escenarios de acción de los agentes decisores sobre las
+ventajas de formalización dadas las características de tamaño,
+ubicación y tipo de industria en la que participan.
 
 # Desarrollo y participación ciudadana
 
-La Población objetivo del proyecto son las personas ede ntre 18 y 25
-años, de ambos sexos, de las cuales se presume habrían culminado su
-formación educativa formal, y que habitan en las ciudades de La Paz,
-Cochabamba y Santa Cruz, no existe restricción respecto, a que estas
-personas habiten en hogares particulares o colectivos. El levantamiento
-de información cubre tres de las ciudades capitales.
+Las unidades de información son la unidades económicas, de los micro y pequeños empresarios de las ciudades de La Paz y El Alto, personas que tienen
+sus instalaciones en el lugar donde se les realizó la entrevista, según los rubros
+seleccionados para el experimento que no estan registrados en FUNDEMPRESA,
+identificados según el ''Clasificador de Actividades Económicas de Bolivia'',
+CAEB:
+
+Transformación de materia prima:
+
+- Elaboración de productos alimenticios y bebidas ''código 15 de la
+CAEB''
+- Fabricación de productos textiles ''código 17 de la CAEB''
+- Fabricación de prendas de vestir, adobo y teñido de de pieles ''código
+18 de la CAEB'' 
+- Curtido y adobo de cueros ''código 19 de la CAEB'' 
+- Fabricación de muebles, industrias manufactureras ''código 36 de la
+CAEB'' 
+
+Servicios:
+
+- Venta, mantenimiento y reparación de vehículos automotores y motocicletas;
+venta por menor de combustible para automotores ''código
+50 de la CAEB''
 
 # Información Técnica
 
 ## Muestreo
 
-En base a la temática de la encuesta, se construye un marco muestral
-maestro en base al Censo Nacional de Población y Vivienda 2001 (CNPV-
-2001), esto, con la finalidad de obtener un marco muestral de áreas geográficas el cual contenga variables auxiliares que permitan abordar de mejor
-forma la temática de la encuesta. Como resultado de la construcción del
-marco muestral, se genero el estrato de riqueza, cuyo origen viene asociado
-al análisis de componentes principales. Para la construcción, de dicho
-método se considera a las variables de equipamiento del hogar, caracter
-ísticas de la vivienda y acceso a servicios básicos. El estrato define 5
-niveles de igual dimensión cuyo corte es dado por los quintiles del primer
-componente principal, se elige el empleo de este estrato, a razón de que
-muestra estabilidad en el tiempo. La asignación de la muestra en los estratos
-se lo realiza en forma de U, otorgando 35% a los estratos 1 y 5 y
-10% a los otros 3. Para el cálculo del tamaño de la muestra se considera
-los indicadores, y las medidas del el error máximo de estimación relativo,
-el coeficiente de confiabilidad, el efecto de diseño, la tasa de no respuesta
-, y los niveles de desagregación. Del tamaño muestral, se selecciona 114,
-184 y 193 hogares para cada ciudad Cochabamba, La Paz y Santa Cruz
-respectivamente.
+El diseño muestral emplea un diseño complejo de tipo panel, bifásico, estratificado y experimental, con una muestra de Micro y Pequeñas empresas
+(MYPES), repartidas en las ciudades de La Paz y El Alto.
+
+Para la construcción del marco de primera fase se emplea como base estructural
+el concepto de un marco de áreas, este marco proviene de la información
+del CNPV-2001 y se emplea como área geográfica (UPM) a la denominada zona
+censal, se elige esta unidad debido a su cobertura en tamaño dado que alberga
+en promedio 18 manzanos con continuidad geográfica.
+
+La información que contiene el marco fue obtenida de tres fuentes que tienen
+la codificación de la CIIU, estas son:
+
+- Pregunta p46 y p47 del CNPV-2001
+- Pregunta Listado de fuentes sobre empresas formales 2010
+- Listado de micro y pequeñas empresas (formales e informales) 2008 en las
+ciudades de La Paz y El Alto proveniente de registros de la prefectura del
+departamento.
+
+A partir de estas fuentes un mapeo y la agregación de información a nivel de
+las zonas censales, se crea probabilidades para cada actividad económica de inter
+és a nivel de cada zona censal, sumandose las frecuencias registradas por las
+dos fuentes provenientes de registros administrativos para calcular las probabilidades.
+Mediante un análisis se observa que existe un patrón de asociación
+de ciertas actividades en zonas visibles dentro de ambas ciudades, sin embargo,
+esto no sucede para todas las actividades e.g. la 15 en La Paz y El Alto, y la 36
+en El Alto, dato que ayuda a la identificación de actividades por zonas censales.
 
 ## Cuestionario
 
-El recojo de información inicial se la realizó al informante indirecto,
-indagando información de características generales como empleo y formaci
-ón educativa de los padres de los jóvenes entre 18 y 25 años de edad.
-El cuestionario es aplicado en una entrevista a los hogares, a través del
-cuestionario EMIO-E1, buscando la información de las circunstancias en
-t-1 y t-2.
+El cuestionario presenta divisiones que hacen referencia; a la empresa, las
+características del empresario, las percepciones del empresario y un test sobre
+las aptitudes de emprendimiento que tiene.
 
-En la segunda etapa se buscó verificar el logro educativo, el cual es
-medido por un test normalizado que contabiliza el número de aciertos en
-pruebas de lenguaje y matemática para alumnos de los últimos cursos de secundaria que revisa los aspectos de comprensión lectora, práctica metalingüística, numeración, operaciones con números naturales, fracciones
-comunes y geometría plana.
+Empresa:
+
+- Variables de Identificación
+- Características generales del negocio y grado de formalización
+- Generación de empleos
+- Ingresos y Gastos
+- Activos
+- Patrimonio y relación con el sistema financiero
+- Producción
+
+Características del empresario:
+
+- Características generales del informante y su hogar
+
+Percepciones:
+
+- Empresa
+- Mercado
+- Capital humano
+
+Test:
+
+- Aptitudes para el emprendimiento
 
 ## Recolección de datos 
 
-El recojo de información de la EMIO se hizo en dos etapas. En la
-primera, se recogio información de variables circunstanciales (fuera del
-control del individuo) de la población objeto de estudio, que son los jóvenes
-de 18 a 25 años de edad.
+La recolección de datos se dio a partir de cuatro brigadas para las ciudades
+de La Paz y El Alto, dos para cada una respectivamente, conformadas cada una
+por cinco encuestadores un supervisor y un responsable de ciudad.
 
-En la segunda etapa se hizo el recojo de información en línea, etapa
-que conllevo problemas referidos a la sub representatividad y al sesgo de
-selección ya que no hubo respuesta por parte del informante directo solo
-hubo 23 personas que respondieron ''Me gusta'' a la prueba en línea.
+La recolección de información incluyo dos etapas de trabajo: ''Actualización'', las brigadas debían recorrer las zonas censales destinadas en búsqueda de
+la localización de unidades económicas o productivas de los microempresarios y
+concertar una cita con ellos; ''Cuestionarios'', las unidades localizadas donde se
+lograron concertar citas debían ser visitas en esta etapa para realizar la entrevista
+con el correspondiente llenado de cuestionarios.
 
-En la toma de información se tuvo la participación de estudiantes de la
-Universidad Mayor de San Ándres de La Paz, la Universidad Privada Boliviana
-de Cochabamba y la Universidad Privada de Santa Cruz de forma
-gratuita, bajo la iniciativa ARU, de ofrecer un curso gratuito de manejo
-de información llamado DESARROLLO DE ENCUESTA a cambio de
-su participación como encuestadores brindando al participante un conocimiento
-amplio de los Microdatos, comprendidos desde el levantamiento
-de información, a través de encuestas estructuradas; hasta el análisis de la
-información mediante un programa estadístico - econométrico que brinda
-solidez a la presentación de resultados.
-
-Conjuntamente con la instrucción en programas de mayor aplicación
-en el tema: como ser SPSS y STATA, buscando la formación de Investigadores
-Jóvenes.
-
-Logrando conformar brigadas con aquellos que demostraron compromiso
-con la iniciativa, todos a cargo de un jefe de equipo, en los tiempos
-disponibles de cada uno de los encuestadores.
+La actualización abarca zonas censales completas seleccionadas por el área
+de muestreo. La revisión de cuestionarios se dio en dos tiempos: ''en campo''
+con la revisión de los supervisores y ''en gabinete'' con la revisión del área de
+sistemas; ambos con el acceso a los encuestadores y el trabajo en campo sobre
+el llenado de cuestionarios.
 
 ## Proceso de datos
 
-Los cuestionarios llenados en la toma de información de los informantes
-indirectos, fuerón transcritos a una base datos a través de una plantilla
-diseñada en Cspro bajo el formato del cuestionario logrando generar una
-base de información, a fin de que esta base de información pueda ser transportada
-a una base compatible con el programa STATA para su posterior
-análisis.
+Con la contratación de personal y capacitación se realizo: la crítica, codificación y transcripción de la información recogida, con el fin de depurar la
+información capturada es decir: la falta de respuesta, incoherencia en las respuestas,
+argumentos inválidos e imputación de códigos en las respuestas abiertas
+para la conformación de la base de datos y generación de una base de datos a
+través de una plantilla en Cspro.
 
-Para validar la base de datos se usa los resultados, provenientes de
-los de cuadros descriptivos y cruce de variables, logrando con este hecho
-encontrar anomalías como: datos incoherentes y falta de respuesta, para
-despues sacar resultados finales tomando algunas consideraciones para
-lograr la base final logrando sacar alguna idea concluyente de la información.
+Esta etapa dio inicio a la mitad del operativo de campo, para mejora del
+llenado del cuestionario con la revisión en gabinete, para su posterior corrección
+en campo.
 
 ## Evaluación de datos
 
-Con las variables buscadas en la primera etapa se buscó la estimación
-de la proporción de la desigualdad observada en los resultados educativos
-de los jóvenes de 18 a 25 años de edad que se pueden atribuir a la
-desigualdad de oportunidades. Bajo el marco teórico propuesto por Jhon
-Roemer (1994) se busco asociar el logro educativo en relación a variables
-çircunstanciales"sobre las cuales el individuo no tiene control. Uno de los
-principales objetivos es estimar la reducción de la desigualdad de logro
-educativo que se alcanza si estas Çircunstancias"no tienen ningún efecto
-sobre los logros o, equivalentemente, si no hay diferencias en circunstancias
-de las personas.
+La evaluación de la información capturada es dada por el cálculo de indicadores,
+mismos propuestos para el cumplimiento de los objetivos trazados.
 
-La generación de tres componentes, ayuda a evaluar las circunstancias
-externas que rodean al individuo, para concluir, si son determinantes para
-un joven respecto a la igualdad de oportunidades comparado con cualquier
-otro o si estas oportunidades dependen exclusivamente de sus aptitudes
-individuales y estas circunstancias externas no estan directamente involucradas
-a las oportunidades que pueda llegar a tener.
+Indicadores que miden:
 
-Componentes a ser consideradas:
+- Demografía empresarial
+- Formalización
+- Productividad ''Ingresos y gastos''
+- Costos directos
+- Gastos ''Recursos humanos''
+- Activos
+- Pasivos
+- Patrimonio
+- Percepciones
+- Aptitudes
 
-- Educación
-- Riqueza
-- Tenencia
+en la población objetivo del proyecto.
 
 # Documentación Técnica
 
@@ -164,20 +199,19 @@ Componentes a ser consideradas:
 
 El proyecto en su desarrollo da paso a la generación:
 
-- Diseño de metodología
 - Diseño de contenido
 - Protocolo de campo
 - Diseño de muestra
-- Presupuesto
-- Propuesta de proyecto ''Encuesta de Medición de Igualdad de Oportunidades
-''
+- Presupuesto de operativo de campo
+- Base de datos bruta
+- Informe final sobre la encuesta a los micro y pequeños empresarios MyPES.
 
 ## Otros Materiales
 
 Adicionalmente a los productos se encuentra:
 
-- Complemento de análisis económico
-- Material Bibliográfico de consulta
+- Planilla de actualización de zonas censales.
+- Cuestionario a las MyPES.
 
 # Base de Datos
 
