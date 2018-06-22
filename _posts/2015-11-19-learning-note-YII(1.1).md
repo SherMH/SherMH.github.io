@@ -141,6 +141,7 @@ ESBAPOL; 2) Estudiantes de la ESAE; 3) Grupos de Madres del programa PAN-MANITOS
 
 __- Cobertura espacial:__ Los talleres y reuniones se desarrollaron en los municipios de La Paz y El
 Alto.
+
 __- Cobertura temporal:__ Se planifico 7 reuniones durante el mes de abril de 2017 para la primera fase
 y 8 reuniones durante los meses de julio y agosto de 2017 para la segunda fase.
 
@@ -149,7 +150,7 @@ cada taller o reunión con los grupos de interés.
 
 __- Personal:__ 20 personas en campo (16 encuestadores y 4 supervisores)
 
-__- Unidad de Observación:__Segmentos vulnerables de la población que carecen de conocimientos
+__- Unidad de Observación:__ Segmentos vulnerables de la población que carecen de conocimientos
 financieros, los que fueron identificados y gestionados por el BUSA.
 
 __- Tiempo de llenado del cuestionario:__ 10-25 minutos.
