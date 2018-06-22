@@ -3,7 +3,7 @@ title: "Supervisión Técnica de la ENCUESTA DE MOVILIDAD Y ESTRATIFICACIÓN SOC
 layout: post
 category: translation
 tags: [wamp, tuts]
-excerpt: "La labor desempeñada por Fundación Aru fue de la supervisión ex post de
+excerpt: "La labor desempeñada por Fundación Aru fue la de supervisión ex post de
 la EMES"
 ---
 La labor desempeñada por Fundacion Aru fue de la supervisión ex post de
