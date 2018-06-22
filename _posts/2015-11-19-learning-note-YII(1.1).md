@@ -131,7 +131,7 @@ Financiero. Se emplearon 2 cuestionarios diferentes en el proyecto, uno para aca
  
 ##  Recolección de datos
 
-- `Tipo de operativo:` Una combinación de trabajo de recolección de información en salas donde se
+__-__ Tipo de operativo: Una combinación de trabajo de recolección de información en salas donde se
 impartieron los talleres y 3 días de búsqueda en campo de los beneficiarios que no pudieron
 asistir a las reuniones programadas para la segunda fase del programa.
 
