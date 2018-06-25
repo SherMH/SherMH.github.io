@@ -125,17 +125,14 @@ Operativo:
 
 ## Proceso de Datos
 
-<li type="disc">Captura: Cuestionarios de papel autosuminstrados</li>
-<li type="disc">Consistencia: Tablet’s cargadas con la aplicación y el árbol lógico del cuesionario</li>
-<li type="disc">Transmisión: En línea vía internet y respaldo Backup en la tablet.</li>
-<li type="disc">Validacion: Depuración - consolidación de la base (validación interna) y Consultas en el servidor por el usuario
-(validación externa)</li>
-</ul>
-</p>
-<p>
+- Captura: Cuestionarios de papel autosuminstrados
+- Consistencia: Tablet’s cargadas con la aplicación y el árbol lógico del cuesionario
+- Transmisión: En línea vía internet y respaldo Backup en la tablet.
+- Validacion: Depuración - consolidación de la base (validación interna) y Consultas en el servidor por el usuario
+(validación externa)
+
 Indicadores del Proyecto
-</p>
-<p>
+
 Los resultados, se encuentran entorno a los objetivos del proyecto plasmados en temas en el cuestionario:
 
 - Atención de necesidades cognitivas y valores
