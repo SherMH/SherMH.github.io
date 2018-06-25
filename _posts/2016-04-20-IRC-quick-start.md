@@ -1,93 +1,201 @@
 ---
-title: "IRC 急速入门"
+title: "Diseño, Desarrollo y Análisis de Encuestas Sociales - Puma Katari"
 layout: post
 category: tutorial
 tags: [irc, tuts]
-excerpt: "该教程只是为了让你在几分钟内就连上 IRC 网络并开始聊天. IRC 功能强大, 如果要深入了解, http://www.irchelp.org 是个不错的资源"
+excerpt: "El Taller ”Diseño, Desarrollo y Análisis de Encuestas Sociales” fue desarrollado con la temática: Igualdad de
+Oportunidades, Migración Pendular y Urbanismo"
 ---
-# 名词
+El Instituto de Investigaciones Sociológicas ”Mauricio Lefebvre”, es la Unidad Académica encargada de planificar,
+ejecutar, evaluar programas y proyectos de investigación, diseñar y analizar políticas sociales de acuerdo al
+perfil profesional establecido por la Carrera de Sociología de la UMSA. ”El objetivo fundamental del IDIS es el
+fomento a la investigación que desarrollan docentes y estudiantes de la Carrera de Sociología en la perspectiva de
+contribuir al desarrollo de las Ciencias Sociales en el país con las generaciones de nuevos conocimientos sobre
+la realidad social boliviana y el diseño y análisis de políticas públicas tendentes al desarrollo económico social y
+el cambio social.
 
-- **IRC**
+El Taller ”Diseño, Desarrollo y Análisis de Encuestas Sociales” fue desarrollado con la temática: Igualdad de
+Oportunidades, Migración Pendular y Urbanismo como resultado del convenio de trabajo, entre Fundación ARU
+y el IDIS de la UMSA, con la iniciativa de impulsar la investigación.
 
-    一种网络聊天协议
+- __Referencia: Unidad de Micro Datos y Encuestas__
+- __Año: 2014 Abril__
+- __País: Bolivia__
+- __Fuente: Ciudad de La Paz__
+- __Patrocinador(es): IDIS de la Universidad Mayor de San Andrés __
 
-- **IRC 网络**
-    
-    依据 IRC 协议组成的聊天网络, 
-    比较知名的有 `freenode`, `EFnet`, `DALnet` 等
+# Diseño de Instrumentos
 
-- **IRC 服务器**
+La metodología empleada en el taller, estuvo orientada a generar conocimiento respecto al ”Diseño en la toma de
+información (temática, muestreo, operativo de campo) y la generación de indicadores”. El diseño de instrumentos
+se desarrollo en el taller con el siguiente orden:
 
-    每个 IRC 网络由多个 IRC 服务器互相连接形成.
+- Planificación del proyecto en general - Definición de la temática a ser estudiada, formulación del cuestionario,
+preparación del material logístico, generación del cronograma de trabajo: capacitación del personal
+de campo, recolección de información.
+- Información - Establecer un diálogo con los encargados de la paradas y los usuarios de los buses.
+- Recolección de información - Planificación del llenado de los cuestionarios.
+- Procesamiento - Codificación y transcripción de información de los cuestionarios (papel), vaciado de memorias
+de tablet.
+- Validación - Árbol lógico en las tablet, estadísticos resumen de variables (base de datos).
+- Gestión - Cálculo de indicadores clave con el stata y transmisión de conocimientos a los participantes del
+proyecto.
+- Formulación - Analísis de hallazgos de información y sucesos del operativo.
+- Integración de la información - Motivación y aporte a la investigación en temas de gran interés para la
+población, comenzando por los más próximos a la investigación como ser estudiantes de la universidad.
+- Difusión - Exposición de resultados, retroalimentación de información a los participantes del proyecto y
+elaboración del metadatos que es el resumén de todo el proyecto.
 
-    假设 `freenode` 由 A,B,C 三台服务器互联而成,
-    那么你随意连接到其中一台便意味着你连接上了 `freenode` 网络, 便可进入其中的聊天室聊天
+# Desarrollo y participación ciudadana
 
-- **IRC 聊天室**
+El desarrollo del proyecto involucra, transferencia de conocimientos; teóricos y prácticos a los participantes de la
+carrera de Sociología de la Universidad Mayor de San Ándres y uso de softwar’s para la manipulación de información.
 
-    当你连接到 IRC 网络后(比如 `freenode`), 便可以进入网络上的聊天室进行聊天.
+Los usuarios del transporte ”Puma Katari” en los puntos de parada en la ciudad de La Paz, son las unidades de
+información.
 
-    聊天室多以主题为名, 如 `#javascript`, `#php`, `#porn`, `#hacker` 等
+# Información Técnica
 
-    并不是所有的聊天都可以任意进入,
-    有些聊天室只能被邀请进入, 有些聊天室只允许已经注册昵称的用户进入, 等等
+La unidad de observación es descrita por el ”grado de satisfacción del usuario de la ciudad de La Paz, con respecto
+a los servicios prestados por el bus Puma Katari” en sus tres recorridos y en sus diferentes horarios de
+funcionamiento.
 
-- **昵称**
+## Muestreo
 
-    在聊天室, 昵称即你的显示名字, 比如我在 `freenode` 的注册昵称就是 `UniFreak`
+Se construyó un marco de áreas que contenía 3500 bloques que son el resultado de la combinación de los 7 días
+de la semana por las 100 paradas de los buses en 5 intervalos de tiempo (7-9, 9-12, 12-14, 14-18 y 18-20), además
+de la generación de 21 niveles con el muestreo estratificado. Con la información disponible del Puma Katari se
+estimó dentro de cada bloque, el volumen de pasajeros. Las paradas iniciales de cada ruta son incluidas de manera
+forzosa ya que se estima que en ellas se concentra el 16% del volumen total de usuarios del bus.
 
-- **IRC 客户端**
+Para la muestra se seleccionó 189 bloques en los estratos de manera proporcional al volumen de usuarios y
+dentro de cada bloque se seleccionaron a los individuos de acuerdo a un protocolo.
 
-    连接到 IRC 网络需要对应的客户端(就好比浏览网页需要网页客户端, 即浏览器一样)
+## Cuestionario
 
-    知名的客户端有 mIRC, xChat, HexChat 等
+El cuestionario fue diseñado parar capturar la información de los usuarios frecuentes del bus Puma Katari como
+de usuarios ocasionales que consideran al bus solo como transporte alternativo.
 
-    下载 HexChat: https://hexchat.github.io/downloads.html
+Las preguntas del cuestionario se centran en la frecuencia de uso del transporte, el costo de pasajes, el tiempo
+empleado en el desplazamiento del punto de origen al punto de destino, así como también del nivel de satisfacción
+de ciertas características del bus comparadas con características de los demás medios de transporte.
 
-- **IRC 命令**
+El cuestionario fue uno de los resultados del taller:
 
-    使用 IRC 必须掌握几个必须的命令, 命令以 / 开头, 如:
+Sección 0: Códigos de identificación. 
 
-    | 示例命令 | 备注 |
-    |----------|------|
-    |`/server irc.freenode.net`|连接到 `freenode` 网络|
-    |`/nick myName`|更换昵称为 myName|
-    |`/msg nickserv register password me@163.com`|注册昵称, 密码为 password, 邮箱为 me@163.com|
-    |`/join #java`|进入 #java 聊天室|
+- Parte 1: Incidencias.
+- Parte 2: Identificación del individuo.
 
-    ...等等
+Sección 1: Transporte.
 
-# 示例
+- Parte 1: Uso de transporte.
 
-1. 安装 hexChat
+Sección 2: Características del hogar y sus miembros.
 
-2. 配置网络
+- Parte 1: Empleo.
+- Parte 2: Información del hogar.
 
-    首次打开 hexChat 会自动弹出网络配置窗口. 
-    也可以使用菜单 `HexChat`->`Network Lists` 打开该窗口
+## Recolección de datos 
 
-    ![配置窗口](/images/posts/201604/hexChatServerlist.png)
+El recojo de información se realizó durante la semana del 5 al 11 de mayo (7 días) entre las 7:00 a 20:00 Hrs. Las
+entrevistas se realizaron a personas mayores de 14 años que se disponian a abordar el bus.
 
-    填写自己想要的昵称
+Para la captura de información se contó con la cooperación de 27 estudiantes de la carrera de Sociología de la
+Universidad Mayor de San Andrés que participaron del Taller, de forma gratuita. A cambio la Fundación brindo al
+participante conocimientos sobre el manejo de programas estadísticos como el ”STATA” y programas empleados para el vaciado de información de cuestionarios en bases de datos como el ”CSPRO”.
 
-    在 `Networks` 的列表中点选 `freenode`, 然后点击 `Connect` 连接到 `freenode`
+A partir de los 27 estudiantes se conformaron 3 brigadas de trabajo bajo el mando de 7 supervisores, para las
+tres rutas del bus; el tiempo de duración promedio de cada entrevista fue de aproximadamente, 10 minutos.
 
-3. 连接成功后会弹出此窗口
-    
-    ![连接成功](/images/posts/201604/hexChatConnSuccess.png)
+## Proceso de Datos
 
-    取消选中 `always show this ...`, 点击 `OK`
+Para la validación, depuración y conformación de una base final,se realizaron las tareas de crítica, codificación y
+transcripción en una plantilla diseñada en CSPRO de la información que se encontraba: 80% en cuestionarios de
+papel y el 20% restante en dispositivos móviles.
 
-4. 现在来到主界面
+Para el proceso de crítica y codificación se trabajó con protocolos de manejo de información, esta labor fue
+realizada por estudiantes de la carrera de sociología que se encargaron de revisar y analizar la información recogida
+en campo para corroborar la coherencia y consistencia de los datos.
 
-    ![主界面](/images/posts/201604/hexChatUI.png)
+## Evaluación de datos
 
-    输入 `/msg NickServ register <password> <email>` 以注册当前昵称
+La evaluación de los datos se centra en el cálculo, de indicadores en tres áreas especificas:
 
-    **注意**: 把 `<password>` 换成你自己的密码, 把 `<email>` 换成你自己的邮箱地址
+- Tiempo: Tiempo de desplazamiento origen-destino, comparando la situación con el uso de otros transportes
+y el bus Puma Katari.
+- Costo: Gasto monetario en el que se incurre para cubrir la ruta origen-destino, comparando las situación
+con y sin el uso del bus Puma Katari.
+ - Satisfacción: Medición en una escala cualitativa de la satisfacción de 4 dimensiones, seguridad, comodidad,
+costo y tiempos, con el servicio y sin el servicio del bus Puma Katari.
 
-5. 进入邮箱, 收取邮件. 把邮件中给你的命令粘贴到消息输入框, 回车, 以完成验证
+# Documentación Técnica
 
-6. 现在输入命令 `/join #irc` 以加入 #irc 聊天室, 在这里你可以问任何有关 irc 的问题. 当然你也可以加入其它感兴趣的聊天室.
+## Documentación Técnica
 
-7. 开始聊天
+Para el buen desarrollo del proyecto se generaron los siguientes documentos:
+
+- Diseño de Contenido
+- Presentación ”Taller: Diseño, Desarrollo y Análisis de Encuestas Sociales”
+- Listado de Paradas seleccionadas en la muestra
+- Manual de Codificación
+- Cuestionario
+- Presentación de Resultados preliminares
+
+## Otros Materiales
+
+Adicionalmente a los productos, se encuentran materiales con los que se acredito el proyecto:
+
+- Certificado de participación en el taller
+- Certificado de pasantia en la recolección de información
+- Trabajo de pasantia en la Fundación ARU
+- Material final ”Resultados del taller y la evaluación”
+
+# Base de Datos
+
+## Política de acceso
+
+- Autorización acceso
+
+Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundaci
+ón ARU
+
+- Contactos
+
+Alvaro Chirino Gutierrez achirino@aru.org.bo
+
+- Confidencialidad
+
+La base final, no podrá darse a conocer al público ni a las entidades
+u organismos oficiales, ni a las autoridades públicas, solo únicamente
+los resúmenes numéricos, si no se cuenta con la autorización, para
+no deducir de ellos información alguna de carácter individual que
+pudiera utilizarse para fines comerciales, o cualquier otro diferente
+del propiamente estadístico
+
+- Condiciones de Acceso
+
+  El acceso a los microdatos es de uso público y de carácter gratuito,
+estará disponible en la página Web udata@aru.org.bo.
+
+
+- Requisitos de cita
+
+Se autoriza el uso de la información contenida en esta portal. Queda
+en cambio prohibida la copia o reproducción de los datos en cualquier
+medio electrónico (redes, bases de datos, cd rom, diskettes)
+que permita la disponibilidad de esta información a multiples usuarios
+sin el previo visto bueno de la Red Boliviana de micro datos y
+encuestas por medio escrito
+
+- Derechos y responsabilidades
+
+Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
+
+## Archivo de datos
+
+Información recopilada en la página de la web udata@aru.org.bo.
+
+## Grupo de Variables
+
+Información recopilada en la página de la web udata@aru.org.bo.
