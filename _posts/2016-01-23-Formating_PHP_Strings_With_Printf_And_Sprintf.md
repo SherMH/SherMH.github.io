@@ -1,193 +1,250 @@
 ---
-title: "使用 php printf() 和 sprintf() 格式化字符串"
+title: "Por los Derechos de la Protección de
+Niñas, Niños y Adolescentes Bolivia (DEPRONIB)"
 layout: post
 category: translation
 tags: [php]
-excerpt: "和其他许多编程语言一样, PHP 也有功能强大的 printf() 和 sprintf() 函数, 它们提供了很多格式化字符串的方式. 当你想要某些数据更易读, 或者需要传递数据给其他程式的时候, 这两个函数很有用.
-这篇教程就会教你如何使用 printf() 和 sprintf() 来格式化字符串."
+excerpt: "El objetivo general del proyecto es: Medir el nivel de impacto en el fortalecimiento de entornos más seguros y
+protectores de la niñez del proyecto ”Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia”
+(DEPRONIB)."
 ---
-_原文在 2009/11/19 发表于 <http://www.elated.com/articles/formatting-php-strings-printf-sprintf/>_
+El objetivo general del proyecto es: Medir el nivel de impacto en el fortalecimiento de entornos más seguros y
+protectores de la niñez del proyecto ”Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia”
+(DEPRONIB).El programa PROMYPE/JIWASA es financiado por la Embajada Real de Dinamarca y COSUDE tiene como principal objetivo fortalecer los complejos productivos  de cuero, textiles, alimentos, madera y metalmecánica de los departamentos de La Paz, Cochabamba, Potosí, Chuquisaca y Oruro a través de servicios de asistencia técnica, capacitación y equipamiento productivo. 
 
-和其他许多编程语言一样, PHP 也有功能强大的 [`printf()`][printf] 和 [`sprintf()`][sprintf] 函数, 它们提供了很多格式化字符串的方式. 当你想要某些数据更易读, 或者需要传递数据给其他程式的时候, 这两个函数很有用.
+- __Referencia: Unidad de Micro Datos y Encuestas__
+- __Año: Año: Julio - Septiembre 2014__
+- __País: Bolivia__
+- __Fuente: Niñas, Niños y Adolescentes de Bolivia__
+- __Patrocinadores: DEPRONIB, AusAid __
+- __Instituciones Participantes: Visión Mundial de La Paz - Bolivia; Fundación ARU __
 
-PHP 也有许多专门用途的格式化字符串的函数 - 比如 [`date()`][date] 函数, 适合用于格式化日期字符串. 而 `printf()` 和 `sprintf()` 则适合更为通用的格式化.
+# Diseño de Instrumentos
 
-这篇教程就会教你如何使用 `printf()` 和 `sprintf()` 来格式化字符串.
+Se diseñaron los siguientes instrumentos para conseguir el objetivo esperado:
 
-# 一个简单的 `printf()` 示例
+- Determinar el avance real del proyecto en base a sus objetivos e indicadores planificados, utilizando criterios
+de pertinencia, eficacia, eficiencia, fortalezas y limitaciones en su implementación.
+- Determinar la contribución del proyecto a los objetivos estratégicos de Visión Mundial.
+- Generar lecciones aprendidas, tanto a nivel interno organizacional como de intervención externa en las
+comunidades, con los NNA, socios y autoridades en protección de la niñez
+- Establecer recomendaciones claras para futuros proyectos en protección de la niñez que tomen en cuenta un
+enfoque desarrollado en la presente evaluación.
+- Establecer el grado de involucramiento y participación de los beneficiarios y socios del proyecto.
+- Analizar el uso eficaz de la inversión del financiamiento del organismo externo cooperante (AusAid).
 
-了解 `printf()` 的最简单方式就是通过示例. 下面这个例子打印一个包含了两个数字的字符串:
+# Desarrollo y participación ciudadana
 
-```php
-<?php
-// 打印 "Australia comprises 6 states and 10 territories"
-printf( "Australia comprises %d states and %d territories", 6, 10 );
-?>
-```
+De manera especifica se evalua entornos de violencia y niveles de seguridad en los siguientes grupos de interés:
 
-注意这个字符串在被打印出的时候, 第一个 `%d` 被第二个参数 `6` 替换, 第二个 `%d` 则被第三个参数 `10` 替换. 其工作原理即:
-
-- 第一个参数必须是一个字符串, 我们称之为目标字符串. 目标字符串包含普通的字符, 和一些可选的格式说明符 (比如 `%d`)
-
-- 所有格式说明符都以 `%` 开头. 它按对应的顺序以特定方式格式化目标字符串之后的参数, 然后将其插入到最终的字符串中, 并显示到网页.
-
-__NOTE:__ 如果想要打印 `%` 符, 使用 `%%`.
-
-# 类型说明符
-
-上面那个例子使用的 `%d` 这个格式说明符, 会将参数按照有符号十进制数字格式化. 这个 `d` 被称为类型说明符. `printf()` 支持很多类型说明符. 下面是类型说明符的完整列表:
-
-|类型说明符|备注|
-|----------|----|
-| `b` | 将参数作为二进制数字(如 `10010110`)格式化 |
-| `c` | 将参数作为 ASCII 码值格式化为对应的字符 |
-| `d` | 将参数作为有符号十进制数字格式化 |
-| `e` | 将参数作为科学计数法(如 `1.234e+3`)格式化 |
-| `f` | 将参数作为浮点数字, 并且使用地区设定(如在法国, 逗号被用作小数点)格式化 |
-| `F` | 和上面相同, 不过不使用地区设定 |
-| `o` | 将参数作为八进制数字格式化 |
-| `s` | 将参数作为字符串格式化 |
-| `u` | 将参数作为无符号十进制数字格式化 |
-| `x` | 将参数作为小写十六进制数字(如 `4fdf87`)格式化 |
-| `X` | 将参数作为大写十六进制数字(如 `4FDF87`)格式化 |
-
-下面是一些类型说明符的示例:
-
-```php
-<?php 
-printf( "Here's the number %s as a float (%f), a binary integer (%b), an octal integer (%o), and a hex integer (%x).", 543.21, 543.21, 543.21, 543.21, 543.21 );
-?>
-```
-
-这段代码会输出:
-
-```
-Here's the number 543.21 as a float (543.210000), a binary integer (1000011111), an octal integer (1037), and a hex integer (21f).
-```
-
-# 符号说明符
-
-默认情况下, `printf()` 只会在负数前加正负符号:
-
-```php
-<?php 
-printf( "%d", 36 );   // 输出 "36"
-printf( "%d", -36 );  // 输出 "-36"
-?>
-```
-
-如果你也想让 `printf()` 在正数前加符号, 可以在类型说明符前指定一个符号说明符 `+`:
-
-```php
-<?php 
-printf( "%+d", 36 );   // 输出 "+36"
-printf( "%+d", -36 );  // 输出 "-36"
-?>
-```
-
-# 填充
-
-`printf()` 允许你填充目标字符串到指定的长度. 你可以使用任何字符做填充字符, 也可以指定填充左边还是右边. 如果你希望在数字前补 `0` 或让字符串右对齐, 填充就派上用场了.
-
-通过在 `%` 前面插入一个填充说明符来指定填充规则. 填充说明符使用以下格式:
-
-    <填充符><宽度>:
+- 1. Niños, Niñas y Adolescentes en las áreas de intervención.
+- 2. Las familias, padres y madres de los Niños, Niñas y Adolescentes en las áreas de intervención.
+- 3. Los maestros de las escuelas de los Niños, Niñas y Adolescentes en las áreas de intervención.
+- 4. Autoridades y líderes comunitarios donde habitan los Niños, Niñas y Adolescentes en las áreas de intervención.
 
 
-- <填充符> 可以是 `0` 或空格. 如果你不指定则默认使用空格. 如果你想要指定其他填充符, 需在它之前加一个 `'` 字符.
+# Información Técnica
 
-- <宽度> 即想要填充到的宽度. 整数代表左填充, 负数代表右填充.
+## Muestreo
 
-这是些填充说明符示例:
+- La metodología propuesta para el área urbana corresponde al metodo de ”comparación temporal” o ”efecto
+dosis”.
+- Comparación Temporal o Efecto Dosis: Aplicación de la metodología anteriormente propuesta sobre los
+beneficiarios del área rural, en el cuál el grupo de control son beneficiarios con menor tiempo de exposición
+al proyecto complementario
+- Emparejamiento dentro de la localidad: Este procedimiento permite realizar la comparación entre unidades
+tratadas y unidades de control que comparten características similares dentro de la misma localidad (o área
+de intervención) pero que no optaron y/o no fueron parte del proyecto complementario.
+- Emparejamiento fuera de la PDA: Este procedimiento realiza el mismo procedimiento anterior pero con
+unidades de control que se encuentran en una PDA o localidad distinta sin conexión con las PDA de intervención
+del proyecto pero que comparte características similares a la PDA de tratamiento
 
-```php
-<?php 
-printf( "%04d", 12 );          // 输出 "0012"
-printf( "%04d", 1234 );        // 输出 "1234"
-printf( "%04d", 12345 );       // 输出 "12345"
-printf( "% 10s", "Hello" );    // 输出 "     Hello"
-printf( "%10s", "Hello" );     // 输出 "     Hello"
-printf( "%'*10s", "Hello" );   // 输出 "*****Hello"
-printf( "%'*-10s", "Hello" );  // 输出 "Hello*****"
-?>
-```
+Finalmente, el tiempo se refiere al espacio temporal del proyecto, los niveles de estos estratos son:
 
-留意第三个示例, 填充说明符并不会导致目标字符串被截断为 4 个字符. __填充只会在必要处增加字符__
+Area
 
-# 数字精度
+- Rural concentrado
+- Rural disperso
 
-当使用 `f` 或者 `F` 类型说明符格式化浮点数时, PHP 默认会取到小数点后面 6 位:
+Edad
 
-```php
-<?php 
-printf( "%f", 123.456 );  // 输出 "123.456000"
-?>
-```
+- Menores a 12 años de edad
+- Entre 12 a 17 años de edad
+- Exactamente 12
 
-如果要指定不同的精度, 就要用到精度说明符了. 精度说明符是一个 `.` 号后跟一个数字, 并应放到类型说明符之前. 如:
+Tiempo de participación de la PDA en el proyecto
 
-```php
-<?php 
-printf( "%.2f", 123.456 );   // 输出 "123.46"
-printf( "%.10f", 123.456 );  // 输出 "123.4560000000"
-printf( "%.0f", 123.456 );   // 输出 "123"
- ?>
-```
+- 1 año
+- Más de un año
 
-如果你既指定了填充说明符又指定了精度说明符, `printf()` 会将整个数字(包括整数和小数部分)填充到指定长度:
+## Cuestionario
 
-```php
-<?php 
-printf( "%08.2f", 123.456 );  // 输出 "00123.46"
- ?>
-```
+Para el proyecto se desarrollaron tres cuestionarios:
 
-如果你同时使用 `s` 类型说明符和精度说明符, `printf()` 会截断目标字符串到指定的长度:
+1. Niños, Niñas en las PDA’s.
+2. Niños, Niñas en las UE.
+3. Unidades Educativas(UE’s).
 
-```php
-<?php 
-printf( "%.2s", "Hello" );  // 输出 "He"
- ?>
-```
+con la siguiente estructura las dos primeras:
 
-# 参数交换
+Sección 0: Identificación
+Sección 1: Características individuales
+Sección 2: Características del hogar
+Sección A: Tipos de Violencia
 
-默认情况下, 目标字符串的第一个格式说明符会格式化该字符串后的第一个参数, 目标字符串的第二个格式说明符会格式化该字符串后的第二个参数, 以此类推. 但是你可以更改这个顺序.
+y la última:
 
-要这样做, 在 `%` 符和类型说明符之间插入一个 `$` 号. 如:
+Sección 0: Identificación
+Sección 1: Características de la Unidad Educativa
 
-```php
-<?php 
-// 输出 "Australia comprises 10 territories and 6 states"
-printf( 'Australia comprises %2$d territories and %1$d states', 6, 10 );
- ?>
-```
+## Recolección de datos 
 
-在上面的例子中, 第一个格式说明符是 `%2$d`. 意即: "将目标字符串后的第二个参数作为十进制整数格式化". 第二个格式说明符 `%1$d` 即: "将目标字符串后的第一个参数作为十进制整数格式化". 这样, 参数便以不同与默认的顺序格式化.
+Con los instrumentos generados, y consensuados con el equipo de WVB (indicadores, boleta, cuestionarios, guía
+de preguntas, protocolos de entrevistas y muestra) se procederá al levantamiento de la información en campo. El
+operativo de campo fue desarrollado a través de las siguientes actividades:
 
-在上面的例子中, 格式字符串使用单引号而非双引号包围. 这样是为了阻止 `$` 符号被 PHP 解释为变量名.
+- Planeamiento y programación
+- Organización para el operativo de campo
+- Selección del personal y capacitación
+- Ejecución de la encuesta
+- Control y supervisión
+- Consistencia y control de calidad
 
-# 保存格式化后的结果
+Operativo:
 
-那 `sprintf()` 又是干嘛的呢? 这个函数和 `printf()` 只有一点不同: 它会将格式化后的结果返回, 而不是直接输出. 这样你就可以将结果赋给变量, 进行其他操作等. 如果你想要在输出它之前进行额外的处理, 或者保存到数据库等, 那这点会很有用. 下面是示例:
+- Tipo de operativo: Una semana de recorrido para algunos departamentos y para otros una semana y media.
+- Población Objetivo: Niños, Niñas</li>
+- Cobertura espacial: 5 departamentos elegidos que han sido intevenidos con el programa
+- Cobertura temporal: 3 al 14 de septiembre
+- Cobertura temática: Llenado de encuesta
+- Personal: Aproximadamente 22 personas)
+- Unidad de Observación: PDA’s y UE’s
+- Tiempo de llenado del cuestionario: 60 - 45 minutos
+- Carga de trabajo: 1 PDA y 1 UE
+- Tipo de trabajo: Remunerado
 
-```php
-<?php 
-$result = sprintf( "Australia comprises %d states and %d territories", 6, 10 );
+## Proceso de Datos
 
-// 输出 "Australia comprises 6 states and 10 territories"
-echo $result;
- ?>
-```
+<li type="disc">Captura: Cuestionarios de papel autosuminstrados</li>
+<li type="disc">Consistencia: Tablet’s cargadas con la aplicación y el árbol lógico del cuesionario</li>
+<li type="disc">Transmisión: En línea vía internet y respaldo Backup en la tablet.</li>
+<li type="disc">Validacion: Depuración - consolidación de la base (validación interna) y Consultas en el servidor por el usuario
+(validación externa)</li>
+</ul>
+</p>
+<p>
+Indicadores del Proyecto
+</p>
+<p>
+Los resultados, se encuentran entorno a los objetivos del proyecto plasmados en temas en el cuestionario:
 
-# 相关函数
+- Atención de necesidades cognitivas y valores
+- Atención de necesidades fisicas
+- Atención de necesidades emocionales
+- Atención de necesidades sociales
+- Violencia física de la madre o mujer sustituta
+- Violencia psicológica de la madre o mujer sustituta
+- Violencia por abandóno de la madre o mujer sustituta
+- Violencia física del padre u hombre sustituto
+- Violencia psicológica del padre u hombre sustituto
+- Violencia por abandono del padre u hombre sustituto
+- Violencia física del maestro
+- Violencia psicológica del maestro
+- Violencia por el abandono del maestro
 
-其他相关的函数包括 [`fprintf()`][fprintf], 用于将结果写到流(如文件). 还有 [`vprintf()`][vprintf]/[`vsprintf()`][vsprintf]/[`vfprintf()`][vfprintf], 它们使用一个数组参数, 而非参数列表.
+## Evaluación de datos
 
-[printf]: http://php.net/manual/en/function.printf.php
-[date]: http://php.net/manual/en/function.date.php
-[sprintf]: http://php.net/manual/en/function.sprintf.php
-[fprintf]: http://php.net/manual/en/function.fprintf.php
-[vprintf]: http://php.net/manual/en/function.vprintf.php
-[vsprintf]: http://php.net/manual/en/function.vsprintf.php
-[vfprintf]: http://php.net/manual/en/function.vfprintf.php
+La evaluación de la base de datos se da por:
+
+1. Tablas descriptivas(frecuencias) de las variables de interés
+2. Estadísticos resumen
+3. Cálculo de indicadores
+
+Los criterios de evaluación contemplarán una serie de criterios base que permiten establecer las conclusiones de
+evaluación del proyecto:
+
+1. Criterios de Eficiencia
+2. Criterios de Eficacia
+3. Criterios de Pertinencia
+4. Verificación del impacto
+5. Criterios de Relevancia
+6. Criterios de Sostenibilidad
+
+# Documentación Técnica
+
+## Documentación Técnica
+
+Los documentos técnicos generados del proyecto son:
+
+- Plan de trabajo, diseñado para su seguimiento en el software especializado Project.
+- Documento de evaluacion tecnica, incluyendo instrumentos de relevantamiento de información, cronograma
+de trabajo, muestro y protocolos de investigación
+- Documento de evaluacion del operativo de campo, con incidencias de campo, critica y consitencia de datos
+y programa de introduccion de datos en CsPro
+- Base de datos homologada y depurada de errores en formato SPSS y STATA, comprendiendo sintaxis y
+programas de reproducción y creación de variables e indicadores
+- Documento preliminar de evaluación del Proyecto Complementario ”Por los derechos de la Protección de
+Niños, Niñas y adolescentes Bolivia (DEPRONIB
+- Documento de evaluación final del proyecto complementario ”Por los derechos de la Protección de Niños,
+Niñas y Adolescentes Bolivia (DEPRONIB)
+- Presentacion de resultados, comprendiendo presentaciones sintéticas en formato prezi
+
+## Otros Materiales
+
+Adicionalmente a los productos, se encuentran materiales con los que se acredito el proyecto:
+
+- Cuestionario para Niños, Niñas de PDA’s
+- Cuestionario para Niños, Niñas de UE’s
+- Cuestionario para responsable de UE’s
+- Material de Capacitación(protocolos, presentaciones)
+- Material para operativo de campo(planillas)
+- Base de datos
+
+# Base de Datos
+
+## Política de acceso
+
+- Autorización acceso
+
+Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundaci
+ón ARU
+
+- Contactos
+
+Alvaro Chirino Gutierrez achirino@aru.org.bo
+
+- Confidencialidad
+
+La base final, no podrá darse a conocer al público ni a las entidades
+u organismos oficiales, ni a las autoridades públicas, solo únicamente
+los resúmenes numéricos, si no se cuenta con la autorización, para
+no deducir de ellos información alguna de carácter individual que
+pudiera utilizarse para fines comerciales, o cualquier otro diferente
+del propiamente estadístico
+
+- Condiciones de Acceso
+
+  El acceso a los microdatos es de uso público y de carácter gratuito,
+estará disponible en la página Web udata@aru.org.bo.
+
+
+- Requisitos de cita
+
+Se autoriza el uso de la información contenida en esta portal. Queda
+en cambio prohibida la copia o reproducción de los datos en cualquier
+medio electrónico (redes, bases de datos, cd rom, diskettes)
+que permita la disponibilidad de esta información a multiples usuarios
+sin el previo visto bueno de la Red Boliviana de micro datos y
+encuestas por medio escrito
+
+- Derechos y responsabilidades
+
+Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
+
+## Archivo de datos
+
+Información recopilada en la página de la web udata@aru.org.bo.
+
+## Grupo de Variables
+
+Información recopilada en la página de la web udata@aru.org.bo.
