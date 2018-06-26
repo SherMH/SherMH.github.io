@@ -63,18 +63,15 @@ Oruro, Potosí, Santacruz y Tarija).
 
 | ------------------ | ------------- |
 | Característica     | Detalle       |
-| :----------------- | :-----------: |
+| ------------------ | ------------- |
+| :----------------- | :------------ |
 | Poblacion Objetivo | Egresados de las carreras apoyadas por el proyecto con un nivel de desagregación global por sexo y grupos de edad y desagregación por dominios de estudio. |
 | Dominio de estudio | Regiones y Entidades Socias. |
-| Marco Muestral | Marco de lista, correspondiente a los registros de todos los egresados del programa y los centros del periodo 2016. |
-| Estrategia | __Etapa I:__ selección de los centros al interior de cada dominio de
-estudio, la selección es de tipo aleatoria simple.
-
-__Etapa II:__ selección de egresados, en todo los centros elegidos se
-seleccionan a 45 egresados. |
-| Tamaño de la muestra neta* |La muestra planficada inicial fue de 29 centros y 1162 entrevistas.
-La muestra modificada final fue de 1111 entrevistas en 29 centros.|
 | ------------------ | ------------- |
+
+
+
+
 
 
 *A solicitud de los responsables de los centros se excluyó al centro "CEA RADIO SAN GABRIEL"
