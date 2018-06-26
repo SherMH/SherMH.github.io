@@ -59,139 +59,197 @@ trabajo se realizó el llenado del Formulario de Identficación y Listado del Ho
 
 __Procesamiento:__ Se sistematiza el instrumento de captura y la información recolectada.
 
-__Validación Se realiza una vercación y validación de los datos.
-v Gestión Se realizan cálculos de los indicadores clave.
-v Formulación Se analizan los hallazgos.
-v Integración de la información Se espera que las autoridades locales integren los resultados
+__Validación:__ Se realiza una verificación y validación de los datos.
+
+__Gestión:__ Se realizan cálculos de los indicadores clave.
+
+__Formulación:__ Se analizan los hallazgos.
+__Integración de la información:__ Se espera que las autoridades locales integren los resultados
 de la información para producir políticas locales.
-v Difusión Los resultados del proyecto son presentados a las autoridades gubernamentales y
+__Difusión:__ Los resultados del proyecto son presentados a las autoridades gubernamentales y
 locales de la comunidad.
-2.1. Desarrollo y Participación ciudadana
+
+## Desarrollo y Participación ciudadana
+
 Dado que la iniciativa Comunidad-i es un proyecto que busca trabajar con la comunidad y para
 la comunidad, trata de involucrar a la población en cada etapa del proceso, principalmente en la
 etapa de la recolección de información, para ello se crean convenios con centros educativos de cada
 comunidad, para contar con la disponibilidad y la cooperación de los hogares se elabora el plan de
-sensibilización destinado a crear conanza y legitimidad con el proyecto, de esta manera la Fundación
+sensibilización destinado a crear cofianza y legitimidad con el proyecto, de esta manera la Fundación
 ARU actúa como un guía en todas las actividades de la iniciativa.
-3. Información Técnica
-3.1. Metodología
-La principal nalidad de la iniciativa es que la comunidad pueda contar con un sistema de informaci
-ón innovador, útil y oportuno, para poder identicar las necesidades de la población, y que
+
+# Información Técnica
+
+## Metodología
+
+La principalfinalidad de la iniciativa es que la comunidad pueda contar con un sistema de información
+innovador, útil y oportuno, para poder identificar las necesidades de la población, y que
 además sea usada para la toma de decisiones, en las áreas que la comunidad considere clave.
 Debido a esta razón se realizó un censo de derecho para el proyecto, registrando la información de
 todos los individuos que conforman el hogar, aunque no se encuentren presentes en el momento del
 relevamiento de información; cubriendo de esta manera a toda la población que se encuentra dentro
 de la mancha urbana de cada comunidad , tomando cuidado la cobertura delas mismas.
-3.1.1. Población
+
+### Población
 En esta oportunidad la iniciatica Comunidad-i realizo el empadronamiento en de 4 comunidades
 del municipio de Pampa Grande del departamento de Santa Cruz:
+
 1. Pampa Grande
+
 2. Mataral
+
 3. Los Negros
+
 4. Barrio Chaqueño
-3.2. Cuestionario
+
+## Cuestionario
 Para una adecuada captura de información, se empleo un formulario y un cuestioario para el
 proyecto.
-Formulario de Identicación y Listado del Hogar
+
+__Formulario de Identificación y Listado del Hogar__
+
 El formulario está destinado a registrar el tipo de establecimiento existente al interior de los predios
-que conforman el manzano, e identicar a la totalidad de hogares existentes.
-Cuestionario de Enpadronamiento La estructura del cuestionario, está orientado a recolectar
+que conforman el manzano, e identificar a la totalidad de hogares existentes.
+
+__Cuestionario de Enpadronamiento__
+
+ La estructura del cuestionario, está orientado a recolectar
 información adecuada para medir los indicadores propuestos en la parte de temática
 El cuestionario esta compuesto por las siguientes secciones:
-Sección 0: Códigos de Ubicación.
-Sección 1: Identicación de la Vivienda.
-Sección 2: Características de la Vivienda.
-Sección 3: Gastos del Hogar.
-Sección 4: Ingresoso no Laborales del Hogar.
-Sección 5: Características Generales del Hogar y sus Miembros.
- Parte 1: Demográcas.
- Parte 2: Educación.
- Parte 3: Salud.
-Sección 6: Empleo.
- Parte 1: Condición de Actibidad.
- Parte 2: Ingresos dl trabajador asalariado.
- Parte 3: Ingresos del trabajador independiente.
- Parte 4: Informalidad
-3.3. Recolección de datos
+
+__Sección 0:__ Códigos de Ubicación.
+__Sección 1:__ Identificación de la Vivienda.
+__Sección 2:__ Características de la Vivienda.
+__Sección 3:__ Gastos del Hogar.
+__Sección 4:__ Ingresoso no Laborales del Hogar.
+__Sección 5:__ Características Generales del Hogar y sus Miembros.
+-__Parte 1:__ Demográficas.
+-__ Parte 2:__ Educación.
+-__Parte 3:__ Salud.
+__Sección 6:__ Empleo.
+-__Parte 1:__ Condición de Actibidad.
+-__Parte 2:__ Ingresos dl trabajador asalariado.
+-__Parte 3:__ Ingresos del trabajador independiente.
+-__Parte 4:__ Informalidad
+
+## Recolección de datos
+
 Durante el trabajo en campo se realizaron dos actividades de forma simultánea: el llenado del
-Formulario de Identicación y Listado del Hogar y por otro lado la entrevista a los hogares (empadronamiento).
-Tipo de operativo: 8 dias de recorrido por las areas urbanas de las comunidades.
-Poblacion Objetivo: Habitantes del area urbana de las 4 comunidades.
-Cobertura espacial: 4 comunidades del municipio de Pamapa Grande del departameto de Santa
+Formulario de Identificación y Listado del Hogar y por otro lado la entrevista a los hogares (empadronamiento).
+
+__Tipo de operativo:__ 8 dias de recorrido por las areas urbanas de las comunidades.
+
+__Poblacion Objetivo:__ Habitantes del area urbana de las 4 comunidades.
+
+__Cobertura espacial:__ 4 comunidades del municipio de Pamapa Grande del departameto de Santa
 Cruz: Pampa Grande, Mataral, Los Negros y Barrio Chaqueño
-Cobertura temporal: junio de 2017
-Cobertura temática: Llenado del Formulario de Identicación y Listado del Hogar y el empadronamiento
+
+__Cobertura temporal:__ junio de 2017
+
+__Cobertura temática:__ Llenado del Formulario de Identificación y Listado del Hogar y el empadronamiento
 o registro de información de los miembros de todos los hogares existentes en las
 comunidades mencionadas, atreves de entrevistas directas.
-Personal: 55 personas en campo aproximada mente (51 empadronadores y 4 coordinadores)
+
+__Personal:__ 55 personas en campo aproximada mente (51 empadronadores y 4 coordinadores)
 Unidad de Observación: Viviendas, hogares y todos los miembros que las conforman.
-Tiempo de llenado del cuestionario: 30-45 minutos.
-Carga de trabajo: 4 a 5 entrevistas por dia.
-Tipo de trabajo: No remunerado (Voluntario).
+
+__Tiempo de llenado del cuestionario:__ 30-45 minutos.
+
+__Carga de trabajo:__ 4 a 5 entrevistas por dia.
+
+__Tipo de trabajo:__ No remunerado (Voluntario).
+
 El proceso de recolección de información se realizo en 8 dias deacuerdo al siguiente detalle:
-Cuadro 1: Personal de Campo
-Comunidad Dias en campo Fecha Nro. empadronadores
-Pampagrande 2 17 y 18 de junio 23
-Mataral 2 17 y 18 de junio 11
-Los Negros 8 15 al 24 de Junio 17
-Barrio Chaqueño 1 24 de junio 12*
+
+     __Cuadro 1: Personal de Campo__
+| --------------- | ------------- | ----------------- | ------------------- |
+| Comunidad       | Dias en campo |       Fecha       | Nro. empadronadores |
+| --------------- | ------------- | ----------------- | ------------------- |
+| Pampagrande     |       2       | 17 y 18 de junio  |         23          |
+| Mataral         |       2       | 17 y 18 de junio  |         11          |
+| Los Negros      |       8       | 15 al 24 de Junio |         17          |
+| Barrio Chaqueño |       1       | 24 de junio       |         12*         |
+| --------------- | ------------- | ----------------- | ------------------- |
+  
 * Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
-3.4. Proceso de datos
-Captura: Plantilla de entrada de datos en CSentry y Aplicación CBMS3 cargadas en 40 tablets.
-Consistencia: Árbol lógico de programación en la aplicación.
-Transmisión: En línea vía internet y respaldo Backup del dispositivo.
-Validacion: Depuración - consolidación de la base (validación interna) y Consultas en el servidor
-por el usuario (validación externa)
-El proyecto adoptó la técnica CAPI (Entrevistas personales asistidas por un ordenador) recolecci
-ón de información con dispositivos móviles (tablets), el sistema desarrollado en CsPro y la sincronizaci
+
+## Proceso de datos
+
+__Captura:__ Plantilla de entrada de datos en CSentry y Aplicación "CBMS3" cargadas en 40 tablets.
+
+__Consistencia:__ Árbol lógico de programación en la aplicación.
+
+__Transmisión:__ En línea vía internet y respaldo Backup del dispositivo.
+
+__Validacion:__ Depuración - consolidación de la base (validación interna) y Consultas en el servidor
+por el usuario (validación externa).
+
+El proyecto adoptó la técnica CAPI (Entrevistas personales asistidas por un ordenador) recolección
+de información con dispositivos móviles (tablets), el sistema desarrollado en CsPro y la sincronizaci
 ón en línea con dropbox, la totalidad de entrevistas se realizaron en los dispositivos móviles,
-mientras que el formulario de identicación y listado del hogar se realizó en papel
-3.5. Indicadores del Proyecto
-Los indicadores planteados dentro de la iniciativa, se clasican en dos categorías:
+mientras que el formulario de identificación y listado del hogar se realizó en papel.
+
+## Indicadores del Proyecto
+
+Los indicadores planteados dentro de la iniciativa, se clasifican en dos categorías:
+
 1. Pobreza multidimensional
 2. Emprendimiento y desempleo Juvenil
-4. Documentación
-4.1. Documentación técnica
+
+# Documentación
+
+## Documentación técnica
+
 Los documentos técnicos generados del proyecto son:
-Propuesta de trabajo y metodología de la iniciativa Comunidad-i.
-Documento: Problemas de la juventud en un mercado laboral local en Bolivia.
-Revista: Estadísticas de demografía, salud, educación y empleo de las comunidades de Pampa
-Grande, Mataral, Los Negros y Barrio Chaqueño.
-Archivo de mapas georeferenciados.
-Archivo de puntos georeferenciados.
-Archivo de mapas temáticos
-Plataforma de consulta estadística en línea.
-4.2. Otros Materiales
+
+- Propuesta de trabajo y metodología de la iniciativa Comunidad-i.
+- Documento: Problemas de la juventud en un mercado laboral local en Bolivia.
+- Revista: Estadísticas de demografía, salud, educación y empleo de las comunidades de Pampa
+- Grande, Mataral, Los Negros y Barrio Chaqueño.
+- Archivo de mapas georeferenciados.
+- Archivo de puntos georeferenciados.
+- Archivo de mapas temáticos
+- Plataforma de consulta estadística en línea.
+
+## Otros Materiales
 Adicionalmente a los documentos citados, se encuentran otros materiales del proyecto:
-Temática
- Cuestionario SISTEMA DE MONITOREO BASADO EN LA COMUNIDAD - VALLES
-CRUCEÑOS - 2017.
- Matriz de Indicadores.
-Trabajo de Campo
- Material de Capacitación (manuales, presentaciones).
- Material de organización (convocatorias, planillas, cronogramas).
- Mapas cartográcos
- Informe trabajo de campo
-Sensibilización
- Tríptico
- Calendario
- Cuña Radial
-5. Base de Datos
-5.1. Política de Acceso
-Autorización acceso
+- __Temática__
+ - Cuestionario "SISTEMA DE MONITOREO BASADO EN LA COMUNIDAD - VALLES CRUCEÑOS - 2017".
+ - Matriz de Indicadores.
+- __Trabajo de Campo__
+ - Material de Capacitación (manuales, presentaciones).
+ - Material de organización (convocatorias, planillas, cronogramas).
+ - Mapas cartográficos
+ - Informe trabajo de campo
+- __Sensibilización__
+ - Tríptico
+ - Calendario
+ - Cuña Radial
+ 
+# Base de Datos
+
+## Política de Acceso
+- __Autorización acceso__
 Unidad de micro datos y encuestas udata@aru.org.bo - Fundación ARU
-Contactos
+
+- __Contactos__
 Administración: administracion@aru.org.bo - Unidad de micro datos y encuestas udata@aru.org.bo
-Condencialidad
-La base nal, no podrá darse a conocer al público ni a las entidades u organismos ociales, ni
+
+- __Cofidencialidad__
+La base final, no podrá darse a conocer al público ni a las entidades u organismos oficiales, ni
 a las autoridades públicas, esto para no deducir de ellos información alguna de carácter individual
-que pudiera utilizarse para nes comerciales, o cualquier otro diferente del propiamente
+que pudiera utilizarse para fines comerciales, o cualquier otro diferente del propiamente
 estadístico.
-Condiciones de Acceso
+
+- __Condiciones de Acceso__
 El acceso a los microdatos, con previa autorización, estará disponible en la páginaWeb www.aru.org.bo.
-Derechos y responsabilidades
+
+- __Derechos y responsabilidades__
 Fundación ARU - Unidad de Microdatos y Encuestas 2017.
-5.2. Archivo de datos
+
+## Archivo de datos
+
 Información disponible, a nivel agregado para uso con REDATAM.
-5.3. Grupo de variables
+
+- __Grupo de variables__
 Variables de tipo cuantitativa y cualitativa, contenidas en el diccionario de la base de datos
