@@ -13,7 +13,7 @@ protectores de la niñez del proyecto ”Por los Derechos de la Protección de N
 (DEPRONIB).El programa PROMYPE/JIWASA es financiado por la Embajada Real de Dinamarca y COSUDE tiene como principal objetivo fortalecer los complejos productivos  de cuero, textiles, alimentos, madera y metalmecánica de los departamentos de La Paz, Cochabamba, Potosí, Chuquisaca y Oruro a través de servicios de asistencia técnica, capacitación y equipamiento productivo. 
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
-- __Año: Año: Julio - Septiembre 2014__
+- __Año: Julio - Septiembre 2014__
 - __País: Bolivia__
 - __Fuente: Niñas, Niños y Adolescentes de Bolivia__
 - __Patrocinadores: DEPRONIB, AusAid __
