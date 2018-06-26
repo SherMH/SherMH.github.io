@@ -131,7 +131,7 @@ __Sección 5:__ Características Generales del Hogar y sus Miembros.
 
   - __Parte 1:__ Demográficas.
 
-  - __ Parte 2:__ Educación.
+  - __Parte 2:__ Educación.
 
   - __Parte 3:__ Salud.
 
@@ -272,6 +272,6 @@ Fundación ARU - Unidad de Microdatos y Encuestas 2017.
 
 Información disponible, a nivel agregado para uso con REDATAM.
 
-# Grupo de variables
+## Grupo de variables
 
 Variables de tipo cuantitativa y cualitativa, contenidas en el diccionario de la base de datos
