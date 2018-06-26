@@ -129,21 +129,21 @@ __Sección 4:__ Ingresoso no Laborales del Hogar.
 
 __Sección 5:__ Características Generales del Hogar y sus Miembros.
 
--__Parte 1:__ Demográficas.
+- __Parte 1:__ Demográficas.
 
--__ Parte 2:__ Educación.
+- __ Parte 2:__ Educación.
 
--__Parte 3:__ Salud.
+- __Parte 3:__ Salud.
 
 __Sección 6:__ Empleo.
 
--__Parte 1:__ Condición de Actibidad.
+- __Parte 1:__ Condición de Actibidad.
 
--__Parte 2:__ Ingresos dl trabajador asalariado.
+- __Parte 2:__ Ingresos dl trabajador asalariado.
 
--__Parte 3:__ Ingresos del trabajador independiente.
+- __Parte 3:__ Ingresos del trabajador independiente.
 
--__Parte 4:__ Informalidad.
+- __Parte 4:__ Informalidad.
 
 
 ## Recolección de datos
@@ -177,16 +177,17 @@ El proceso de recolección de información se realizo en 8 dias deacuerdo al sig
 
      __Cuadro 1: Personal de Campo__
 	 
+	 
 | --------------- | ------------- | ----------------- | ------------------- |
 | Comunidad       | Días en campo |       Fecha       | Nro. empadronadores |
-| --------------- | ------------- | ----------------- | ------------------- |
+| :-------------- | :-----------: | :---------------: | :-----------------: |
 | Pampagrande     |       2       | 17 y 18 de junio  |         23          |
 | Mataral         |       2       | 17 y 18 de junio  |         11          |
 | Los Negros      |       8       | 15 al 24 de Junio |         17          |
 | Barrio Chaqueño |       1       | 24 de junio       |         12*         |
 | --------------- | ------------- | ----------------- | ------------------- |
   
-* Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
+*Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
 
 ## Proceso de datos
 
@@ -246,26 +247,32 @@ Adicionalmente a los documentos citados, se encuentran otros materiales del proy
 ## Política de Acceso
 
 - __Autorización acceso__
+
 Unidad de micro datos y encuestas udata@aru.org.bo - Fundación ARU
 
 - __Contactos__
+
 Administración: administracion@aru.org.bo - Unidad de micro datos y encuestas udata@aru.org.bo
 
 - __Cofidencialidad__
+
 La base final, no podrá darse a conocer al público ni a las entidades u organismos oficiales, ni
 a las autoridades públicas, esto para no deducir de ellos información alguna de carácter individual
 que pudiera utilizarse para fines comerciales, o cualquier otro diferente del propiamente
 estadístico.
 
 - __Condiciones de Acceso__
+
 El acceso a los microdatos, con previa autorización, estará disponible en la páginaWeb www.aru.org.bo.
 
 - __Derechos y responsabilidades__
+
 Fundación ARU - Unidad de Microdatos y Encuestas 2017.
 
 ## Archivo de datos
 
 Información disponible, a nivel agregado para uso con REDATAM.
 
-- __Grupo de variables__
+# Grupo de variables
+
 Variables de tipo cuantitativa y cualitativa, contenidas en el diccionario de la base de datos
