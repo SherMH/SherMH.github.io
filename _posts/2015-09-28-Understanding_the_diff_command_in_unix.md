@@ -39,7 +39,7 @@ etapa de la recolección de información, para ello se crean convenios con centr
 agrupaciones sociales, etc.
 
 
-#Diseño de Instrumentos
+# Diseño de Instrumentos
 
 La metodología esta diseñada para generar una serie de indicadores que logren capturar aspectos
 de la pobreza multidimensional, empleo juvenil y Emprendedurismo.
@@ -129,21 +129,21 @@ __Sección 4:__ Ingresoso no Laborales del Hogar.
 
 __Sección 5:__ Características Generales del Hogar y sus Miembros.
 
-- __Parte 1:__ Demográficas.
+  - __Parte 1:__ Demográficas.
 
-- __ Parte 2:__ Educación.
+  - __ Parte 2:__ Educación.
 
-- __Parte 3:__ Salud.
+  - __Parte 3:__ Salud.
 
 __Sección 6:__ Empleo.
 
-- __Parte 1:__ Condición de Actibidad.
+  - __Parte 1:__ Condición de Actibidad.
 
-- __Parte 2:__ Ingresos dl trabajador asalariado.
+  - __Parte 2:__ Ingresos dl trabajador asalariado.
 
-- __Parte 3:__ Ingresos del trabajador independiente.
+  - __Parte 3:__ Ingresos del trabajador independiente.
 
-- __Parte 4:__ Informalidad.
+  - __Parte 4:__ Informalidad.
 
 
 ## Recolección de datos
@@ -175,9 +175,8 @@ __Tipo de trabajo:__ No remunerado (Voluntario).
 
 El proceso de recolección de información se realizo en 8 dias deacuerdo al siguiente detalle:
 
-     __Cuadro 1: Personal de Campo__
-	 
-	 
+__Cuadro 1: Personal de Campo.__
+	  
 | --------------- | ------------- | ----------------- | ------------------- |
 | Comunidad       | Días en campo |       Fecha       | Nro. empadronadores |
 | :-------------- | :-----------: | :---------------: | :-----------------: |
@@ -187,7 +186,7 @@ El proceso de recolección de información se realizo en 8 dias deacuerdo al sig
 | Barrio Chaqueño |       1       | 24 de junio       |         12*         |
 | --------------- | ------------- | ----------------- | ------------------- |
   
-*Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
+* Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
 
 ## Proceso de datos
 
