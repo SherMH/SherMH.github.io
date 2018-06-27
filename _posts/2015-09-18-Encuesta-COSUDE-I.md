@@ -3,60 +3,113 @@ title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al P
 layout: post
 category: translation
 tags: [php, http]
-excerpt: "Este documento presenta la metodología diseñada, los resultados y conclusiones provenientes del estudio Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica de la gestión 2016,  este estudio está dirigido a estudiantes egresados de los centros de formación."
+excerpt: "El proyecto tiene por objetivo la Medición de indicadores de Empleo e Ingresos Asociados al proyecto de
+Formación Técnica."
 
 ---
 # Información General
 
 __Referencia:__ Unidad de Micro Datos y Encuestas
 
-__Año:__ Mayo - Junio 2017
+__Año:__ Agosto - septiembre 2015
 
 __País:__ Bolivia
 
-__Fuente:__ Egresados de las carreras apoyadas por el proyecto de Formación Técnica Profecional
-del periodo 2016.
+__Fuente:__ Estudiantes y Egresados de las carreras apoyadas por el proyecto de Formación Técnica Profecional.
 
 __Patrocinador(es):__ Agencia Suiza para el desarrollo y la Cooperación - COSUDE.
 
 __Instituciones Participantes:__ COSUDE, entidades socias a)Comisión Episcopal de Educación
 (CEE), b) Fundación Educación para el Desarrollo FAUTAPO; Fundación ARU.
 
+Fundación ARU es una organización independiente de estudios de política comprometida a promover investigación
+aplicada, objetiva y de alta calidad que informe e influya a la creación de políticas en Bolivia bajo la
+creencia de que las políticas más efectivas son aquellas que proporcionan oportunidades a las personas para construir
+una vida mejor y que estas promueven sociedades cohesionadas y vibrantes.
+
+FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
+y organizaciones públicas y privadas. Tiene como misión contribuir a la formación integral de hombres
+y mujeres, a la gestión del conocimiento para impulsar el desarrollo socio-productivo a nivel local, regional y
+nacional, apoyando el fortalecimiento institucional de los actores y redes de los ambitos educativos y productivos.
+
 ## Diseño de Instrumentos
 
-La metodología diseñada para el estudio de medición de indicadores de empleo e ingresos asociados
-al proyecto se desarrollaron en función a:
+La metodología diseñada y ajustada para el proyecto por los eventos encontrados en la captura de informacion se
+puede resumir de la siguiente forma:
 
-La consolidación de los indicadores clave del estudio
-- definición de preguntas y secciones del cuestionario
-- l diseño para la selección muestral
-- La estrategia de recolección de información primaria por medio de una encuesta
-- El procesamiento de la información
-- Finalmente el cálculo y análisis e interpretación de los indicadores de interés.
+ 1. Modificación del criterio de selección de la primera etapa
+  - Reemplazo del centro de Cuatro Cañadas Citha Nuevo Palmar por el centro de Comarapa CEA Comarapa
+  - Reemplazo del centro de Huacareta N˜emboati Guasu Ia por el centro de Padilla Pio
+  - Inclusión del centro de Mizque CEA THAQO THAQO y el centro de Sucre Martha Mendoza.
+  
+ 2. Modificación del criterio de selección en la segunda etapa, esto por la inclusión de las listas completas.
 
-## Población
+ 3. Inclusión de participantes que no están en la lista proporcionada por el COSUDE pero que si son participantes
+de la gestión 2015.
 
-El estudio esta dirigido a estudiantes egresados de los centros de fomación (64 centros), que son
-parte de las entidades socias del proyecto de Formación Técnica Profecional del periodo 2016, estos
-centros se encuentran distribuidos en 8 departamentos de Bolivia (Chuquisaca, La Paz, Cochabamba,
-Oruro, Potosí, Santacruz y Tarija).
+ 4. Tratamiento de las unidades de interés que participaron en más de un programa
+
+
+## Desarrollo y Participación ciudadana
+
+El estudio esta dirigido a estudiantes y egresados de los centros de fomación, que son
+parte de las entidades socias del proyecto de Formación Técnica Profecional, estos
+centros se encuentran distribuidos en 6 departamentos de Bolivia (Chuquisaca, La Paz, Cochabamba,
+Oruro, Potosí y Santa Cruz).
 
 # Información Técnica
 
 ## Muestreo
 
-### Población
+### Muestra del operativo de campo
 
-| ------------------ | ------------- | -------------------- | 
-| Entidad            | Total Centros | Total Egresados 2016 | 
-| :----------------- | :-----------: | :------------------: | 
-| CEE                | 19            | 1936                 | 
-| FAUTAPO Chaco      | 5             | 250                  | 
-| FAUTAPO Chuquisaca | 40            | 1385                 | 
-| __Total__          | 64            | 3571                 | 
-| ------------------ | ------------- | -------------------- | 
+El total de centros incluidos en la muestra fue de 26 centros, donde se planifico realizar un total de 871 entrevistas
+esperando con ello cubrir la muestra requerida de la consultoria, cuya cifra es 800, los detalles por centro se
+muestran en el cuadro:
+
+| ------------------ | -------------------------- | -------------------- | 
+| Municipio          | Centro                     | Tamaño de la muestra | 
+| :----------------- | :------------------------- | :------------------: | 
+| Sucre              | CEA Acción Social          | 56                   | 
+| Sucre              | CEA Genoveva Rios          | 28                   | 
+| Sucre              | CEA Domingo Savio A        | 26                   | 
+| Sucre              | CEA Francisco Cermeño      | 21                   |
+| Zudañez            | CEA Zudañez                | 10                   | 
+| Mojocoya           | CEA Elizardo Perez         | 22                   | 
+| Villa Serrano      | CEA Raymundo Espada Soliz  | 14                   | 
+| Villa Serrano      | CEA La Concepción          | 14                   | 
+| Monteagudo         | CEA Jorge Vargas Menduiña  | 46                   | 
+| Monteagudo         | CEA San Isidro             | 28                   | 
+| Villa Vaca Guzman  | CEA Nueva America          | 22                   | 
+| Huacareta          | CEA Ernesto Theobal        | 17                   | 
+| Huacareta          | Instituto CETEP            | 32                   | 
+| Huacareta          | CEA Nemboati Guasuia       | 12                   | 
+| Huatajata          | CEA Huatajata              | 28                   | 
+| Coroico            | Carmen Pampa               | 14                   | 
+| Alto Beni          | San Antonio                | 28                   | 
+| Tacopaya           | San Juan Bautista          | 23                   | 
+| Quillacollo        | Instituto Tegnologico Sayarinapaj | 28            | 
+| Caracollo          | Cetha Caracollo            | 112                  | 
+| Uncia              | Policarpio Colque          | 48                   | 
+| Llallagua          | Santa Rita                 | 37                   | 
+| Cuatro Cañadas     | Citha Nuevo Palmar         | 56                   | 
+| Vallegrande        | ETA Aniceto Solares        | 28                   | 
+| Ascencion de Guarayos | Santa Teresita          | 108                  | 
+| Urubicha           | Ins. Coro y Orquesta       | 13                   | 
+| __Total__          |                            | 871                  |  
+| ------------------ | -------------------------- | -------------------- | 
    
- 
+### Muestra Planificada y Efectiva
+
+<br>
+
+<div class="row text-center">
+                <div class="col-md-12">
+                    <img class="img-rounded img-responsibe" src="images/posts/cosude1-1.jpg" alt="" >
+                   
+                </div>
+</div>	
+
 ### Diseño Muestral
 
 
