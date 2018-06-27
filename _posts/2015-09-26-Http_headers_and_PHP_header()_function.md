@@ -1,5 +1,5 @@
 ---
-title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica 2017"
+title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica"
 layout: post
 category: translation
 tags: [php, http]
@@ -65,11 +65,11 @@ Oruro, Potosí, Santacruz y Tarija).
 | :----------------- | :------------ |
 | Poblacion Objetivo | Egresados de las carreras apoyadas por el proyecto con un nivel de desagregación global por sexo y grupos de edad y desagregación por dominios de estudio. |
 | Dominio de estudio | Regiones y Entidades Socias. |
-| Marco Muestral | Marco de lista, correspondiente a los registros de todos los egresados del programa y los centros del periodo 2016. |
-| Estrategia | __Etapa I:__ selección de los centros al interior de cada dominio de estudio, la selección es de tipo aleatoria simple. |
-|            | __Etapa II:__ selección de egresados, en todo los centros elegidos se seleccionan a 45 egresados. |
-| Tamaño de la muestra neta* |La muestra planficada inicial fue de 29 centros y 1162 entrevistas.
-La muestra modificada final fue de 1111 entrevistas en 29 centros.|
+| Marco Muestral     | Marco de lista, correspondiente a los registros de todos los egresados del programa y los centros del periodo 2016. |
+| Estrategia         | __Etapa I:__ selección de los centros al interior de cada dominio de estudio, la selección es de tipo aleatoria simple. |
+|                    | __Etapa II:__ selección de egresados, en todo los centros elegidos se seleccionan a 45 egresados. |
+| Tamaño de la muestra neta* |La muestra planficada inicial fue de 29 centros y 1162 entrevistas. |
+|                    | La muestra modificada final fue de 1111 entrevistas en 29 centros.|
 
 | ------------------ | ------------- |
 
@@ -212,23 +212,28 @@ __Autorización de acceso__
   Agencia Suiza para el Desarrollo y la Cooperación COSUDE
 
 __Contactos__
+
 Administracion: administracion@aru.org.bo - Alvaro Chirino Gutierrez: achirino@aru.org.bo -
 .
 __Confidencialidad__
+
 La base final, no podra darse a conocer al público ni a las entidades u organismos oficiales, ni
 a las autoridades públicas, si no se cuenta con la autorización de la entidad contratante, para
 no deducir de ellos información alguna de carácter individual que pudiera utilizarse para fines
 comerciales, o cualquier otro diferente al estadístico.
 
 __Condiciones de Acceso__
+
 El acceso a la base de datos se realizara a través del programa STATA.
 
 __Requisitos de cita__
+
 Queda prohibida la copia o reproducción de los datos en cualquier medio electronico (redes,
 bases de datos, cd rom, diskettes) que permita la disponibilidad de esta información a múltiples
 usuarios sin el previo visto bueno del COSUDE por medio escrito.
 
 __Derechos y responsabilidades__
+
 Agencia Suiza para el desarrollo y la Cooperación - COSUDE
 
 ## Archivo de datos
