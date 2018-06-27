@@ -1,5 +1,5 @@
 ---
-title: "EVALUACION DE IMPACTO-PROGRAMA DE EDUCACIÓN FINANCIERA-BANCO UNIÓN S.A."
+title: "Evaluación de Impacto al Programa de Educación Financiera del Banco Unión S.A."
 layout: post
 category: note
 tags: [php, framework]
