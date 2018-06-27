@@ -101,14 +101,7 @@ muestran en el cuadro:
    
 ### Muestra Planificada y Efectiva
 
-<br>
-
-<div class="row text-center">
-                <div class="col-md-12">
-                    <img class="img-rounded img-responsibe" src="images/posts/cosude1-1.jpg" alt="" >
-                   
-                </div>
-</div>	
+![tabla](/images/posts/cosude1-1.jpg)
 
 ### Diseño Muestral
 
