@@ -1,5 +1,5 @@
 ---
-title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica"
+title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica COSUDE II"
 layout: post
 category: translation
 tags: [php, http]
