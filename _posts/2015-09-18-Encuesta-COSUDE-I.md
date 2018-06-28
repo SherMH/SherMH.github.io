@@ -22,11 +22,6 @@ __Patrocinador(es):__ Agencia Suiza para el desarrollo y la Cooperación - COSUD
 __Instituciones Participantes:__ COSUDE, entidades socias a)Comisión Episcopal de Educación
 (CEE), b) Fundación Educación para el Desarrollo FAUTAPO; Fundación ARU.
 
-Fundación ARU es una organización independiente de estudios de política comprometida a promover investigación
-aplicada, objetiva y de alta calidad que informe e influya a la creación de políticas en Bolivia bajo la
-creencia de que las políticas más efectivas son aquellas que proporcionan oportunidades a las personas para construir
-una vida mejor y que estas promueven sociedades cohesionadas y vibrantes.
-
 FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
 y organizaciones públicas y privadas. Tiene como misión contribuir a la formación integral de hombres
 y mujeres, a la gestión del conocimiento para impulsar el desarrollo socio-productivo a nivel local, regional y
@@ -105,6 +100,37 @@ muestran en el cuadro:
 
 ### Diseño Muestral
 
+<<<<<<< HEAD
+=======
+
+| ------------------ | ------------- |
+| Característica     | Detalle       |
+| :----------------- | :------------ |
+| Poblacion Objetivo | Egresados de las carreras apoyadas por el proyecto con un nivel de desagregación global por sexo y grupos de edad y desagregación por dominios de estudio. |
+| Dominio de estudio | Regiones y Entidades Socias. |
+| Marco Muestral     | Marco de lista, correspondiente a los registros de todos los egresados del programa y los centros del periodo 2016. |
+| Estrategia         | __Etapa I:__ selección de los centros al interior de cada dominio de estudio, la selección es de tipo aleatoria simple. |
+|                    | __Etapa II:__ selección de egresados, en todo los centros elegidos se seleccionan a 45 egresados. |
+| Tamaño de la muestra neta* |La muestra planficada inicial fue de 29 centros y 1162 entrevistas. |
+|                    | La muestra modificada final fue de 1111 entrevistas en 29 centros.|
+| ------------------ | ------------- |
+
+
+
+
+
+
+*A solicitud de los responsables de los centros se excluyó al centro "CEA RADIO SAN GABRIEL"
+por ser este centro uno de los que trabaja con más subcentros distribuidos a lo largo de la zona central
+y que además trabaja con profesores que rotan a diferentes lugares para impartir las clases, por estas
+razons la muestra fue modificada.
+
+### Errores muestrales
+
+El diseño muestral presenta un margen de error relativo global del 8.9% para un nivel de confiabilidad
+del 95 %, un efecto de diseño de 1.5 e indicadores con variaciones relativas de máximo cv = 1.3, lo que significa un error relativo de muestreo del 4.6 %.
+
+>>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
 ## Cuestionario
 
 La estructura del cuestionario esta orientada a recabar información de las características del ”Micro Empresario” :
@@ -113,7 +139,11 @@ __Sección 0:__ Códigos de Ubicación.
 
 __Sección 1:__ Variables de identificación y características generales del Negocio/Taller.
 
+<<<<<<< HEAD
 __Sección 2:__ Descripción general del Negocio/Taller.
+=======
+__Sección 2:__ Información Demográfica del Beneficiario.
+>>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
 
 __Sección 3:__ Características generales del Informante(Propietario) y su hogar.
 
@@ -125,7 +155,11 @@ __Sección 6:__ Ventas y producción.
 
 __Sección 7:__ Insumos y proveedores.
 
+<<<<<<< HEAD
 __Sección 8:__ Gastos.
+=======
+__Sección 8:__ Capacitación y Percepciones del Egresado.
+>>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
 
 __Sección 9:__ Activos.
 
@@ -135,42 +169,57 @@ __Sección 11:__ Observaciones del encuestador.
 
 ## Recolección de datos
 
+<<<<<<< HEAD
 La estrategia para la recolección de información primaria es por una encuesta, ejecutada desde finales del mes de
 agosto hasta princios del mes de septiembre del año 2015 con la siguiente estructura:
 
 __Tipo de operativo:__ 14 días de recorrido por los centros de capacitacion y vivienda de los egresados.
+=======
+En la recolección de información se considero el empleo de medidas de contingencia por las caracteristicas de la poblacion objetivo.
+ 
+Dificultades:
+>>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
 
-__Poblacion Objetivo:__ Egresados de las carreras apoyadas por el proyecto de "Formación Técnica
-Profecional"
+- Detalle de los contactos
+- Migracion de los egresados
+- Personas repetidas en listas
+- Inclusión de centros
+- Participantes ausentes
+- Festividades locales o disturbios civiles
+- Entrevistados con poca disponibilidad de tiempo
 
-__Cobertura espacial:__ 29 centros de formación distribuidos en 24 municipios de 8 departamentos de
-Bolivia.
+Contingencias:
 
-__Cobertura temporal:__ 9 al 27 de junio de 2017.
+- Listas completas de los centros
+- Tratamiento de la duplicidad
+- Reemplazo e inclusión de nuevos centro
+- Entrevistas poco usuales
+- Participantes fuera del listado
 
-__Cobertura temática:__ Llenado de formularios de encuesta, atreves de entrevistas directas.
 
-__Personal:__ 32 personas en campo (24 encuestadores y 8 supervisores)
+__Tipo de operativo:__ Un mes de recorrido para algunos departamentos y para otros  medio mes.
 
-__Unidad de Observación:__ Egresados de los centros de formación de la gestion 2016.
+__Poblacion Objetivo:__ Estudiantes de centros de capacitacion
 
-__Tiempo de llenado del cuestionario:__ 30 - 45 minutos.
+__Cobertura espacial:__ 5 departamentos elegidos para ser intervenidos, con la encuesta
 
-__Carga de trabajo:__ 7 - 8 entrevistas por día por encuestador.
+__Cobertura temporal:__ Agosto - Octubre 2015.
+
+__Cobertura temática:__ Llenado de encuesta
+
+__Personal:__ Aproximadamente 6 personas(24 encuestadores y 6 supervisores)
+
+__Unidad de Observación:__ Centros de capacitación seleccionados
+
+__Tiempo de llenado del cuestionario:__ 45 - 30 minutos
+
+__Carga de trabajo:__ 3 entrevistas/dia
 
 __Tipo de trabajo:__ Remunerado.
 
-La estrategia empleada para la recolección de información, en la encuesta, ejecutada desde el 9
-al 27 de junio del año 2017 presenta siguiente estructura:
-
-- Contactar a los directores de los centros de formación.
-- Concertar reuniones con los egresados seleccionados, en cada centro, en dos fechas específicas.
-Llenado del cuestionario.
-- Búsqueda y visitas en las viviendas de los egresados que no pudieron asistir a las reuniones.
-
 ## Proceso de datos
 
-__Captura:__ Aplicación "Cosude" cargada en la tablet.
+__Captura:__ Aplicación CSEntry cargada en el dispositivo
 
 __Consistencia:__ Árbol lógico de programación en la aplicación.
 
@@ -178,8 +227,9 @@ __Transmisión:__ En línea vía internet y respaldo Backup del dispositivo.
 
 __Validacion:__ Depuración - consolidación de la base (validación interna).
 
-El proyecto realizo la recolección de información en cuestionarios en papel, atraves de entrevistas
-personales.
+La encuesta adoptó la tecnica CAPI (Entrevistas personales asistidas
+por un ordenador) para la recolección de la información, esta técnica emplea dispositivos
+móviles (tablets) para la captura de la información, se empleó el sistema CsPro y la sincronización en línea. La actualización Cartográfica se realizó en cuestionarios en papel, mientras que las encuestas se realizarón en un 65% en los dispositivos moviles y un 35% en papel.
 
 ## Indicadores del Proyecto
 
