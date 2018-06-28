@@ -15,22 +15,11 @@ __Año: Agosto - septiembre 2015__
 
 __País: Bolivia__
 
-<<<<<<< HEAD
 __Fuente:__ La Paz, Cochabamba, Santa Cruz, Chuquisaca, Potosi y Oruro.
 
 __Patrocinador(es):__ Cooperación Suiza en Bolivia
 
 El FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
-=======
-__Fuente: Estudiantes y Egresados de las carreras apoyadas por el proyecto de Formación Técnica Profecional.__
-
-__Patrocinador(es): Agencia Suiza para el desarrollo y la Cooperación - COSUDE.__
-
-__Instituciones Participantes: COSUDE, entidades socias a)Comisión Episcopal de Educación
-(CEE), b) Fundación Educación para el Desarrollo FAUTAPO; Fundación ARU.__
-
-FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
->>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 y organizaciones públicas y privadas. Tiene como misión contribuir a la formación integral de hombres
 y mujeres, a la gestión del conocimiento para impulsar el desarrollo socio-productivo a nivel local, regional y
 nacional, apoyando el fortalecimiento institucional de los actores y redes de los ambitos educativos y productivos.
@@ -108,7 +97,6 @@ Los detalles por centro se muestran en el cuadro:
 
 ![tabla](/images/posts/cosude1-1.jpg)
 
-<<<<<<< HEAD
 ### Diseño Muestral
 
 | ------------------ | ------------- |
@@ -123,27 +111,11 @@ Los detalles por centro se muestran en el cuadro:
 |                    | La muestra modificada final fue de 1111 entrevistas en 29 centros.|
 | ------------------ | ------------- |
 
-
-*A solicitud de los responsables de los centros se excluyó al centro "CEA RADIO SAN GABRIEL"
-por ser este centro uno de los que trabaja con más subcentros distribuidos a lo largo de la zona central
-y que además trabaja con profesores que rotan a diferentes lugares para impartir las clases, por estas
-razons la muestra fue modificada.
-=======
 *Centro incluido por la prueba piloto
 **Centro que reemplazo a Nemboati Guasu Ia
 ***Nuevo centro incluido
 ****Centro que reemplazo al centro Citha Nuevo Palmar
 
->>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
-
-
-<<<<<<< HEAD
-El diseño muestral presenta un margen de error relativo global del 8.9% para un nivel de confiabilidad
-del 95 %, un efecto de diseño de 1.5 e indicadores con variaciones relativas de máximo cv = 1.3, lo que significa un error relativo de muestreo del 4.6 %.
-
-
-=======
->>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 ## Cuestionario
 
 La estructura del cuestionario esta orientada a recabar información de las características del ”Micro Empresario” :
@@ -152,15 +124,7 @@ __Sección 0:__ Códigos de Ubicación.
 
 __Sección 1:__ Variables de identificación y características generales del Negocio/Taller.
 
-<<<<<<< HEAD
 __Sección 2:__ Características generales del Informante(Propietario) y su hogar
-=======
-__Sección 2:__ Descripción general del Negocio/Taller.
-
-__Sección 2:__ Información Demográfica del Beneficiario.
-
-__Sección 3:__ Características generales del Informante(Propietario) y su hogar.
->>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 
 __Sección 3:__ Características detalladas del Negocio/Taller
 
@@ -170,25 +134,14 @@ __Sección 5:__ Actividad económica agricultura
 
 __Sección 6:__ Actividad económica agricultura manufactura
 
-<<<<<<< HEAD
 __Sección 7:__ Formación Tecnica
-=======
-__Sección 8:__ Gastos.
-
-__Sección 8:__ Capacitación y Percepciones del Egresado.
->>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 
 __Sección 8:__ Observaciones del encuestador
 
 ## Recolección de datos
 
-<<<<<<< HEAD
 En la recolección de información se consideró el empleo de medidas de contingencia por las caracteristicas de
 la poblacion objetivo.
-=======
-La estrategia para la recolección de información primaria es por una encuesta, ejecutada desde finales del mes de
-agosto hasta princios del mes de septiembre del año 2015 con la siguiente estructura:
->>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 
 Dificultades:
 
