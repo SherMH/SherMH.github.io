@@ -15,14 +15,11 @@ __Año:__ Agosto - septiembre 2015
 
 __País:__ Bolivia
 
-__Fuente:__ Estudiantes y Egresados de las carreras apoyadas por el proyecto de Formación Técnica Profecional.
+__Fuente:__ La Paz, Cochabamba, Santa Cruz, Chuquisaca, Potosi y Oruro.
 
-__Patrocinador(es):__ Agencia Suiza para el desarrollo y la Cooperación - COSUDE.
+__Patrocinador(es):__ Cooperación Suiza en Bolivia
 
-__Instituciones Participantes:__ COSUDE, entidades socias a)Comisión Episcopal de Educación
-(CEE), b) Fundación Educación para el Desarrollo FAUTAPO; Fundación ARU.
-
-FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
+El FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
 y organizaciones públicas y privadas. Tiene como misión contribuir a la formación integral de hombres
 y mujeres, a la gestión del conocimiento para impulsar el desarrollo socio-productivo a nivel local, regional y
 nacional, apoyando el fortalecimiento institucional de los actores y redes de los ambitos educativos y productivos.
@@ -100,9 +97,6 @@ muestran en el cuadro:
 
 ### Diseño Muestral
 
-<<<<<<< HEAD
-=======
-
 | ------------------ | ------------- |
 | Característica     | Detalle       |
 | :----------------- | :------------ |
@@ -116,10 +110,6 @@ muestran en el cuadro:
 | ------------------ | ------------- |
 
 
-
-
-
-
 *A solicitud de los responsables de los centros se excluyó al centro "CEA RADIO SAN GABRIEL"
 por ser este centro uno de los que trabaja con más subcentros distribuidos a lo largo de la zona central
 y que además trabaja con profesores que rotan a diferentes lugares para impartir las clases, por estas
@@ -130,7 +120,7 @@ razons la muestra fue modificada.
 El diseño muestral presenta un margen de error relativo global del 8.9% para un nivel de confiabilidad
 del 95 %, un efecto de diseño de 1.5 e indicadores con variaciones relativas de máximo cv = 1.3, lo que significa un error relativo de muestreo del 4.6 %.
 
->>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
+
 ## Cuestionario
 
 La estructura del cuestionario esta orientada a recabar información de las características del ”Micro Empresario” :
@@ -139,46 +129,26 @@ __Sección 0:__ Códigos de Ubicación.
 
 __Sección 1:__ Variables de identificación y características generales del Negocio/Taller.
 
-<<<<<<< HEAD
-__Sección 2:__ Descripción general del Negocio/Taller.
-=======
-__Sección 2:__ Información Demográfica del Beneficiario.
->>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
+__Sección 2:__ Características generales del Informante(Propietario) y su hogar
 
-__Sección 3:__ Características generales del Informante(Propietario) y su hogar.
+__Sección 3:__ Características detalladas del Negocio/Taller
 
-__Sección 4:__ Empleados del Negocio/Taller.
+__Sección 4:__ Empleados del Negocio/Taller
 
-__Sección 5:__ Características detalladas del Negocio/Taller.
+__Sección 5:__ Actividad económica agricultura
 
-__Sección 6:__ Ventas y producción.
+__Sección 6:__ Actividad económica agricultura manufactura
 
-__Sección 7:__ Insumos y proveedores.
+__Sección 7:__ Formación Tecnica
 
-<<<<<<< HEAD
-__Sección 8:__ Gastos.
-=======
-__Sección 8:__ Capacitación y Percepciones del Egresado.
->>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
-
-__Sección 9:__ Activos.
-
-__Sección 10:__ Pasivos y patrimonio.
-
-__Sección 11:__ Observaciones del encuestador.
+__Sección 8:__ Observaciones del encuestador
 
 ## Recolección de datos
 
-<<<<<<< HEAD
-La estrategia para la recolección de información primaria es por una encuesta, ejecutada desde finales del mes de
-agosto hasta princios del mes de septiembre del año 2015 con la siguiente estructura:
+En la recolección de información se consideró el empleo de medidas de contingencia por las caracteristicas de
+la poblacion objetivo.
 
-__Tipo de operativo:__ 14 días de recorrido por los centros de capacitacion y vivienda de los egresados.
-=======
-En la recolección de información se considero el empleo de medidas de contingencia por las caracteristicas de la poblacion objetivo.
- 
 Dificultades:
->>>>>>> cb03b2424f9b4e5fa7aa98dcd49f839aa6ab9598
 
 - Detalle de los contactos
 - Migracion de los egresados
@@ -231,15 +201,6 @@ La encuesta adoptó la tecnica CAPI (Entrevistas personales asistidas
 por un ordenador) para la recolección de la información, esta técnica emplea dispositivos
 móviles (tablets) para la captura de la información, se empleó el sistema CsPro y la sincronización en línea. La actualización Cartográfica se realizó en cuestionarios en papel, mientras que las encuestas se realizarón en un 65% en los dispositivos moviles y un 35% en papel.
 
-## Indicadores del Proyecto
-
-El análisis del nivel y tendencia de los principales indicadores de impacto son:
-
-  - Ingresos mensuales en relación al salario mínimo nacional
-  - Caracterización del empleo y autoempleo de los egresados
-  - Actividad laboral de los egresados.
-  - Análisis comparativo de la situación actual de los individuos en relación a los últimos niveles
-estimados.
 
 ## Evaluación de datos
 
@@ -263,14 +224,20 @@ etapa también se incluyen los factores de expansión y seda inicio al análisis
 ## Documentación técnica
 
 Los documentos técnicos generados del proyecto son:
-  - Propuesta de trabajo y metodología del proyecto.
+
+- Propuesta de proyecto
+- Cuestionario
+- Material de Capacitación(protocolos, presentaciones)
+- Material para operativo de campo(planillas)
+- Manual de DB
+- Diccionario de base de datos
   
 ## Otros Materiales
 
 Adicionalmente a los documentos citados, se encuentran otros materiales del proyecto:
 
 - Cuestionario "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa
-de Formación Técnica 2017"
+de Formación Técnica "
 
 - Material de Capacitación( presentaciones)
 
@@ -281,22 +248,27 @@ de Formación Técnica 2017"
 ## Política de Acceso
 
 __Autorización de acceso__
-  Agencia Suiza para el Desarrollo y la Cooperación COSUDE
+  Unidad de micro datos y encuestas udata@aru.org.bo - Fundación ARU
 
 __Contactos__
 
 Administracion: administracion@aru.org.bo - Alvaro Chirino Gutierrez: achirino@aru.org.bo -
-.
+
 __Confidencialidad__
 
-La base final, no podra darse a conocer al público ni a las entidades u organismos oficiales, ni
-a las autoridades públicas, si no se cuenta con la autorización de la entidad contratante, para
-no deducir de ellos información alguna de carácter individual que pudiera utilizarse para fines
-comerciales, o cualquier otro diferente al estadístico.
+La base final, no podra darse a conocer al público ni a las entidades u organismos oficiales, ni a las autoridades
+públicas, solo unicamente los resumenes numéricos, si no se cuenta con la autorización de la entidad
+contratante, para no deducir de ellos información alguna de carácter individual que pudiera utilizarse para
+fines comerciales, o cualquier otro diferente del propiamente estadístico
 
 __Condiciones de Acceso__
 
-El acceso a la base de datos se realizara a través del programa STATA.
+El acceso a ellas puede realizarse por dos medios, el primero (1), en base al archivo de datos disponibles en el
+CD adjunto al Manual DB y (2) por medio de una conexión web a través de STATA, empleando el comando:
+
+Por política de la fundación las bases de datos disponibles en nuestro servidor permanecen hasta 6 meses
+posteriores a la culminación del proyecto, si la entidad contratante ve innecesaria contar con la base en línea
+se procede inmediatamente a dar de baja dicha información.
 
 __Requisitos de cita__
 
@@ -311,7 +283,8 @@ Agencia Suiza para el desarrollo y la Cooperación - COSUDE
 ## Archivo de datos
 
 Las bases de datos disponibles de este proyecto son:
-"bd-COSUDE2017-raw.dta", Que corresponde a la Base de datos Bruta
+- ”Cosude.dta”, Que corresponde a la Base de datos en su version Bruta
+- ”Cosude vf.dta”, Que corresponde a la Base de datos en su version final
 
 ## Grupo de variables
 
