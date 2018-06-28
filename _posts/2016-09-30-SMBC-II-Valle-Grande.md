@@ -162,10 +162,10 @@ Adicionalmente a los documentos citados, se encuentran otros materiales del proy
 
 ## Política de Acceso
 
-- __ Autorización acceso__
+- __Autorización acceso__
 
 Fundación ARU
-- __ Contactos__
+- __Contactos__
 
   - Administración: administracion@aru.org.bo 
   - Alvaro Chirino Gutierrez: achirino@aru.org.bo .
@@ -183,11 +183,11 @@ Los resultados estarán disponibles bajo la forma del Redatam en la página ofic
 La base de datos esta disponible casi totalmente a excepción de la variables que contienen dirección y
 nombre de las personas registradas en el empadronamiento.
 
-- __ Requisitos de cita__
+- __Requisitos de cita__
 
 Se autoriza el uso de la información contenida en este portal.
 
-- __ Derechos y responsabilidades__
+- __Derechos y responsabilidades__
 
 Fundación ARU.
 

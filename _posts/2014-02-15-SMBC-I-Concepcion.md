@@ -3,10 +3,11 @@ title: "Sistema de Monitoreo Basado en la Comunidad - Concepción, Comunidad-i"
 layout: post
 category: [tutorial]
 tags: [php, vagrant]
-excerpt: "El documento presenta los  pormenpores de la Iniciativa de Fundación Aru __Comunidad-i__ que nace como una propuesta al SMBC, cuyo propósito
+excerpt: "El documento presenta los  pormenores de la Iniciativa de Fundación Aru  __Comunidad-i__ que nace como una propuesta al SMBC, cuyo propósito
 central es trabajar con y para la comunidad en la recolección y difusión
 de información acerca de las condiciones de vida y las necesidades de sus
 habitantes."
+
 ---
 
 # Información General
@@ -16,11 +17,12 @@ __Referencia: Unidad de Micro Datos y Encuestas__
 __Año: Noviembre - Diciembre 2013 / enero 2014__
 
 __País: Bolivia__
-__Fuente: Población del área urbana de la comunidad de Concepción del departamento de Santa Cruz.__
 
-__Patrocinador(es): Sistema de Monitoreo Basado en la Comunidad - PEP__
+__Fuente:__ Población del área urbana de la comunidad de Concepción del departamento de Santa Cruz.__
 
-__Instituciones Participantes: Fundación ARU, Gobierno Autonomo Municipal de Concepcion
+__Patrocinador(es):__ Sistema de Monitoreo Basado en la Comunidad - PEP__
+
+__Instituciones Participantes:__ Fundación ARU, Gobierno Autonomo Municipal de Concepcion
 
 El proyecto nace a partir de la necesidad, de hacer seguimiento a los impactos
 de las políticas y programas asi como a los diversos shocks que atraviesan
@@ -256,10 +258,10 @@ __Carga de trabajo:__ 15 cuestionarios al día / verificador.
 
 __Tipo de trabajo:__ Remunerado.
 
-*El empadronamiento se ejecutó, los meses de: Noviembre y Diciembre del 2013
+`*El empadronamiento se ejecutó, los meses de: Noviembre y Diciembre del 2013
 a las 12 zonas de la mancha urbana de Concepción, y el mes de Enero del 2014
 al barrio de Villa Fátima, este último después de un receso, debido a la fuerte
-cantidad de movimiento de personas por fiestas de fin de año.*
+cantidad de movimiento de personas por fiestas de fin de año.*`
 
 ## Proceso de datos
 
@@ -275,10 +277,10 @@ __Transmisión:__ En linea, via internet y mediante Backup del dispositivo.
 
 __Validación:__ Depuración - consolidación de la base (validación interna) y consultas en el servidor por el usuario (validación externa).
 
-*La transmisión en linea via internet de la información se hizo para la etapa de
+`*La transmisión en linea via internet de la información se hizo para la etapa de
 actualización. Para la etapa de empadronamiento por el volumen de la informaci
 ón se uso el backup de los dispositivos para almacenar los datos y posteriormente
-descargarlos en un servidor.*
+descargarlos en un servidor.*`
 
 ## Indicadores del Proyecto
 
@@ -365,11 +367,11 @@ asi como productos que sirvieron de insumo para el mismo:
 
 ## Política de Acceso
 
-- __ Autorización acceso__
+- __Autorización acceso__
 
 Unidad de micro datos y encuestas udata@aru.org.bo - Fundación ARU
 
-- __ Contactos__
+- __Contactos__
 
   - Administración: administracion@aru.org.bo 
   - Alvaro Chirino Gutierrez: achirino@aru.org.bo .
@@ -391,7 +393,7 @@ estará disponible en la página Web www.aru.org.bo.
 Los resultados estarán disponibles bajo la forma del Redatam en la página oficial del proyecto en Bolivia
 ”Comunidad-i”.
 
-- __ Requisitos de cita__
+- __Requisitos de cita__
 
 Se autoriza el uso de la información contenida en este portal. Queda en cambio prohibida la copia o reproducción de los datos en cualquier medio
 electrónico (redes, bases de datos, cd rom, diskettes) que permita la
