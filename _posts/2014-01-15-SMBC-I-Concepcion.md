@@ -1,8 +1,8 @@
 ---
 title: "Sistema de Monitoreo Basado en la Comunidad - Concepción, Comunidad-i"
 layout: post
-category: [tutorial]
-tags: [php, vagrant]
+category: [Censo]
+tags: [Riesgo, Vulnerabilidad]
 excerpt: "El documento presenta los  pormenores de la Iniciativa de Fundación Aru  __Comunidad-i__ que nace como una propuesta al SMBC, cuyo propósito
 central es trabajar con y para la comunidad en la recolección y difusión
 de información acerca de las condiciones de vida y las necesidades de sus
@@ -258,10 +258,10 @@ __Carga de trabajo:__ 15 cuestionarios al día / verificador.
 
 __Tipo de trabajo:__ Remunerado.
 
-`*El empadronamiento se ejecutó, los meses de: Noviembre y Diciembre del 2013
+*El empadronamiento se ejecutó, los meses de: Noviembre y Diciembre del 2013
 a las 12 zonas de la mancha urbana de Concepción, y el mes de Enero del 2014
 al barrio de Villa Fátima, este último después de un receso, debido a la fuerte
-cantidad de movimiento de personas por fiestas de fin de año.*`
+cantidad de movimiento de personas por fiestas de fin de año.*
 
 ## Proceso de datos
 
@@ -277,10 +277,10 @@ __Transmisión:__ En linea, via internet y mediante Backup del dispositivo.
 
 __Validación:__ Depuración - consolidación de la base (validación interna) y consultas en el servidor por el usuario (validación externa).
 
-`*La transmisión en linea via internet de la información se hizo para la etapa de
+*La transmisión en linea via internet de la información se hizo para la etapa de
 actualización. Para la etapa de empadronamiento por el volumen de la informaci
 ón se uso el backup de los dispositivos para almacenar los datos y posteriormente
-descargarlos en un servidor.*`
+descargarlos en un servidor.*
 
 ## Indicadores del Proyecto
 
@@ -324,9 +324,9 @@ escalamiento a más localidades.
 El proyecto generó los siguientes documentos:
 
 - Cuestionario.
-- Propuesta de proyecto "Comunidad-i."
+- Propuesta de proyecto "Comunidad-i".
 - Protocolo de Sistemas.
-- Informe "Prueba Piloto."
+- Informe "Prueba Piloto".
 - Cronograma de Actividades.
 - Material de Capacitación(manuales, presentaciones).
 - Diseño metodológico de capacitación.
@@ -400,7 +400,7 @@ electrónico (redes, bases de datos, cd rom, diskettes) que permita la
 disponibilidad de esta información a múltiples usuarios sin el previo visto
 bueno de la Unidad de micro datos y encuestas por medio escrito.
 
-- __ Derechos y responsabilidades__
+- __Derechos y responsabilidades__
 
 Fundación ARU - Unidad de Microdatos y Encuestas 2014.
 

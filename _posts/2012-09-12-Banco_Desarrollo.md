@@ -1,11 +1,13 @@
 ---
 title: "Linea Base del Banco de Desarrollo Productivo"
 layout: post
-category: translation
-tags: [php]
+category: Encuesta
+tags: [Hogar] [Manufactura] [Agropecuaria]
 excerpt: "El objetivo principal del Plan de Evaluación del CPI es probar la eficacia y
 eficiencia del tratamiento recibido por parte de las unidades productivas"
 ---
+# Información General
+
 El objetivo principal del Plan de Evaluación del CPI es probar la eficacia y
 eficiencia del tratamiento recibido por parte de las unidades productivas i.e. el
 cumplimiento de los objetivos para el cuál fue diseñado el CPI. Por otra parte,
@@ -13,13 +15,17 @@ se pretende medir los sesgos de selección relacionados con el programa y las
 unidades productivas que formaron parte del mismo. 
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
+
 - __Año: 2012 Septiembre__
+
 - __País: Bolivia__
+
 - __Fuente: Fuente: Pequeños y Micro empresarios del sector manufacturero y agropecuario
 de los nueve departamentos de Bolivia__
-- __Patrocinador(es): Banco de Desarrollo Productivo __
 
-# Diseño de Instrumentos
+- __Patrocinador(es): Banco de Desarrollo Productivo__
+
+## Diseño de Instrumentos
 
 Se diseñaron los siguientes instrumentos para conseguir el objetivo esperado:
 
@@ -31,7 +37,7 @@ múltiples grupos de control. Por otra parte, para la realización de la Encuest
 de Seguimiento, se consideró diseñar esta encuesta como panel de la línea base,
 llegando a los mismos hogares que en la primera recolección de información.
 
-# Desarrollo y participación ciudadana
+## Desarrollo y participación ciudadana
 
 El Plan Inicial de Evaluación de Impacto establecía una muestra de 3,500
 personas para la asignación de grupos múltiples de control, en función a los objetivos
@@ -160,7 +166,7 @@ Realizando también un análisis de estadísticas descriptivas que permitan
 crear perfiles de las personas encuestadas dentro del levantamiento de línea base, esperando que de esta manera, se puedan conocer las principales características
 de las unidades familiares y económicas de los grupos de tratamiento y control.
 
-# Documentación Técnica
+# Documentación 
 
 ## Documentación Técnica
 
@@ -196,16 +202,16 @@ datos de la encuesta de línea de base
 
 ## Política de acceso
 
-- Autorización acceso
+- __Autorización acceso__
 
 Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundaci
 ón ARU
 
-- Contactos
+- __Contactos__
 
 Alvaro Chirino Gutierrez achirino@aru.org.bo
 
-- Confidencialidad
+- __Confidencialidad__
 
 La base final, no podrá darse a conocer al público ni a las entidades
 u organismos oficiales, ni a las autoridades públicas, solo únicamente
@@ -214,13 +220,13 @@ no deducir de ellos información alguna de carácter individual que
 pudiera utilizarse para fines comerciales, o cualquier otro diferente
 del propiamente estadístico
 
-- Condiciones de Acceso
+- __Condiciones de Acceso__
 
   El acceso a los microdatos es de uso público y de carácter gratuito,
 estará disponible en la página Web udata@aru.org.bo.
 
 
-- Requisitos de cita
+- __Requisitos de cita__
 
 Se autoriza el uso de la información contenida en esta portal. Queda
 en cambio prohibida la copia o reproducción de los datos en cualquier
@@ -229,7 +235,7 @@ que permita la disponibilidad de esta información a multiples usuarios
 sin el previo visto bueno de la Red Boliviana de micro datos y
 encuestas por medio escrito
 
-- Derechos y responsabilidades
+- __Derechos y responsabilidades__
 
 Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
 
