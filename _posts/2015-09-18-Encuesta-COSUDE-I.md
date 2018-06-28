@@ -1,25 +1,36 @@
 ---
-title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica COSUDE I"
+title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica"
 layout: post
-category: translation
-tags: [php, http]
+category: Encuesta
+tags: [Empleo, Ingresos]
 excerpt: "El proyecto tiene por objetivo la Medición de indicadores de Empleo e Ingresos Asociados al proyecto de
 Formación Técnica."
 
 ---
 # Información General
 
-__Referencia:__ Unidad de Micro Datos y Encuestas
+__Referencia: Unidad de Micro Datos y Encuestas__
 
-__Año:__ Agosto - septiembre 2015
+__Año: Agosto - septiembre 2015__
 
-__País:__ Bolivia
+__País: Bolivia__
 
+<<<<<<< HEAD
 __Fuente:__ La Paz, Cochabamba, Santa Cruz, Chuquisaca, Potosi y Oruro.
 
 __Patrocinador(es):__ Cooperación Suiza en Bolivia
 
 El FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
+=======
+__Fuente: Estudiantes y Egresados de las carreras apoyadas por el proyecto de Formación Técnica Profecional.__
+
+__Patrocinador(es): Agencia Suiza para el desarrollo y la Cooperación - COSUDE.__
+
+__Instituciones Participantes: COSUDE, entidades socias a)Comisión Episcopal de Educación
+(CEE), b) Fundación Educación para el Desarrollo FAUTAPO; Fundación ARU.__
+
+FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
+>>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 y organizaciones públicas y privadas. Tiene como misión contribuir a la formación integral de hombres
 y mujeres, a la gestión del conocimiento para impulsar el desarrollo socio-productivo a nivel local, regional y
 nacional, apoyando el fortalecimiento institucional de los actores y redes de los ambitos educativos y productivos.
@@ -51,13 +62,15 @@ Oruro, Potosí y Santa Cruz).
 
 # Información Técnica
 
-## Muestreo
+## Diseño muestral
+
+La muestra define como conglomerado a los cursos dentro de cada uno de los centros de intervención.
+Después de la selección se verifico que el total de centros incluidos en la muestra fue de 26 centros, donde se
+planifico realizar un total de 871 entrevistas
 
 ### Muestra del operativo de campo
 
-El total de centros incluidos en la muestra fue de 26 centros, donde se planifico realizar un total de 871 entrevistas
-esperando con ello cubrir la muestra requerida de la consultoria, cuya cifra es 800, los detalles por centro se
-muestran en el cuadro:
+Los detalles por centro se muestran en el cuadro:
 
 | ------------------ | -------------------------- | -------------------- | 
 | Municipio          | Centro                     | Tamaño de la muestra | 
@@ -95,6 +108,7 @@ muestran en el cuadro:
 
 ![tabla](/images/posts/cosude1-1.jpg)
 
+<<<<<<< HEAD
 ### Diseño Muestral
 
 | ------------------ | ------------- |
@@ -114,13 +128,22 @@ muestran en el cuadro:
 por ser este centro uno de los que trabaja con más subcentros distribuidos a lo largo de la zona central
 y que además trabaja con profesores que rotan a diferentes lugares para impartir las clases, por estas
 razons la muestra fue modificada.
+=======
+*Centro incluido por la prueba piloto
+**Centro que reemplazo a Nemboati Guasu Ia
+***Nuevo centro incluido
+****Centro que reemplazo al centro Citha Nuevo Palmar
 
-### Errores muestrales
+>>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 
+
+<<<<<<< HEAD
 El diseño muestral presenta un margen de error relativo global del 8.9% para un nivel de confiabilidad
 del 95 %, un efecto de diseño de 1.5 e indicadores con variaciones relativas de máximo cv = 1.3, lo que significa un error relativo de muestreo del 4.6 %.
 
 
+=======
+>>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 ## Cuestionario
 
 La estructura del cuestionario esta orientada a recabar información de las características del ”Micro Empresario” :
@@ -129,7 +152,15 @@ __Sección 0:__ Códigos de Ubicación.
 
 __Sección 1:__ Variables de identificación y características generales del Negocio/Taller.
 
+<<<<<<< HEAD
 __Sección 2:__ Características generales del Informante(Propietario) y su hogar
+=======
+__Sección 2:__ Descripción general del Negocio/Taller.
+
+__Sección 2:__ Información Demográfica del Beneficiario.
+
+__Sección 3:__ Características generales del Informante(Propietario) y su hogar.
+>>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 
 __Sección 3:__ Características detalladas del Negocio/Taller
 
@@ -139,14 +170,25 @@ __Sección 5:__ Actividad económica agricultura
 
 __Sección 6:__ Actividad económica agricultura manufactura
 
+<<<<<<< HEAD
 __Sección 7:__ Formación Tecnica
+=======
+__Sección 8:__ Gastos.
+
+__Sección 8:__ Capacitación y Percepciones del Egresado.
+>>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 
 __Sección 8:__ Observaciones del encuestador
 
 ## Recolección de datos
 
+<<<<<<< HEAD
 En la recolección de información se consideró el empleo de medidas de contingencia por las caracteristicas de
 la poblacion objetivo.
+=======
+La estrategia para la recolección de información primaria es por una encuesta, ejecutada desde finales del mes de
+agosto hasta princios del mes de septiembre del año 2015 con la siguiente estructura:
+>>>>>>> 6780388af4e5653ad1c1629b175cf138fbf15c61
 
 Dificultades:
 
