@@ -2,24 +2,30 @@
 title: "Por los Derechos de la Protección de
 Niñas, Niños y Adolescentes Bolivia (DEPRONIB)"
 layout: post
-category: translation
-tags: [php]
+category: Encuesta
+tags: [Derechos, Violencia]
 excerpt: "El objetivo general del proyecto es: Medir el nivel de impacto en el fortalecimiento de entornos más seguros y
 protectores de la niñez del proyecto ”Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia”
 (DEPRONIB)."
 ---
+# Información General
+
 El objetivo general del proyecto es: Medir el nivel de impacto en el fortalecimiento de entornos más seguros y
 protectores de la niñez del proyecto ”Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia”
 (DEPRONIB).El programa PROMYPE/JIWASA es financiado por la Embajada Real de Dinamarca y COSUDE tiene como principal objetivo fortalecer los complejos productivos  de cuero, textiles, alimentos, madera y metalmecánica de los departamentos de La Paz, Cochabamba, Potosí, Chuquisaca y Oruro a través de servicios de asistencia técnica, capacitación y equipamiento productivo. 
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
+
 - __Año: Julio - Septiembre 2014__
+
 - __País: Bolivia__
+
 - __Fuente: Niñas, Niños y Adolescentes de Bolivia__
-- __Patrocinadores: DEPRONIB, AusAid __
+
+- __Patrocinadores: DEPRONIB, USAID__
 - __Instituciones Participantes: Visión Mundial de La Paz - Bolivia; Fundación ARU __
 
-# Diseño de Instrumentos
+## Diseño de Instrumentos
 
 Se diseñaron los siguientes instrumentos para conseguir el objetivo esperado:
 
@@ -33,14 +39,14 @@ enfoque desarrollado en la presente evaluación.
 - Establecer el grado de involucramiento y participación de los beneficiarios y socios del proyecto.
 - Analizar el uso eficaz de la inversión del financiamiento del organismo externo cooperante (AusAid).
 
-# Desarrollo y participación ciudadana
+## Desarrollo y participación ciudadana
 
 De manera especifica se evalua entornos de violencia y niveles de seguridad en los siguientes grupos de interés:
 
-- 1. Niños, Niñas y Adolescentes en las áreas de intervención.
-- 2. Las familias, padres y madres de los Niños, Niñas y Adolescentes en las áreas de intervención.
-- 3. Los maestros de las escuelas de los Niños, Niñas y Adolescentes en las áreas de intervención.
-- 4. Autoridades y líderes comunitarios donde habitan los Niños, Niñas y Adolescentes en las áreas de intervención.
+ 1. Niños, Niñas y Adolescentes en las áreas de intervención.
+ 2. Las familias, padres y madres de los Niños, Niñas y Adolescentes en las áreas de intervención.
+ 3. Los maestros de las escuelas de los Niños, Niñas y Adolescentes en las áreas de intervención.
+ 4. Autoridades y líderes comunitarios donde habitan los Niños, Niñas y Adolescentes en las áreas de intervención.
 
 
 # Información Técnica
@@ -61,21 +67,21 @@ del proyecto pero que comparte características similares a la PDA de tratamient
 
 Finalmente, el tiempo se refiere al espacio temporal del proyecto, los niveles de estos estratos son:
 
-Area
+- Area
 
-- Rural concentrado
-- Rural disperso
+  - Rural concentrado
+  - Rural disperso
 
-Edad
+- Edad
 
-- Menores a 12 años de edad
-- Entre 12 a 17 años de edad
-- Exactamente 12
+  - Menores a 12 años de edad
+  - Entre 12 a 17 años de edad
+  - Exactamente 12
 
-Tiempo de participación de la PDA en el proyecto
+- Tiempo de participación de la PDA en el proyecto
 
-- 1 año
-- Más de un año
+  - 1 año
+  - Más de un año
 
 ## Cuestionario
 
@@ -87,15 +93,20 @@ Para el proyecto se desarrollaron tres cuestionarios:
 
 con la siguiente estructura las dos primeras:
 
-Sección 0: Identificación
-Sección 1: Características individuales
-Sección 2: Características del hogar
-Sección A: Tipos de Violencia
+__Sección 0:__ Identificación.
+
+__Sección 1:__ Características individuales.
+
+__Sección 2:__ Características del hogar.
+
+__Sección A:__ Tipos de Violencia.
+
 
 y la última:
 
-Sección 0: Identificación
-Sección 1: Características de la Unidad Educativa
+__Sección 0:__ Identificación
+
+__Sección 1:__ Características de la Unidad Educativa
 
 ## Recolección de datos 
 
@@ -112,16 +123,25 @@ operativo de campo fue desarrollado a través de las siguientes actividades:
 
 Operativo:
 
-- Tipo de operativo: Una semana de recorrido para algunos departamentos y para otros una semana y media.
-- Población Objetivo: Niños, Niñas</li>
-- Cobertura espacial: 5 departamentos elegidos que han sido intevenidos con el programa
-- Cobertura temporal: 3 al 14 de septiembre
-- Cobertura temática: Llenado de encuesta
-- Personal: Aproximadamente 22 personas)
-- Unidad de Observación: PDA’s y UE’s
-- Tiempo de llenado del cuestionario: 60 - 45 minutos
-- Carga de trabajo: 1 PDA y 1 UE
-- Tipo de trabajo: Remunerado
+- __Tipo de operativo:__ Una semana de recorrido para algunos departamentos y para otros una semana y media.
+
+- __Población Objetivo:__ Niños, Niñas.
+
+- __Cobertura espacial:__ 5 departamentos elegidos que han sido intevenidos con el programa.
+
+- __Cobertura temporal:__ 3 al 14 de septiembre.
+
+- __Cobertura temática:__ Llenado de encuesta.
+
+- __Personal:__ Aproximadamente 22 personas).
+
+- __Unidad de Observación:__ PDA’s y UE’s.
+- __Tiempo de llenado del cuestionario:__ 60 - 45 minutos.
+
+- __Carga de trabajo:__ 1 PDA y 1 UE.
+
+- __Tipo de trabajo:__ Remunerado.
+
 
 ## Proceso de Datos
 
@@ -131,7 +151,7 @@ Operativo:
 - Validacion: Depuración - consolidación de la base (validación interna) y Consultas en el servidor por el usuario
 (validación externa)
 
-Indicadores del Proyecto
+## Indicadores del Proyecto
 
 Los resultados, se encuentran entorno a los objetivos del proyecto plasmados en temas en el cuestionario:
 
@@ -167,7 +187,7 @@ evaluación del proyecto:
 5. Criterios de Relevancia
 6. Criterios de Sostenibilidad
 
-# Documentación Técnica
+# Documentación 
 
 ## Documentación Técnica
 
@@ -201,40 +221,40 @@ Adicionalmente a los productos, se encuentran materiales con los que se acredito
 
 ## Política de acceso
 
-- Autorización acceso
+- __Autorización acceso__
 
 Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundaci
-ón ARU
+ón ARU.
 
-- Contactos
+- __Contactos__
 
-Alvaro Chirino Gutierrez achirino@aru.org.bo
+Alvaro Chirino Gutierrez achirino@aru.org.bo.
 
-- Confidencialidad
+- __Confidencialidad__
 
 La base final, no podrá darse a conocer al público ni a las entidades
 u organismos oficiales, ni a las autoridades públicas, solo únicamente
 los resúmenes numéricos, si no se cuenta con la autorización, para
 no deducir de ellos información alguna de carácter individual que
 pudiera utilizarse para fines comerciales, o cualquier otro diferente
-del propiamente estadístico
+del propiamente estadístico.
 
-- Condiciones de Acceso
+- __Condiciones de Acceso__
 
   El acceso a los microdatos es de uso público y de carácter gratuito,
 estará disponible en la página Web udata@aru.org.bo.
 
 
-- Requisitos de cita
+- __Requisitos de cita__
 
 Se autoriza el uso de la información contenida en esta portal. Queda
 en cambio prohibida la copia o reproducción de los datos en cualquier
 medio electrónico (redes, bases de datos, cd rom, diskettes)
 que permita la disponibilidad de esta información a multiples usuarios
 sin el previo visto bueno de la Red Boliviana de micro datos y
-encuestas por medio escrito
+encuestas por medio escrito.
 
-- Derechos y responsabilidades
+- __Derechos y responsabilidades__
 
 Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
 

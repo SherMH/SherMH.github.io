@@ -1,11 +1,13 @@
 ---
 title: "Diseño, Desarrollo y Análisis de Encuestas Sociales - Puma Katari"
 layout: post
-category: tutorial
-tags: [irc, tuts]
+category: Encuesta
+tags: [Transporte]
 excerpt: "El Taller ”Diseño, Desarrollo y Análisis de Encuestas Sociales” fue desarrollado con la temática: Igualdad de
 Oportunidades, Migración Pendular y Urbanismo"
 ---
+# Información General
+
 El Instituto de Investigaciones Sociológicas ”Mauricio Lefebvre”, es la Unidad Académica encargada de planificar,
 ejecutar, evaluar programas y proyectos de investigación, diseñar y analizar políticas sociales de acuerdo al
 perfil profesional establecido por la Carrera de Sociología de la UMSA. ”El objetivo fundamental del IDIS es el
@@ -19,39 +21,51 @@ Oportunidades, Migración Pendular y Urbanismo como resultado del convenio de tr
 y el IDIS de la UMSA, con la iniciativa de impulsar la investigación.
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
-- __Año: 2014 Abril__
-- __País: Bolivia__
-- __Fuente: Ciudad de La Paz__
-- __Patrocinador(es): IDIS de la Universidad Mayor de San Andrés __
 
-# Diseño de Instrumentos
+- __Año: 2014 Abril__
+
+- __País: Bolivia__
+
+- __Fuente: Ciudad de La Paz__
+
+- __Patrocinador(es): IDIS de la Universidad Mayor de San Andrés__
+
+## Diseño de Instrumentos
 
 La metodología empleada en el taller, estuvo orientada a generar conocimiento respecto al ”Diseño en la toma de
 información (temática, muestreo, operativo de campo) y la generación de indicadores”. El diseño de instrumentos
 se desarrollo en el taller con el siguiente orden:
 
-- Planificación del proyecto en general - Definición de la temática a ser estudiada, formulación del cuestionario,
+- __Planificación del proyecto en general:__ Definición de la temática a ser estudiada, formulación del cuestionario,
 preparación del material logístico, generación del cronograma de trabajo: capacitación del personal
 de campo, recolección de información.
-- Información - Establecer un diálogo con los encargados de la paradas y los usuarios de los buses.
-- Recolección de información - Planificación del llenado de los cuestionarios.
-- Procesamiento - Codificación y transcripción de información de los cuestionarios (papel), vaciado de memorias
+
+- __Información:__ Establecer un diálogo con los encargados de la paradas y los usuarios de los buses.
+
+- __Recolección de información:__ Planificación del llenado de los cuestionarios.
+
+- __Procesamiento:__ Codificación y transcripción de información de los cuestionarios (papel), vaciado de memorias
 de tablet.
-- Validación - Árbol lógico en las tablet, estadísticos resumen de variables (base de datos).
-- Gestión - Cálculo de indicadores clave con el stata y transmisión de conocimientos a los participantes del
+
+- __Validación:__ Árbol lógico en las tablet, estadísticos resumen de variables (base de datos).
+
+- __Gestión:__ Cálculo de indicadores clave con el stata y transmisión de conocimientos a los participantes del
 proyecto.
-- Formulación - Analísis de hallazgos de información y sucesos del operativo.
-- Integración de la información - Motivación y aporte a la investigación en temas de gran interés para la
+
+- __Formulación:__ Analísis de hallazgos de información y sucesos del operativo.
+
+- __Integración de la información:__ Motivación y aporte a la investigación en temas de gran interés para la
 población, comenzando por los más próximos a la investigación como ser estudiantes de la universidad.
-- Difusión - Exposición de resultados, retroalimentación de información a los participantes del proyecto y
+
+- __Difusión:__ Exposición de resultados, retroalimentación de información a los participantes del proyecto y
 elaboración del metadatos que es el resumén de todo el proyecto.
 
-# Desarrollo y participación ciudadana
+## Desarrollo y participación ciudadana
 
 El desarrollo del proyecto involucra, transferencia de conocimientos; teóricos y prácticos a los participantes de la
 carrera de Sociología de la Universidad Mayor de San Ándres y uso de softwar’s para la manipulación de información.
 
-Los usuarios del transporte ”Puma Katari” en los puntos de parada en la ciudad de La Paz, son las unidades de
+Los usuarios del transporte "Puma Katari" en los puntos de parada en la ciudad de La Paz, son las unidades de
 información.
 
 # Información Técnica
@@ -82,19 +96,19 @@ de ciertas características del bus comparadas con características de los demá
 
 El cuestionario fue uno de los resultados del taller:
 
-Sección 0: Códigos de identificación. 
+__Sección 0:__ Códigos de identificación. 
 
-- Parte 1: Incidencias.
-- Parte 2: Identificación del individuo.
+- __Parte 1:__ Incidencias.
+- __Parte 2:__ Identificación del individuo.
 
-Sección 1: Transporte.
+__Sección 1:__ Transporte.
 
-- Parte 1: Uso de transporte.
+- __Parte 1:__ Uso de transporte.
 
-Sección 2: Características del hogar y sus miembros.
+__Sección 2:__ Características del hogar y sus miembros.
 
-- Parte 1: Empleo.
-- Parte 2: Información del hogar.
+- __Parte 1:__ Empleo.
+- __Parte 2:__ Información del hogar.
 
 ## Recolección de datos 
 
@@ -129,14 +143,14 @@ con y sin el uso del bus Puma Katari.
  - Satisfacción: Medición en una escala cualitativa de la satisfacción de 4 dimensiones, seguridad, comodidad,
 costo y tiempos, con el servicio y sin el servicio del bus Puma Katari.
 
-# Documentación Técnica
+# Documentación 
 
 ## Documentación Técnica
 
 Para el buen desarrollo del proyecto se generaron los siguientes documentos:
 
 - Diseño de Contenido
-- Presentación ”Taller: Diseño, Desarrollo y Análisis de Encuestas Sociales”
+- Presentación "Taller: Diseño, Desarrollo y Análisis de Encuestas Sociales"
 - Listado de Paradas seleccionadas en la muestra
 - Manual de Codificación
 - Cuestionario
@@ -155,16 +169,16 @@ Adicionalmente a los productos, se encuentran materiales con los que se acredito
 
 ## Política de acceso
 
-- Autorización acceso
+- __Autorización acceso__
 
 Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundaci
 ón ARU
 
-- Contactos
+- __Contactos__
 
 Alvaro Chirino Gutierrez achirino@aru.org.bo
 
-- Confidencialidad
+- __Confidencialidad__
 
 La base final, no podrá darse a conocer al público ni a las entidades
 u organismos oficiales, ni a las autoridades públicas, solo únicamente
@@ -173,13 +187,13 @@ no deducir de ellos información alguna de carácter individual que
 pudiera utilizarse para fines comerciales, o cualquier otro diferente
 del propiamente estadístico
 
-- Condiciones de Acceso
+- __Condiciones de Acceso__
 
   El acceso a los microdatos es de uso público y de carácter gratuito,
 estará disponible en la página Web udata@aru.org.bo.
 
 
-- Requisitos de cita
+- __Requisitos de cita__
 
 Se autoriza el uso de la información contenida en esta portal. Queda
 en cambio prohibida la copia o reproducción de los datos en cualquier
@@ -188,7 +202,7 @@ que permita la disponibilidad de esta información a multiples usuarios
 sin el previo visto bueno de la Red Boliviana de micro datos y
 encuestas por medio escrito
 
-- Derechos y responsabilidades
+- __Derechos y responsabilidades__
 
 Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
 
