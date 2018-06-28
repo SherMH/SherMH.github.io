@@ -22,11 +22,6 @@ __Patrocinador(es):__ Agencia Suiza para el desarrollo y la Cooperación - COSUD
 __Instituciones Participantes:__ COSUDE, entidades socias a)Comisión Episcopal de Educación
 (CEE), b) Fundación Educación para el Desarrollo FAUTAPO; Fundación ARU.
 
-Fundación ARU es una organización independiente de estudios de política comprometida a promover investigación
-aplicada, objetiva y de alta calidad que informe e influya a la creación de políticas en Bolivia bajo la
-creencia de que las políticas más efectivas son aquellas que proporcionan oportunidades a las personas para construir
-una vida mejor y que estas promueven sociedades cohesionadas y vibrantes.
-
 FAUTAPO es una institución innovadora y facilitadora de procesos mediante un trabajo sinérgico, con instituciones
 y organizaciones públicas y privadas. Tiene como misión contribuir a la formación integral de hombres
 y mujeres, a la gestión del conocimiento para impulsar el desarrollo socio-productivo a nivel local, regional y
@@ -131,7 +126,7 @@ razons la muestra fue modificada.
 ### Errores muestrales
 
 El diseño muestral presenta un margen de error relativo global del 8.9% para un nivel de confiabilidad
-del 95 %, un efecto de diseño de 1.5 e indicadores con variaciones relativas de máximo cv = 1.3, lo que signica un error relativo de muestreo del 4.6 %.
+del 95 %, un efecto de diseño de 1.5 e indicadores con variaciones relativas de máximo cv = 1.3, lo que significa un error relativo de muestreo del 4.6 %.
 
 ## Cuestionario
 
@@ -167,7 +162,7 @@ Dificultades:
 
 - Detalle de los contactos
 - Migracion de los egresados
-- Personas repetidas
+- Personas repetidas en listas
 - Inclusión de centros
 - Participantes ausentes
 - Festividades locales o disturbios civiles
