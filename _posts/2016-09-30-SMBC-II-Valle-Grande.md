@@ -67,25 +67,25 @@ tiempo de la devolución de la información pública a la comunidad.
 
 ## Recolección de datos
 
-__Tipo de operativo: Empadronamiento.
+__Tipo de operativo:__ Empadronamiento.
 
-__Población Objetivo: Área urbana de Vallegrande.
+__Población Objetivo:__ Área urbana de Vallegrande.
 
-__Cobertura espacial: Localidad de Santa Cruz.
+__Cobertura espacial:__ Localidad de Santa Cruz.
 
-__Cobertura temporal: Agosto y septiembre del 2016.
+__Cobertura temporal:__ Agosto y septiembre del 2016.
 
-__Cobertura temática: Hogar, ingresos, salud y desempleo juvenil.
+__Cobertura temática:__ Hogar, ingresos, salud y desempleo juvenil.
 
-__Personal: 45 personas en campos, universitarios, maestros de colegio.
+__Personal:__ 45 personas en campos, universitarios, maestros de colegio.
 
-__Unidad de Observación: Hogar.
+__Unidad de Observación:__ Hogar.
 
-__Tiempo de llenado del cuestionario: 45 - 60 minutos.
+__Tiempo de llenado del cuestionario:__ 45 - 60 minutos.
 
-__Carga de trabajo: 4 - 5 entrevistas al día /empadronador.
+__Carga de trabajo:__ 4 - 5 entrevistas al día /empadronador.
 
-__Tipo de trabajo: Voluntario.
+__Tipo de trabajo:__ Voluntario.
 
 
 ### Objetivos del operativo de campo

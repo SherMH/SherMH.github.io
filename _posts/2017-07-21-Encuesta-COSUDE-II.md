@@ -98,7 +98,7 @@ __Sección 2:__ Informacón Demográfica del Beneficiario.
 
 __Sección 3:__ Información del Hogar y de la Vivienda.
 
-__Sección 4:__ Condición Laboral y Caracteristicas del Empleo. Actual.
+__Sección 4:__ Condición Laboral y Caracteristicas del Empleo Actual.
 
 __Sección 5:__ Ingresos del Trabajador Dendependiente Asalariado.
 

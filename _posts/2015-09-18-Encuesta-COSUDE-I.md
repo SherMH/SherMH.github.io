@@ -105,61 +105,38 @@ muestran en el cuadro:
 
 ### Diseño Muestral
 
-
-| ------------------ | ------------- |
-| Característica     | Detalle       |
-| :----------------- | :------------ |
-| Poblacion Objetivo | Egresados de las carreras apoyadas por el proyecto con un nivel de desagregación global por sexo y grupos de edad y desagregación por dominios de estudio. |
-| Dominio de estudio | Regiones y Entidades Socias. |
-| Marco Muestral     | Marco de lista, correspondiente a los registros de todos los egresados del programa y los centros del periodo 2016. |
-| Estrategia         | __Etapa I:__ selección de los centros al interior de cada dominio de estudio, la selección es de tipo aleatoria simple. |
-|                    | __Etapa II:__ selección de egresados, en todo los centros elegidos se seleccionan a 45 egresados. |
-| Tamaño de la muestra neta* |La muestra planficada inicial fue de 29 centros y 1162 entrevistas. |
-|                    | La muestra modificada final fue de 1111 entrevistas en 29 centros.|
-| ------------------ | ------------- |
-
-
-
-
-
-
-*A solicitud de los responsables de los centros se excluyó al centro "CEA RADIO SAN GABRIEL"
-por ser este centro uno de los que trabaja con más subcentros distribuidos a lo largo de la zona central
-y que además trabaja con profesores que rotan a diferentes lugares para impartir las clases, por estas
-razons la muestra fue modificada.
-
-### Errores muestrales
-
-El diseño muestral presenta un margen de error relativo global del 8.9% para un nivel de confiabilidad
-del 95 %, un efecto de diseño de 1.5 e indicadores con variaciones relativas de máximo cv = 1.3, lo que signica un error relativo de muestreo del 4.6 %.
-
 ## Cuestionario
 
-La estructura del cuestionario, está orientado a recolectar información adecuada para realizar un
-diagnóstico socioeconómico y caracterización del empleo y sub empleo de los egresados de los centro
-de capacitación técnica; el orden de las secciones del cuestionario es el siguiente:
+La estructura del cuestionario esta orientada a recabar información de las características del ”Micro Empresario” :
 
 __Sección 0:__ Códigos de Ubicación.
 
-__Sección 1:__ Variables de Identificación del Beneficiario.
+__Sección 1:__ Variables de identificación y características generales del Negocio/Taller.
 
-__Sección 2:__ Informacón Demográfica del Beneficiario.
+__Sección 2:__ Descripción general del Negocio/Taller.
 
-__Sección 3:__ Información del Hogar y de la Vivienda.
+__Sección 3:__ Características generales del Informante(Propietario) y su hogar.
 
-__Sección 4:__ Condición Laboral y Caracteristicas del Empleo. Actual.
+__Sección 4:__ Empleados del Negocio/Taller.
 
-__Sección 5:__ Ingresos del Trabajador Dendependiente Asalariado.
+__Sección 5:__ Características detalladas del Negocio/Taller.
 
-__Sección 6:__ Ingresos del Trabajador Agropequario.
+__Sección 6:__ Ventas y producción.
 
-__Sección 7:__ Ingresos del Trabajador Independiente.
+__Sección 7:__ Insumos y proveedores.
 
-__Sección 8:__ Capacitación y Persepciones del Egresado.
+__Sección 8:__ Gastos.
 
-__Sección 9:__ Observaciones del encuestador.
+__Sección 9:__ Activos.
+
+__Sección 10:__ Pasivos y patrimonio.
+
+__Sección 11:__ Observaciones del encuestador.
 
 ## Recolección de datos
+
+La estrategia para la recolección de información primaria es por una encuesta, ejecutada desde finales del mes de
+agosto hasta princios del mes de septiembre del año 2015 con la siguiente estructura:
 
 __Tipo de operativo:__ 14 días de recorrido por los centros de capacitacion y vivienda de los egresados.
 
