@@ -1,5 +1,5 @@
 ---
-title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica COSUDE II"
+title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica COSUDE I"
 layout: post
 category: translation
 tags: [php, http]
@@ -101,14 +101,7 @@ muestran en el cuadro:
    
 ### Muestra Planificada y Efectiva
 
-<br>
-
-<div class="row text-center">
-                <div class="col-md-12">
-                    <img class="img-rounded img-responsibe" src="images/posts/cosude1-1.jpg" alt="" >
-                   
-                </div>
-</div>	
+![tabla](/images/posts/cosude1-1.jpg)
 
 ### Diseño Muestral
 
@@ -123,7 +116,6 @@ muestran en el cuadro:
 |                    | __Etapa II:__ selección de egresados, en todo los centros elegidos se seleccionan a 45 egresados. |
 | Tamaño de la muestra neta* |La muestra planficada inicial fue de 29 centros y 1162 entrevistas. |
 |                    | La muestra modificada final fue de 1111 entrevistas en 29 centros.|
-
 | ------------------ | ------------- |
 
 
