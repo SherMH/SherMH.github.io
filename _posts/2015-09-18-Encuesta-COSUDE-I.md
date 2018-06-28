@@ -151,7 +151,7 @@ __Sección 0:__ Códigos de Ubicación.
 
 __Sección 1:__ Variables de Identificación del Beneficiario.
 
-__Sección 2:__ Informacón Demográfica del Beneficiario.
+__Sección 2:__ Información Demográfica del Beneficiario.
 
 __Sección 3:__ Información del Hogar y de la Vivienda.
 
@@ -163,45 +163,56 @@ __Sección 6:__ Ingresos del Trabajador Agropequario.
 
 __Sección 7:__ Ingresos del Trabajador Independiente.
 
-__Sección 8:__ Capacitación y Persepciones del Egresado.
+__Sección 8:__ Capacitación y Percepciones del Egresado.
 
 __Sección 9:__ Observaciones del encuestador.
 
 ## Recolección de datos
 
-__Tipo de operativo:__ 14 días de recorrido por los centros de capacitacion y vivienda de los egresados.
+En la recolección de información se considero el empleo de medidas de contingencia por las caracteristicas de la poblacion objetivo.
+ 
+Dificultades:
 
-__Poblacion Objetivo:__ Egresados de las carreras apoyadas por el proyecto de "Formación Técnica
-Profecional"
+- Detalle de los contactos
+- Migracion de los egresados
+- Personas repetidas
+- Inclusión de centros
+- Participantes ausentes
+- Festividades locales o disturbios civiles
+- Entrevistados con poca disponibilidad de tiempo
 
-__Cobertura espacial:__ 29 centros de formación distribuidos en 24 municipios de 8 departamentos de
-Bolivia.
+Contingencias:
 
-__Cobertura temporal:__ 9 al 27 de junio de 2017.
+- Listas completas de los centros
+- Tratamiento de la duplicidad
+- Reemplazo e inclusión de nuevos centro
+- Entrevistas poco usuales
+- Participantes fuera del listado
 
-__Cobertura temática:__ Llenado de formularios de encuesta, atreves de entrevistas directas.
 
-__Personal:__ 32 personas en campo (24 encuestadores y 8 supervisores)
+__Tipo de operativo:__ Un mes de recorrido para algunos departamentos y para otros  medio mes.
 
-__Unidad de Observación:__ Egresados de los centros de formación de la gestion 2016.
+__Poblacion Objetivo:__ Estudiantes de centros de capacitacion
 
-__Tiempo de llenado del cuestionario:__ 30 - 45 minutos.
+__Cobertura espacial:__ 5 departamentos elegidos para ser intervenidos, con la encuesta
 
-__Carga de trabajo:__ 7 - 8 entrevistas por día por encuestador.
+__Cobertura temporal:__ Agosto - Octubre 2015.
+
+__Cobertura temática:__ Llenado de encuesta
+
+__Personal:__ Aproximadamente 6 personas(24 encuestadores y 6 supervisores)
+
+__Unidad de Observación:__ Centros de capacitación seleccionados
+
+__Tiempo de llenado del cuestionario:__ 45 - 30 minutos
+
+__Carga de trabajo:__ 3 entrevistas/dia
 
 __Tipo de trabajo:__ Remunerado.
 
-La estrategia empleada para la recolección de información, en la encuesta, ejecutada desde el 9
-al 27 de junio del año 2017 presenta siguiente estructura:
-
-- Contactar a los directores de los centros de formación.
-- Concertar reuniones con los egresados seleccionados, en cada centro, en dos fechas específicas.
-Llenado del cuestionario.
-- Búsqueda y visitas en las viviendas de los egresados que no pudieron asistir a las reuniones.
-
 ## Proceso de datos
 
-__Captura:__ Aplicación "Cosude" cargada en la tablet.
+__Captura:__ Aplicación CSEntry cargada en el dispositivo
 
 __Consistencia:__ Árbol lógico de programación en la aplicación.
 
@@ -209,8 +220,9 @@ __Transmisión:__ En línea vía internet y respaldo Backup del dispositivo.
 
 __Validacion:__ Depuración - consolidación de la base (validación interna).
 
-El proyecto realizo la recolección de información en cuestionarios en papel, atraves de entrevistas
-personales.
+La encuesta adoptó la tecnica CAPI (Entrevistas personales asistidas
+por un ordenador) para la recolección de la información, esta técnica emplea dispositivos
+móviles (tablets) para la captura de la información, se empleó el sistema CsPro y la sincronización en línea. La actualización Cartográfica se realizó en cuestionarios en papel, mientras que las encuestas se realizarón en un 65% en los dispositivos moviles y un 35% en papel.
 
 ## Indicadores del Proyecto
 
