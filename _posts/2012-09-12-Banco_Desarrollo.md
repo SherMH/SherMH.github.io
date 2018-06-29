@@ -2,7 +2,7 @@
 title: "Linea Base del Banco de Desarrollo Productivo"
 layout: post
 category: Encuesta
-tags: [Hogar] [Manufactura] [Agropecuaria]
+tags: [linux]
 excerpt: "El objetivo principal del Plan de Evaluación del CPI es probar la eficacia y
 eficiencia del tratamiento recibido por parte de las unidades productivas"
 ---
