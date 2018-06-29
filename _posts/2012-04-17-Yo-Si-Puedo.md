@@ -1,13 +1,16 @@
 ---
 title: "Estudio al programa Yo si Puedo"
 layout: post
-category: note
+category: Encuesta
 tags: [php, syntax]
 excerpt: "El proyecto busca realizar un análisis riguroso de los resultados del Programa
 Nacional de Alfabetización - Yo si Puedo "
 ---
+
+# Información General
+
 El proyecto busca realizar un análisis riguroso de los resultados del Programa
-Nacional de Alfabetización ''Yo si Puedo'', así como de las condiciones
+Nacional de Alfabetización "Yo si Puedo", así como de las condiciones
 socioeconómicas de la población de las áreas de intervención del programa, focalizando
 esfuerzos, en cuanto al levantamiento de información y análisis, en
 Chuquisaca, por la alta incidencia en resultados del programa en este departamento.
@@ -21,10 +24,14 @@ personas mayores de 18 años en las áreas de intervención, identificando benef
 la implementación del programa o están asociados a otro tipo de factores.
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
+
 - __Año: 2012 Abril__
+
 - __País: Bolivia__
+
 - __Fuente: Personas de los 16 a 65 años de edad, con menos de 5 años de
 educación__
+
 - __Patrocinador(es): Campaña Boliviana por derecho a la Educación__
 
 # Diseño de Instrumentos
@@ -56,16 +63,16 @@ particulares del departamento de Chuquisaca. Estas unidades son diferenciadas,
 a razón de que el diseño hace una diferenciación entre el área urbana, periurbana
 y rural.
 
-Área Urbana:
+- Área Urbana:
 
-- Sector censal
-- Vivienda particular
+  - Sector censal
+  - Vivienda particular
 
-Área Periurbana y rural
+- Área Periurbana y rural
 
-- Sector censal
-- Segmento censal
-- Vivienda particular
+  - Sector censal
+  - Segmento censal
+  - Vivienda particular
 
 # Información Técnica
 
@@ -136,7 +143,7 @@ habrían tenido alguna formación educativa, se tendría una mayor confianza en
 las variables de control utilizadas, y que estas resuelvan el sesgo de selección,
 convirtiendolo prácticamente en un término nulo.
 
-# Documentación Técnica
+# Documentación
 
 ## Documentación Técnica
 
@@ -155,7 +162,7 @@ de Chuquisaca y análisis de los resultados del levantamiento de información cu
 Adicionalmente a los productos, se encuentran los manuales usados para el
 proyecto:
 
-- Manual de Facilitador ''Yo si Puedo''
+- Manual de Facilitador "Yo si Puedo"
 - Protocolo de Supervisor
 - Protocolo de Encuestador
 - Tabla de selección para el área urbana
@@ -166,16 +173,16 @@ proyecto:
 
 ## Política de acceso
 
-- Autorización acceso
+- __Autorización acceso__
 
 Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundaci
 ón ARU
 
-- Contactos
+- __Contactos__
 
 Alvaro Chirino Gutierrez achirino@aru.org.bo
 
-- Confidencialidad
+- __Confidencialidad__
 
 La base final, no podrá darse a conocer al público ni a las entidades
 u organismos oficiales, ni a las autoridades públicas, solo únicamente
@@ -184,13 +191,13 @@ no deducir de ellos información alguna de carácter individual que
 pudiera utilizarse para fines comerciales, o cualquier otro diferente
 del propiamente estadístico
 
-- Condiciones de Acceso
+- __Condiciones de Acceso__
 
   El acceso a los microdatos es de uso público y de carácter gratuito,
 estará disponible en la página Web udata@aru.org.bo.
 
 
-- Requisitos de cita
+- __Requisitos de cita__
 
 Se autoriza el uso de la información contenida en esta portal. Queda
 en cambio prohibida la copia o reproducción de los datos en cualquier
@@ -199,7 +206,7 @@ que permita la disponibilidad de esta información a multiples usuarios
 sin el previo visto bueno de la Red Boliviana de micro datos y
 encuestas por medio escrito
 
-- Derechos y responsabilidades
+- __Derechos y responsabilidades__
 
 Fundación ARU - Red Boliviana de Microdatos y Encuestas 2013
 
