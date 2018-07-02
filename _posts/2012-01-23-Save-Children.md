@@ -2,7 +2,7 @@
 title: "Save the children"
 layout: post
 category: Encuesta
-tags: [Programa, Protección, Niñez]
+tags: [Programa, Derechos, Niñez]
 excerpt: "Save de Children con el programa Los niños y las niñas lideran el camino
 tiene por objetivo asegurar derechos iguales de protección, educación y supervivencia
 para niñas y niños."
