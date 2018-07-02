@@ -3,7 +3,7 @@ title: "Por los Derechos de la Protección de
 Niñas, Niños y Adolescentes Bolivia (DEPRONIB)"
 layout: post
 category: Encuesta
-tags: [linux]
+tags: [Evaluación, Programa, Derechos, Niñez]
 excerpt: "El objetivo general del proyecto es: Medir el nivel de impacto en el fortalecimiento de entornos más seguros y
 protectores de la niñez del proyecto ”Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia”
 (DEPRONIB)."
@@ -12,7 +12,7 @@ protectores de la niñez del proyecto ”Por los Derechos de la Protección de N
 
 El objetivo general del proyecto es: Medir el nivel de impacto en el fortalecimiento de entornos más seguros y
 protectores de la niñez del proyecto ”Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia”
-(DEPRONIB).El programa PROMYPE/JIWASA es financiado por la Embajada Real de Dinamarca y COSUDE tiene como principal objetivo fortalecer los complejos productivos  de cuero, textiles, alimentos, madera y metalmecánica de los departamentos de La Paz, Cochabamba, Potosí, Chuquisaca y Oruro a través de servicios de asistencia técnica, capacitación y equipamiento productivo. 
+(DEPRONIB).
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
 

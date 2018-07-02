@@ -2,7 +2,7 @@
 title: "Elaboración de la línea base del programa PROBOLIVIA-JIWASA"
 layout: post
 category: Encuesta
-tags: [linux]
+tags:[Programa, Mypes, Información]
 excerpt: "Este documento desarrolla de manera resumida los aspectos relacionados
 al diseño, recolección y procesamiento de información  del proyecto Línea Base del
 Programa PROBOLIVIA-JIWASA realizada por Fundación ARU para la Fundación para el Desarrollo Productivo y Financiero PROFIN."
