@@ -8,7 +8,7 @@ Oportunidades, Migración Pendular y Urbanismo"
 ---
 # Información General
 
-El Instituto de Investigaciones Sociológicas ”Mauricio Lefebvre”, es la Unidad Académica encargada de planificar,
+El Instituto de Investigaciones Sociológicas "Mauricio Lefebvre", es la Unidad Académica encargada de planificar,
 ejecutar, evaluar programas y proyectos de investigación, diseñar y analizar políticas sociales de acuerdo al
 perfil profesional establecido por la Carrera de Sociología de la UMSA. ”El objetivo fundamental del IDIS es el
 fomento a la investigación que desarrollan docentes y estudiantes de la Carrera de Sociología en la perspectiva de
@@ -16,7 +16,7 @@ contribuir al desarrollo de las Ciencias Sociales en el país con las generacion
 la realidad social boliviana y el diseño y análisis de políticas públicas tendentes al desarrollo económico social y
 el cambio social.
 
-El Taller ”Diseño, Desarrollo y Análisis de Encuestas Sociales” fue desarrollado con la temática: Igualdad de
+El Taller "Diseño, Desarrollo y Análisis de Encuestas Sociales" fue desarrollado con la temática: Igualdad de
 Oportunidades, Migración Pendular y Urbanismo como resultado del convenio de trabajo, entre Fundación ARU
 y el IDIS de la UMSA, con la iniciativa de impulsar la investigación.
 
