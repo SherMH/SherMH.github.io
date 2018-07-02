@@ -12,7 +12,7 @@
 
     <div class="container">
         <div class="row">
-            <div id="markdown-container" class="col-lg-9">
+            <div id="markdown-container" class="col-lg-5">
                 <header>
                     <p id="postTitle">{{ page.title }}</p>
                     {% if page.tags %}
@@ -22,14 +22,14 @@
                         {% endfor %}
                     </ul>
                     {% endif %}
-                    <p id="postMeta">Publicado en {{ page.date | date_to_string }} en la categoría <a href="{{crturl}}category/">{{ page.categories[0] }}</a></p>
+                    <p id="postMeta">Publicado el {{ page.date | date_to_string }} en la categoría <a href="{{crturl}}category/">{{ page.categories[0] }}</a></p>
 
                 </header>
 
                 {{ content }}
             </div>
 
-            <div id="markdown-outline" class="col-lg-3">
+            <div id="markdown-outline" class="col-lg-5">
             </div>
 
             {% include disqus_load.html %}
