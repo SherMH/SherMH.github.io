@@ -1,29 +1,25 @@
 ---
 title: "Sistema de Monitoreo Basado en la Comunidad - Pampagrande, Comunidad-i III"
 layout: post
-category: translation
+category: Censo
 tags: [linux]
 excerpt: "El documento presenta los resultados y conclusiones del proyecto Sistema de Monitoreo Baso en la Comunidad SMBC, Comunidad-i en Bolivia, cuyo objetivo consiste básicamente en la recolección y difusión de información acerca de las condiciones de vida y las necesidades de los habitantes de cuatro comunidades del municipio de Pampagrande en el departamento de Santa Cruz."
 ---
 # Información General
 
 - __Referencia: Unidad de Micro Datos y Encuestas.__
+
 - __Año: 2017 junio.__
+
 - __País: Bolivia.__
+
 - __Fuente: Comunidades Pampa Grande, Mataral y Los Negros pertenecientes al municipio de
 Pampa Grande del departamento de Santa Cruz de la Sierra.__
+
 - __Patrocinador(es): Sistema de Monitoreo Basado en la Comunidad.__
+
 - __Instituciones Participantes: Fundación ARU.__
 
-Fundación ARU es una organización independiente comprometida a promover investigación aplicada,
-objetiva y de alta calidad que informe e influya a la creación de políticas en Bolivia.
-
-Fundación ARU, lleva como uno de sus fundamentos, la creencia de que las políticas más efectivas son
-aquellas que proporcionan oportunidades a las personas para construir una vida mejor y que estas
-promueven sociedades cohesionadas y vibrantes. La formulación de cualquier política recomendada
-deberá estar basada en evidencia obtenida a partir de una investigación aplicada objetiva y de alta
-calidad, capaz no sólo de promover el debate de política pública sino buscando también influenciar
-el proceso de toma de decisiones.
 
 El Sistema de Monitoreo Baso den la Comunidad SMBC, Comunidad-i en Bolivia es un proyecto
 que busca trabajar con la comunidad y para la comunidad, consiste básicamente en la recolección
@@ -186,7 +182,7 @@ __Cuadro 1: Personal de Campo.__
 | Barrio Chaqueño |       1       | 24 de junio       |         12*         |
 | --------------- | ------------- | ----------------- | ------------------- |
   
-* Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
+*Se conformo el equipo de trabajo con estudiantes de las comunidades de Mataral y Los Negros.
 
 ## Proceso de datos
 

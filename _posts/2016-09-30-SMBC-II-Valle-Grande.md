@@ -1,8 +1,8 @@
 ---
 title: "Sistema de Monitoreo Basado en la Comunidad - Vallegrande, Comunidad-i II"
 layout: post
-category: [tutorial]
-tags: [php, vagrant]
+category: Censo
+tags: [php]
 excerpt: "El documento presenta los resultados y conclusiones del proyecto Sistema de Monitoreo Baso 
 en la Comunidad SMBC, Comunidad-i en Bolivia, cuyo objetivo consiste básicamente en la recolección
  y difusión de información acerca de las condiciones de vida y las necesidades de los habitantes del
@@ -11,11 +11,16 @@ en la Comunidad SMBC, Comunidad-i en Bolivia, cuyo objetivo consiste básicament
 
 # Información General
 
-__Referencia:__ Unidad de Micro Datos y Encuestas
-__Año:__ Agosto y Septiembre 2016
-__País:__ Bolivia
+__Referencia:__ Unidad de Micro Datos y Encuestas.
+
+__Año:__ Agosto y Septiembre 2016.
+
+__País:__ Bolivia.
+
 __Fuente:__ Población del área urbana de Vallegrande del departamento de Santa Cruz.
-__Patrocinador(es):__ CBMS - PEP
+
+__Patrocinador(es):__ CBMS - PEP.
+
 __Instituciones Participantes:__ Fundación ARU, Universidad René Moreno de Santa Cruz - Vallegrande
 
 ## Diseño de Instrumentos

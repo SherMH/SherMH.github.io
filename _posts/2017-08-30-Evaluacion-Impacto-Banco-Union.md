@@ -1,7 +1,7 @@
 ---
 title: "Evaluación de Impacto al Programa de Educación Financiera del Banco Unión S.A."
 layout: post
-category: note
+category: Encuesta
 tags: [php, framework]
 excerpt: "El presente documento se enfoca en realizar la evaluación del impacto generado por los talleres de educación financiera otorgados por el Banco Unión SA."
 ---
@@ -9,10 +9,15 @@ excerpt: "El presente documento se enfoca en realizar la evaluación del impacto
 # Información General
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
+
 - __Año: 2017 abril, julio-agosto.__
+
 - __País: Bolivia__
+
 - __Fuente: Segmentos vulnerables de la población que carecen de conocimientos financieros, los cuales fueron gestionados por el Banco Union SA.__
+
 - __Patrocinador(es): Corporacion Andina de Fomento CAF, Banco Union SA (BUSA).__
+
 - __Instituciones Participantes: CAF, Banco Union SA., Fundación ARU.__
 
 Banco Unión S.A. (BUSA) es una institución financiera con varias décadas de experiencia, a través de
@@ -261,24 +266,33 @@ DEL BANCO UNIÓN S.A."(primera y segunda fase).
 
 ## Política de Acceso
 
-- Autorización acceso
+- __Autorización de acceso__
+
 Banco Union S.A. y Corporación Andina de Fomento CAF
-- Contactos
+
+- __Contactos__
+
 Administracion: administracion@aru.org.bo.
-- Confidencialidad
+
+- __Confidencialidad__
+
 La base final, no podra darse a conocer al público ni a las entidades u organismos oficiales, ni
 a las autoridades públicas, si no se cuenta con la autorización de la entidad contratante, para
 no deducir de ellos información alguna de carácter individual que pudiera utilizarse para fines
 comerciales, o cualquier otro diferente al estadístico.
-- Condiciones de Acceso
+
+- __Condiciones de Acceso__
+
 El acceso a la base de datos puede realizarse unicamente con autorización de la entidad contratante
-- Derechos y responsabilidades
+
+- __Derechos y responsabilidades__
+
 Banco Union S.A. y Corporación Andina de Fomento CAF.
 
 ## Archivo de datos
 
 Las bases de datos disponibles de este proyecto son:
-" ", Que corresponde a la Base de datos Bruta
+"BANCOUNION", Que corresponde a la Base de datos Bruta
 
 ## Grupo de variables
 Contenidas en el diccionario de la base de datos.

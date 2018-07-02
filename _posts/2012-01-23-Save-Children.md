@@ -1,12 +1,14 @@
 ---
 title: "Save the children"
 layout: post
-category: [tutorial]
+category: Encuesta
 tags: [php, vagrant]
 excerpt: "Save de Children con el programa ''Los niños y las niñas lideran el camino''
 tiene por objetivo asegurar derechos iguales de protección, educación y supervivencia
 para niñas y niños."
 ---
+
+# Información General
 
 Save de Children con el programa ''Los niños y las niñas lideran el camino''
 tiene por objetivo asegurar derechos iguales de protección, educación y supervivencia
@@ -24,13 +26,17 @@ claves, de uso obligado para dar seguimiento y evaluación e identificar
 tendencias y cambios que se puedan producir para el bienestar de la población.
 
 - __Referencia: Unidad de Micro Datos y Encuestas__
+
 - __Fecha: 2012 Enero__
+
 - __País: Bolivia__
+
 - __Fuente: Los niños y las niñas de los centros de la organización__
+
 - __Patrocinador(es): Save the Children__
 
 
-# Diseño de Instrumentos
+## Diseño de Instrumentos
 
 Para el proyecto se hace uso de una combinación de métodos cuantitativos
 comprendidos en una encuesta hecha a la población objetivo y métodos cualitativos
@@ -51,7 +57,7 @@ La línea base resultante del proyecto, se establece como un punto de referencia
 informacional para la generación de un conjunto de indicadores que pueden
 identificar el desempeño en el tiempo del programa.
 
-# Desarrollo y participación ciudadana
+## Desarrollo y participación ciudadana
 
 El proyecto se desarrollo en las áreas de intervención del programa, en los
 departamentos de: Beni, Chuquisaca, La Paz, Oruro, Potosi y Santa Cruz en
@@ -140,10 +146,12 @@ Las actividades para la recolección de información y su posterior sistematizac
 
 - En la primera fase se realiza previa encuesta, el listado y la captura de
 información básica de las unidades educativas con los encuestadores.
+
 - En la segunda fase de las unidades asignadas, se realiza un conteo, in
 situ del número de estudiantes, para efectos de la muestra con relación a
 los objetos de estudio. El supervisor, con el uso de la tabla de números
 aleatorios, selecciona las unidades para ser entrevistadas.
+
 - La fase de aplicación del cuestionario, se realiza a las viviendas seleccionadas
 de la fase anterior. El encuestador aplica la técnica de entrevista
 directa a los informantes calificados. En esta etapa se realiza, de forma
@@ -181,53 +189,77 @@ e indicadores, como síntesis de los resultados a encontrarse.
 
 Indicadores de condiciones de trabajo mejoradas para niños y niñas:
 
-- Porcentaje de niñas y niños que trabajan fuera del ambiente familiar
+- Porcentaje de niñas y niños que trabajan fuera del ambiente familiar.
+
 - Revisión de ingresos de fuente laboral, para niños, niñas y adolescentes
-trabajadores
+trabajadores.
+
 - Relación de prestaciones laborales, en la fuente de trabajo, referidas a
-seguridad y salud
+seguridad y salud.
+
 - Porcentaje de niños y niñas que han encontrado empleo en el área / oficio
 en el que han sido capacitados. Al tratarse de una información de línea
-base, este indicador mantiene conteo en cero
+base, este indicador mantiene conteo en cero.
+
 
 Otro conjunto de indicadores educativos que provienen del Sistema de Información Educativa y datos del Registro Único de Estudiantes del Ministerio
 de Educación son:
 
 - Porcentaje de niñas y niños que continúan con su educación por ejemplo;
-secundaria, educación productiva
+secundaria, educación productiva.
+
 - Porcentaje de niñas y niños que han completado exitosamente la educación
-primaria
+primaria.
+
 - Porcentaje de niñas y niños que han completado exitosamente la educación
-secundaria
-- Porcentaje de niñas y niños que han completado exitosamente una educación no formal o alternativa
+secundaria.
+
+- Porcentaje de niñas y niños que han completado exitosamente una educación no formal o alternativa.
+
 - Porcentaje de niñas y niños en el nivel primario que tienen buen manejo
-de habilidades de lecto escritura y matemáticas
+de habilidades de lecto escritura y matemáticas.
+
 - Número de niñas y niños indígenas que acceden a educación primaria o
-secundaria
+secundaria.
+
 - Número de niñas y niños urbanos que acceden a educación primaria o
-secundaria
+secundaria.
+
 - Número de unidades educativas que ofrecen nuevos currículos relevantes
-para el mercado laboral
-- Número de docentes (h/m) capacitados en educación técnica alternativa
-- Número de centros de educación no formal o alternativa apoyados
-- Número de centros de educación no formal o alternativa acreditados
-- Número de niñas y niños que acceden a educación no formal o alternativa
+para el mercado laboral.
+
+- Número de docentes (h/m) capacitados en educación técnica alternativa..
+
+- Número de centros de educación no formal o alternativa apoyados.
+
+- Número de centros de educación no formal o alternativa acreditados.
+
+- Número de niñas y niños que acceden a educación no formal o alternativa.
+
 - Número de niñas y niños que tienen acceso a capacitación en educación
-productiva
+productiva.
+
 - Número de espacios educativos que implementan programas de capacitación sobre habilidades para la vida (primaria, secundaria, no formal)
+
 - Número de niñas y niños que participan en el programa de capacitación
-sobre habilidades para la vida
-- Tasas de retención de niñas y niños
-- Número de niñas y niños que son promovidos al siguiente grado
+sobre habilidades para la vida.
+
+- Tasas de retención de niñas y niños.
+
+- Número de niñas y niños que son promovidos al siguiente grado.
+
 - Porcentaje de niñas y niños que dominan habilidades matemáticas y de
-lecto-escritura
-- Número de organizaciones socias capacitadas
-- Número de niñas y niños capacitados
+lecto-escritura.
+
+- Número de organizaciones socias capacitadas.
+
+- Número de niñas y niños capacitados.
 
 Para el análizar la información se consideró el:
 
-- Análisis de correspondecia múltiple
-- Análisis de componentes principales categóricas
+- Análisis de correspondecia múltiple.
+
+- Análisis de componentes principales categóricas.
 
 # Documentación
 
@@ -250,24 +282,29 @@ El proyecto en su desarrollo da paso a la generación:
 
 ## Política de Acceso
 
-- Autorización acceso
+- __Autorización de acceso__
+
 Red Boliviana de micro datos y encuestas rbme@aru.org.bo - Fundación
 ARU
 
-- Contactos
+- __Contactos__
+
 Alvaro Chirino Gutierrez achirino@aru.org.bo
 
-- Confidencialidad
+- __Confidencialidad__
+
 La base final, no podrá darse a conocer al público ni a las entidades u
 organismos oficiales, ni a las autoridades públicas, si no se cuenta con
 la autorización de la entidad contratante, para no deducir de ellos informaci
 ón alguna de carácter individual que pudiera utilizarse para
 
-- Condiciones de Acceso
+- __Condiciones de Acceso__
+
 El acceso a los microdatos, previa autorización de la entidad contratante,
 en la página Web udata@aru.org.bo.
 
-- Requisitos de cita
+- __Requisitos de cita__
+
 Se autoriza el uso de la información contenida en esta portal. Queda en
 cambio prohibida la copia o reproducción de los datos en cualquier medio
 electrónico (redes, bases de datos, cd rom, diskettes) que permita la

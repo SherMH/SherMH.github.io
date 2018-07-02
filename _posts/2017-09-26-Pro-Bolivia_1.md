@@ -1,11 +1,11 @@
 ---
 title: "Encuesta de seguimiento al progama ProBolivia Jiwasa 2017"
 layout: post
-category: translation
+category: Encuesta
 tags: [linux]
-excerpt: "En este documento se presenta la información del proyecto  __Encuesta de seguimiento al programa
-Pro Bolivia 2017__ , detalles relacionados con el levantamiento y procesamiento de información. 
-"
+excerpt: "En este documento se presenta la información del proyecto  "Encuesta de seguimiento al programa
+Pro Bolivia 2017" , detalles relacionados con el levantamiento y procesamiento de información."
+
 ---
 # Información General
 
@@ -22,7 +22,7 @@ Pro Bolivia 2017__ , detalles relacionados con el levantamiento y procesamiento 
 - __Instituciones Participantes: Instituciones organizadas de micro y pequeñas empresas.__
 
 
-# Diseño de Instrumentos
+## Diseño de Instrumentos
 
 El proyecto tomo en cuenta el siguiente lineamiento:
 
@@ -52,15 +52,25 @@ al productor".
 El cuestionario consta de las siguientes secciones:
 
 - __Sección 0:__ Identificación del negocio o taller.
+
 - __Sección 1:__ Caraterísticas generales del negocio o taller.
+
 - __Sección 2:__ Características generales del hogar del informante (propietario).
+
 - __Sección 3:__ Características generales del informante (propietario) y miembros del hogar.
+
 - __Sección 4:__ Empleados.
+
 - __Sección 5:__ Características del negocio o taller.
+
 - __Sección 6:__ Insumos y proveedores.
+
 - __Sección 7:__ Gastos del negocio/taller.
+
 - __Sección 8:__ Maquinaria.
+
 - __Sección 9:__ Pasivos y patrimonio.
+
 - __Sección 10:__ Percepción del propietario sobre el programa de Pro Bolivia.
 
 
@@ -99,8 +109,11 @@ __Objetivos del operativo de campo__
 ## Proceso de datos
 
 __Transcripción:__ Aplicación "JiwasaProBolivia" cargada en la tablet.
+
 __Consistencia:__ Árbol lógico de programación en la aplicación.
+
 __Transmisión__: En línea vía internet y respaldo Backup del dispositivo.
+
 __Validación:__ Depuración - consolidación de la base (validación interna) y Consultas en el servidor por el usuario
 (validación externa).
 
