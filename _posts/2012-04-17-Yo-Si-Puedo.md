@@ -2,7 +2,7 @@
 title: "Estudio al programa Yo si Puedo"
 layout: post
 category: Encuesta
-tags: [php, syntax]
+tags: [Estudio, Programa, Alfabetización]
 excerpt: "El proyecto busca realizar un análisis riguroso de los resultados del Programa
 Nacional de Alfabetización - Yo si Puedo "
 ---
