@@ -1,5 +1,5 @@
 ---
-title: "Encuesta de seguimiento al progama ProBolivia Jiwasa 2017"
+title: "Encuesta de seguimiento al programa ProBolivia Jiwasa 2017"
 layout: post
 category: Encuesta
 tags: [linux]
