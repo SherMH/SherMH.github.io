@@ -35,7 +35,7 @@
             <div class="search col-lg-4 col-md-4 col-xs-12">
                 <form id="dummySearch">
                     <label for="search"></label>
-                    <input id="search" name="serach" type="text" placeholder="No hay busqueda">
+                    <input id="search" name="serach" type="text" placeholder="Buscar">
                     <i class="fa fa-search"></i>
                 </form>
                 <script>
@@ -43,7 +43,7 @@
                     $('#dummySearch').submit(function(e) {
                         e.preventDefault();
                         keyword = $('#search').val();
-                        url = 'https://www.google.com.hk/search?q=site%3Aunifreak.github.io+' + keyword;
+                        url = 'https://www.google.com/search?q=' + keyword;
                         location.href = url;
                     })
                 })
