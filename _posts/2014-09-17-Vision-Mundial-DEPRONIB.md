@@ -5,8 +5,8 @@ layout: post
 category: Encuesta
 tags: [Evaluación, Derechos, Niñez]
 excerpt: "El objetivo general del proyecto es: Medir el nivel de impacto en el fortalecimiento de entornos más seguros y
-protectores de la niñez del proyecto ”Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia”
-(DEPRONIB)."
+protectores de la niñez del proyecto Por los Derechos de la Protección de Niñas, Niños y Adolescentes en Bolivia (DEPRONIB)."
+
 ---
 # Información General
 
