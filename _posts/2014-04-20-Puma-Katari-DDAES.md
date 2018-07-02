@@ -2,7 +2,7 @@
 title: "Diseño, Desarrollo y Análisis de Encuestas Sociales - Puma Katari"
 layout: post
 category: Encuesta
-tags: [Evaluación, Transporte, Sociales]
+tags: [Evaluación, Transporte, Social]
 excerpt: "El Taller Diseño, Desarrollo y Análisis de Encuestas Sociales fue desarrollado con la temática: Igualdad de
 Oportunidades, Migración Pendular y Urbanismo"
 ---
