@@ -3,8 +3,8 @@ title: "Encuesta de seguimiento al progama ProBolivia Jiwasa 2017"
 layout: post
 category: Encuesta
 tags: [linux]
-excerpt: "En este documento se presenta la información del proyecto  "Encuesta de seguimiento al programa
-Pro Bolivia 2017" , detalles relacionados con el levantamiento y procesamiento de información."
+excerpt: "En este documento se presenta la información del proyecto  Encuesta de seguimiento al programa
+Pro Bolivia 2017 , detalles relacionados con el levantamiento y procesamiento de información."
 
 ---
 # Información General

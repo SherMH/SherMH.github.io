@@ -3,7 +3,10 @@ title: "Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al P
 layout: post
 category: Encuesta
 tags: [php, http]
-excerpt: "Este documento presenta la metodología diseñada, los resultados y conclusiones provenientes del estudio Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados al Programa de Formación Técnica de la gestión 2016,  este estudio está dirigido a estudiantes egresados de los centros de formación."
+excerpt: "Este documento presenta la metodología diseñada, los resultados y conclusiones 
+provenientes del estudio Encuesta de Medición de Indicadores de Empleo e Ingresos Asociados 
+al Programa de Formación Técnica de la gestión 2016,  este estudio está dirigido a estudiantes 
+egresados de los centros de formación."
 
 ---
 # Información General

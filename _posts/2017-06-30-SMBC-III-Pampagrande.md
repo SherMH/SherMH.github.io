@@ -3,7 +3,11 @@ title: "Sistema de Monitoreo Basado en la Comunidad - Pampagrande, Comunidad-i I
 layout: post
 category: Censo
 tags: [linux]
-excerpt: "El documento presenta los resultados y conclusiones del proyecto Sistema de Monitoreo Baso en la Comunidad SMBC, Comunidad-i en Bolivia, cuyo objetivo consiste básicamente en la recolección y difusión de información acerca de las condiciones de vida y las necesidades de los habitantes de cuatro comunidades del municipio de Pampagrande en el departamento de Santa Cruz."
+excerpt: "El documento presenta los resultados y conclusiones del proyecto Sistema de 
+Monitoreo Baso en la Comunidad SMBC, Comunidad-i en Bolivia, cuyo objetivo consiste 
+básicamente en la recolección y difusión de información acerca de las condiciones de 
+vida y las necesidades de los habitantes de cuatro comunidades del municipio de Pampagrande
+ en el departamento de Santa Cruz."
 ---
 # Información General
 

@@ -2,21 +2,21 @@
 title: "Save the children"
 layout: post
 category: Encuesta
-tags: [php, vagrant]
-excerpt: "Save de Children con el programa ''Los niños y las niñas lideran el camino''
+tags: [vagrant]
+excerpt: "Save de Children con el programa Los niños y las niñas lideran el camino
 tiene por objetivo asegurar derechos iguales de protección, educación y supervivencia
 para niñas y niños."
 ---
 
 # Información General
 
-Save de Children con el programa ''Los niños y las niñas lideran el camino''
+Save de Children con el programa "Los niños y las niñas lideran el camino"
 tiene por objetivo asegurar derechos iguales de protección, educación y supervivencia
 para niñas y niños. Las áreas de trabajo del programa son la educación
 y los derechos de los niños y niñas, ambos enfocados a prevenir situaciones de
 explotación laboral infantil e incrementar las oportunidades de formación y de
 mejora de calidad de vida. Para el levantamiento de información del programa
-''Los niños y las niñas lideran el camino'' se hizo una combinación de métodos
+"Los niños y las niñas lideran el camino" se hizo una combinación de métodos
 y tratamientos para el recojo de la información asi como para su tratamiento,
 todos descritos en un cronograma de actividades, siempre en la busqueda de
 brindar solidez y consistencia en los resultados y productos finales. Siendo el

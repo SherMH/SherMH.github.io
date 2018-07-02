@@ -1,7 +1,7 @@
 ---
 title: "Sistema de Monitoreo Basado en la Comunidad - Vallegrande, Comunidad-i II"
 layout: post
-category: Censo
+category: [Censo]
 tags: [php]
 excerpt: "El documento presenta los resultados y conclusiones del proyecto Sistema de Monitoreo Baso 
 en la Comunidad SMBC, Comunidad-i en Bolivia, cuyo objetivo consiste básicamente en la recolección
