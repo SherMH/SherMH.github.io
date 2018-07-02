@@ -2,7 +2,7 @@
 title: "Sistema de Monitoreo Basado en la Comunidad - Concepción, Comunidad-i"
 layout: post
 category: [Censo]
-tags: [linux]
+tags: [Comunidad, Monitoreo, Pobreza]
 excerpt: "El documento presenta los  pormenores de la Iniciativa de Fundación Aru  __Comunidad-i__ que nace como una propuesta al SMBC, cuyo propósito
 central es trabajar con y para la comunidad en la recolección y difusión
 de información acerca de las condiciones de vida y las necesidades de sus
