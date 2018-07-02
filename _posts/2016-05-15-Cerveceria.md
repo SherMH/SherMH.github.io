@@ -2,7 +2,7 @@
 title: "Encuesta a puntos de venta de CBN"
 layout: post
 category: Encuesta
-tags: [linux]
+tags: [Consumo, Ventas]
 excerpt: "Encuesta de consumo de productos de la CBN, transmición en línea de la información"
 ---
 # Información General
