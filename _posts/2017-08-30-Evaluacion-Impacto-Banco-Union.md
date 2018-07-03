@@ -1,7 +1,7 @@
 ---
 title: "Evaluación de Impacto al Programa de Educación Financiera del Banco Unión S.A."
 layout: post
-category: Encuesta-Evaluación
+category: Encuesta
 tags: [Programa, Financiera]
 excerpt: "El presente documento se enfoca en realizar la evaluación del impacto generado por los talleres de educación financiera otorgados por el Banco Unión SA."
 ---
