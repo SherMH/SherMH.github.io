@@ -44,9 +44,9 @@ my:
             postcode: 000000
             cell: "Fundación ARU"
     skills:
-        frontend: ["HTML", "GITHUB", "R"]
+        frontend: ["HTML", "GITHUB", "R", "REDATAM"]
         backend: ["PHP", "GIT", "R", "JAVA", "C++"]
-        tools: ["R", "STATA", "GITHUB", "QGIS", "LATEX", "CSPRO", "MICROSTATION"]
+        tools: ["R", "STATA", "GITHUB", "QGIS", "LATEX", "CSPRO", "MICROSTATION", "REDATAM", "SPSS"]
 
 collections:
     qqGroupGuide:
