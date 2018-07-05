@@ -46,7 +46,7 @@ my:
     skills:
         frontend: ["HTML", "GITHUB", "R"]
         backend: ["PHP", "GIT", "R", "JAVA", "C++"]
-        tools: ["R", "Stata", "GITHUB"]
+        tools: ["R", "STATA", "GITHUB", "QGIS", "LATEX", "CSPRO", "MICROSTATION"]
 
 collections:
     qqGroupGuide:
