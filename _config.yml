@@ -45,8 +45,8 @@ my:
             cell: "Fundación ARU"
     skills:
         frontend: ["HTML", "GITHUB", "JS | jQuery", "Bootstrap"]
-        backend: ["PHP", "MySQL", "Redis", "Regex", "Laravel", "OSC"]
-        tools: ["Sublime Text", "Git | Github", "Linux", "Jekyll | Liquid"]
+        backend: ["PHP", "GIT", "R", "JAVA", "C++"]
+        tools: ["Tablet", "Servidor", "GPS"]
 
 collections:
     qqGroupGuide:
