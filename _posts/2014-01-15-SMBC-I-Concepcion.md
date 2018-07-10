@@ -18,11 +18,11 @@ __Año: Noviembre - Diciembre 2013 / enero 2014__
 
 __País: Bolivia__
 
-__Fuente:__ Población del área urbana de la comunidad de Concepción del departamento de Santa Cruz.__
+__Fuente:__ Población del área urbana de la comunidad de Concepción del departamento de Santa Cruz.
 
-__Patrocinador(es):__ Sistema de Monitoreo Basado en la Comunidad - PEP__
+__Patrocinador(es):__ Sistema de Monitoreo Basado en la Comunidad - PEP
 
-__Instituciones Participantes:__ Fundación ARU, Gobierno Autonomo Municipal de Concepcion
+__Instituciones Participantes:__ Fundación ARU, Gobierno Autonomo Municipal de Concepción
 
 El proyecto nace a partir de la necesidad, de hacer seguimiento a los impactos
 de las políticas y programas asi como a los diversos shocks que atraviesan
