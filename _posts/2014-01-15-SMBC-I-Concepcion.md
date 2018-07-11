@@ -14,23 +14,23 @@ habitantes."
 
 __Referencia: Unidad de Micro Datos y Encuestas__
 
-__Año: Noviembre - Diciembre 2013 / enero 2014__
+__Año: Noviembre - Diciembre 2013 / Enero 2014__
 
 __País: Bolivia__
 
-__Fuente: Población del área urbana de la comunidad de Concepción del departamento de Santa Cruz.__
+__Fuente: Población del área urbana, de la comunidad de Concepción del departamento de Santa Cruz__
 
 __Patrocinador(es): Sistema de Monitoreo Basado en la Comunidad - PEP__
 
 __Instituciones Participantes: Fundación ARU, Gobierno Autonomo Municipal de Concepción__
 
-El proyecto nace a partir de la necesidad, de hacer seguimiento a los impactos
-de las políticas y programas asi como a los diversos shocks que atraviesan
+El proyecto nace de la necesidad, de hacer seguimiento a los impactos
+de las políticas y programas, asi como los diversos shocks que atraviesan las 
 poblaciones pobres y vulnerables. Debido a la falta de información necesaria,
-este tipo de levantamiento de información pretende ser tomado como un aporte
+este tipo de levantamiento de información pretende ser, tomado como un aporte
 fundamental, en la formulación de políticas e implementación de programas. En
 este sentido, la iniciativa SMBC es un mecanismo que pretende ser sostenible para
-que se pueda facilitar decisiones basadas en evidencia e impacto-monitoreado
+para facilitar la toma de decisiones basadas en evidencia e impacto-monitoreado
 a niveles locales. En general, los censos y estadísticas oficiales son solamente
 fiables a nivel regional y provincial; (es decir, el diseño de la muestra de muchos
 de estos estudios proporcionan estimaciones de las variables sólo a nivel provincial)
