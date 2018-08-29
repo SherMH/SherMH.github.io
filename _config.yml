@@ -20,15 +20,12 @@ title                    : "She"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
-<<<<<<< HEAD
 url                      : "https://shermh.github.io/"
 baseurl                  : "https://shermh.github.io/"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-=======
 url                      : "https://shermh.github.io/"
 baseurl                  : ""
 repository               : "https://shermh.github.io//minimal-mistakes"
->>>>>>> 589d62e76f56938b69b07db7dd1824162ac5b8f8
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
