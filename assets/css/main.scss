@@ -1,21 +1,8 @@
-@import "0-tools/bourbon/bourbon";
-@import "0-tools/normalize";
-@import "0-tools/fonts";
-@import "0-tools/icons";
-@import "0-tools/flaticon";
-@import "1-base/vars";
-@import "1-base/base";
-@import "1-base/layout";
-@import "1-base/mixins";
-@import "1-base/placeholders";
-@import "3-sections/header";
-@import "3-sections/footer";
-@import "3-sections/about";
-@import "3-sections/contact";
-@import "3-sections/history";
-@import "3-sections/message";
-@import "3-sections/portfolio";
-@import "3-sections/post";
-@import "3-sections/headersmall";
-@import "3-sections/projects";
-@import "3-sections/posts";
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

@@ -1,23 +1,29 @@
 ---
-layout: default
+layout: archive
 ---
 
-{% include header_small.html %}
+{{ content }}
 
-
-
-<h2 id="Blog"> Blog Posts</h2>
-<hr class="bar-blog"> </hr>
-  {% for post in site.categories['blog'] %}
-    <div class="post-header">
-      <a href="{{post.url}}"><h1 class="post-title">{{ post.title }}</h1></a>
-    </div>
-    <div class="post-header">
-      <p class="post-meta">{{ post.date | date: "%B %-d, %Y — %H:%M" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-    </div>
-
+<ul class="taxonomy__index">
+  {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in postsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      </a>
+    </li>
   {% endfor %}
-  <hr class="bar-blog"> </hr>
-<div class="temp-posts">
+</ul>
 
-</div>
+{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% for year in postsByYear %}
+  <section id="{{ year.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ year.name }}</h2>
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in year.items %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
