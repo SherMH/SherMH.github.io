@@ -22,7 +22,7 @@ name                     : "Your Name"
 description              : "An amazing website."
 url                      : ""
 baseurl                  : ""
-repository               : "https://shermh.github.io/mmistakes/minimal-mistakes"
+repository               : "https://shermh.github.io/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
