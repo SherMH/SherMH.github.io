@@ -21,8 +21,8 @@ title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
 <<<<<<< HEAD
-url                      : "https://shermh.github.io/minimal-mistakes"
-baseurl                  : "https://shermh.github.io/minimal-mistakes"
+url                      : "https://shermh.github.io/"
+baseurl                  : "https://shermh.github.io/"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 =======
 url                      : "https://shermh.github.io/"
