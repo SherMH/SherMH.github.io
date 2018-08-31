@@ -35,11 +35,8 @@ entries:
       url: /p1_sample2.html
       output: web, pdf
 
- 
-
   - title: Indicador Outcome1.2
     output: web, pdf
-
     folderitems:
     - title: Descripción del Indicador
       url: /p1_sample4.html
@@ -54,9 +51,9 @@ entries:
       output: web, pdf
 
    - title: Indicador Outcome1.3
-    output: web, pdf
-    folderitems:
-    - title: Descripción del Indicador
+     output: web, pdf
+     folderitems:
+     - title: Descripción del Indicador
       url: /P1.html
       output: web
 
