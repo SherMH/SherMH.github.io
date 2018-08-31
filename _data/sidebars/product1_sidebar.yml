@@ -3,8 +3,8 @@
 
 entries:
 - title: Sidebar
-  product: Product1
-  version: 1.0
+  product: Lista
+  version: 
   folders:
 
   - title:
@@ -20,11 +20,11 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Output 1
+  - title: Indicador-Outcome1.1
     output: web, pdf
     folderitems:
-    - title: Product 1 home
-      url: /p1_landing_page.html
+    - title: Descripción del Indicador
+      url: /P1.html
       output: web
 
     - title: Sample 1
