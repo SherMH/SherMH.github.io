@@ -29,29 +29,31 @@ entries:
 
     - title: Ficha Técnica
       url: /Ficha_Tecnica.html
-      output: web, pdf
+      output: web
 
     - title: Sample 2
       url: /p1_sample2.html
       output: web, pdf
 
-  - title: IndicadorOutcome1.2
-    output: web, pdf
+  - title: Indicador Outcome1.2
+    output: web
+	
     folderitems:
     - title: Descripción del Indicador
       url: /p1_sample4.html
-      output: web, pdf
+      output: web
 
     - title: Ficha Técnica
       url: /p1_sample5.html
-      output: web, pdf
+      output: web
 
     - title: Sample 6
       url: /p1_sample6.html
-      output: web, pdf
+      output: web
 
    - title: IndicadorOutcome1.3
-     output: web, pdf
+     output: web
+	 
      folderitems:
      - title: Descripción del Indicador
       url: /P1.html
@@ -59,9 +61,9 @@ entries:
 
     - title: Ficha Técnica
       url: /Ficha_Tecnica.html
-      output: web, pdf
+      output: web
 
     - title: Sample 2
       url: /p1_sample2.html
-      output: web, pdf
+      output: web
 
