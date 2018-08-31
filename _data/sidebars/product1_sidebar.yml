@@ -3,7 +3,7 @@
 
 entries:
 - title: Sidebar
-  product: Lista
+  product: Listado
   version: 
   folders:
 
@@ -20,34 +20,32 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Indicador-Outcome1.1
+  - title: Indicador Outcome1.1
     output: web, pdf
     folderitems:
     - title: Descripción del Indicador
       url: /P1.html
       output: web
 
-    - title: Sample 1
-      url: /p1_sample1.html
+    - title: Ficha Técnica
+      url: /Ficha_Tecnica.html
       output: web, pdf
 
     - title: Sample 2
       url: /p1_sample2.html
       output: web, pdf
 
-    - title: Sample 3
-      url: /p1_sample3.html
-      output: web, pdf
+ 
 
-  - title: Another heading
+  - title: Indicador Outcome1.2
     output: web, pdf
 
     folderitems:
-    - title: Sample 4
+    - title: Descripción del Indicador
       url: /p1_sample4.html
       output: web, pdf
 
-    - title: Sample 5
+    - title: Ficha Técnica
       url: /p1_sample5.html
       output: web, pdf
 
@@ -55,6 +53,18 @@ entries:
       url: /p1_sample6.html
       output: web, pdf
 
-    - title: Sample 7
-      url: /p1_sample7.html
+   - title: Indicador Outcome1.3
+    output: web, pdf
+    folderitems:
+    - title: Descripción del Indicador
+      url: /P1.html
+      output: web
+
+    - title: Ficha Técnica
+      url: /Ficha_Tecnica.html
       output: web, pdf
+
+    - title: Sample 2
+      url: /p1_sample2.html
+      output: web, pdf
+
