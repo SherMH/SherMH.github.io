@@ -3,7 +3,7 @@
 entries:
 - title: Sidebar
   product: Listado
-  version: 1
+  version: 1.0
   folders:
 
   - title:
@@ -22,7 +22,7 @@ entries:
   - title: Indicador Outcome 1
     output: web, pdf
     folderitems:
-    - title: Descripción del indicador
+    - title: Descripcion del indicador
       url: /P1.html
       output: web
 
@@ -42,7 +42,7 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Descripción del indicador
+    - title: Descripcion del indicador
       url: /p1_sample4.html
       output: web, pdf
 
