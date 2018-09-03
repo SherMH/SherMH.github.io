@@ -1,10 +1,10 @@
 ---
-title: "Plataforma de seguimiento de ''Línea Base de Indicadores'' Unicef"
+title: "Plataforma de seguimiento de Indicadores ''Línea Base'' - Unicef"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+Resumen: Bajo la motivación de realizar un seguimiento al progreso de los indicadores para la construcción de una ''Línea Base'', se da paso a la plataforma de seguimiento ''Línea Base Indicadores - Unicef'' .
 ---
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
