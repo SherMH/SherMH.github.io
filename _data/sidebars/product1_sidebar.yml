@@ -22,7 +22,6 @@ entries:
   - title: Indicador 1
     output: web, pdf
     folderitems:
-	
     - title: Ficha Tecnica
       url: /p1_landing_page.html
       output: web
