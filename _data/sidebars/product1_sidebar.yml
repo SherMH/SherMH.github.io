@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Outcome 1
+  - title: Indicador 1
     output: web, pdf
     folderitems:
     - title: Product 1 home
@@ -38,7 +38,8 @@ entries:
       url: /p1_sample3.html
       output: web, pdf
 
-  - title: Indicador 2
+	  
+  - title: Indicador 3
     output: web, pdf
 
     folderitems:
