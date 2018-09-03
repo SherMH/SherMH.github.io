@@ -2,7 +2,7 @@
 
 entries:
 - title: Sidebar
-  product: Listado
+  product: Product1
   version: 1.0
   folders:
 
@@ -19,14 +19,14 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Indicador Outcome 1
+  - title: Getting Started
     output: web, pdf
     folderitems:
-    - title: Descripcion del indicador
-      url: /P1.html
+    - title: Product 1 home
+      url: /p1_landing_page.html
       output: web
 
-    - title: Ficha Tecnica
+    - title: Sample 1
       url: /p1_sample1.html
       output: web, pdf
 
@@ -38,15 +38,15 @@ entries:
       url: /p1_sample3.html
       output: web, pdf
 
-  - title: Indicador Outcome 2
+  - title: Another heading
     output: web, pdf
 
     folderitems:
-    - title: Descripcion del indicador
+    - title: Sample 4
       url: /p1_sample4.html
       output: web, pdf
 
-    - title: ficha tecnica
+    - title: Sample 5
       url: /p1_sample5.html
       output: web, pdf
 
@@ -57,25 +57,3 @@ entries:
     - title: Sample 7
       url: /p1_sample7.html
       output: web, pdf
-	  
-	  
-  - title: Indicador Outcome 3
-    output: web, pdf
-
-    folderitems:
-    - title: Descrpcion del indicador
-      url: /p1_sample4.html
-      output: web, pdf
-
-    - title: Ficha tecnica
-      url: /p1_sample5.html
-      output: web, pdf
-
-    - title: Sample 6
-      url: /p1_sample6.html
-      output: web, pdf
-
-    - title: Sample 7
-      url: /p1_sample7.html
-      output: web, pdf
-
