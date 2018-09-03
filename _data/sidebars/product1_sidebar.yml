@@ -33,10 +33,6 @@ entries:
     - title: Sample 2
       url: /p1_sample2.html
       output: web, pdf
-
-    - title: Sample 3
-      url: /p1_sample3.html
-      output: web, pdf
                  
   - title: Indicador 2
     output: web, pdf
@@ -56,7 +52,7 @@ entries:
     - title: Sample 7
       url: /p1_sample7.html
       output: web, pdf
-	                   
+                     	  
   - title: Indicador 3
     output: web, pdf
     folderitems:
