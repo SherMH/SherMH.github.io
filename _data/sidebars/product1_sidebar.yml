@@ -38,7 +38,7 @@ entries:
       url: /p1_sample3.html
       output: web, pdf
 
-  - title: Another heading
+  - title: Indicador 2
     output: web, pdf
 
     folderitems:
