@@ -22,7 +22,8 @@ entries:
   - title: Indicador 1
     output: web, pdf
     folderitems:
-    - title: Product 1 home
+	
+    - title: Ficha Tecnica
       url: /p1_landing_page.html
       output: web
 
@@ -37,11 +38,10 @@ entries:
     - title: Sample 3
       url: /p1_sample3.html
       output: web, pdf
-  
+                 
   - title: Indicador 3
     output: web, pdf
     folderitems:
-	
     - title: Sample 4
       url: /p1_sample4.html
       output: web, pdf
