@@ -41,8 +41,8 @@ entries:
 	  
   - title: Indicador 3
     output: web, pdf
-
     folderitems:
+	
     - title: Sample 4
       url: /p1_sample4.html
       output: web, pdf
