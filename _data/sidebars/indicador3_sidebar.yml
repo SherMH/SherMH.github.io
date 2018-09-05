@@ -3,7 +3,7 @@
 entries:
 - title: Sidebar
   product: Listado
-  version: 1.0
+  version: 
   folders:
 
   - title:
@@ -22,12 +22,12 @@ entries:
   - title: Indicador 1
     output: web, pdf
     folderitems:
-    - title: Ficha Tecnica
+    - title: Ficha Técnica
       url: /p2_landing_page.html
       output: web
 
     - title: Sample 1
-      url: /p1_sample1.html
+      url: /Ficha_Tecnica_p11.html
       output: web, pdf
 
     - title: Sample 2
