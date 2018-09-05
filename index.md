@@ -15,63 +15,32 @@ Iniciativa promovida para proporcionar al usuario un panorama general en el avan
 
 ### 1. Introducción
 
-Fundación ARU es la institución contratada para desarrollar el cálculo de indicadores para Unicef, razón por la que se crea esta plataforma para ofrecer de manera sencilla e intuitiva el avance de los productos requeridos en la consultoria.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
+**Fundación ARU** es la institución contratada para desarrollar el cálculo de indicadores para **Unicef**, razón por la que se crea esta plataforma para ofrecer de manera sencilla e intuitiva el avance de los productos requeridos en la consultoria.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
-### 2. Install Jekyll
+### 2. Indicadores
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+**“Al que no sabe para dónde va, todos los destinos son buenos”**, y es en este sentido, que los indicadores calculados esperan convertirse en una guía:
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
 
-### 3. Install Bundler
+### 3. Github
 
-In case you haven't installed Bundler, install it:
-
-```
-gem install bundler
-```
-
-You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
-
-### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
-
-Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
-
-Bundler's Gemfile is how it specifies and manages project dependencies are managed. Although this project includes a Gemfile, this theme doesn't have any dependencies beyond core Jekyll. The Gemfile is used to specify gems needed for publishing on Github Pages. **If you're not planning to have Github Pages build your Jekyll project, delete these two files from the theme's root directory:**
-
-* Gemfile
-* Gemfile.lock
-
-If you've never run Jekyll on your computer (you can check with `jekyll --version`), you may need to install the jekyll gem:
+GitHub es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git:
 
 ```
-gem install jekyll
+Plantilla desarrollada en Git
 ```
 
-Now run jekyll serve (first change directories (`cd`) to where you downloaded the project):
+Se utiliza principalmente para la creación de código fuente de programas de computadora. El software que opera GitHub fue escrito en Ruby on Rails.
 
-```
-jekyll serve
-```
+### 4. Fundación ARU
 
-### 4. Option 2: Build the Theme (*with* the github-pages gem) {#option2}
+La Fundación Aru es un instituto de investigación de políticas públicas sin fines de lucro, independiente y plural. Su compromiso es producir y promover investigación local aplicada de alta calidad a partir de herramientas globales, que permita informar e influir en el debate sobre políticas públicas para incentivar la decisión en políticas públicas a partir de la evidencia científica.
 
-If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)).
+### 5. Unicef
 
-You need Bundler to resolve these dependency conflicts. Use Bundler to install all the needed Ruby gems:
-
-```
-bundle update
-```
-
-Then *always* use this command to build Jekyll:
-
-```
-bundle exec jekyll serve
-```
-
-If you want to shorten this long command, you can put this code in a file such as jekyll.sh (on a Mac) and then simply type `. jekyll.sh` to build Jekyll.
+El Fondo de las Naciones Unidas para la infancia o Unicef ​ es un programa de la Organización de las Naciones Unidas con base en Nueva York y que provee ayuda humanitaria y de desarrollo a niños y madres en países en desarrollo.
 
 ## Running the site in Docker
 
