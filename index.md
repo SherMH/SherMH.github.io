@@ -15,7 +15,7 @@ Iniciativa promovida para proporcionar al usuario un panorama general en el avan
 
 ### 1. Introducción
 
-First download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+Fundación ARU es la institución contratada para desarrollar el cálculo de indicadores para Unicef, razón por la que se crea esta plataforma para ofrecer de manera sencilla e intuitiva el avance de los productos requeridos en la consultoria.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
 ### 2. Install Jekyll
 
