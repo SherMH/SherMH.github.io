@@ -23,7 +23,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Ficha Técnica
-      url: /p2_landing_page.html
+      url: /Ficha_Tecnica_p11.html
       output: web
 
     - title: Sample 1
