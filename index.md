@@ -19,20 +19,20 @@ Iniciativa promovida para proporcionar al usuario un panorama general en el avan
 
 ### 2. Indicadores
 
-**“Al que no sabe para dónde va, todos los destinos son buenos”**, y es en este sentido que los indicadores calculados esperan convertirse en una guía:
+**“Al que no sabe para dónde va, todos los destinos son buenos”**, y es en este sentido, los indicadores calculados esperan convertirse en una guía:
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
 
-### 3. Install Bundler
+### 3. Github
 
-In case you haven't installed Bundler, install it:
+GitHub es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git:
 
 ```
-gem install bundler
+Plantilla desarrollada en Git
 ```
 
-You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
+Se utiliza principalmente para la creación de código fuente de programas de computadora. El software que opera GitHub fue escrito en Ruby on Rails.
 
 ### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
 
