@@ -11,7 +11,7 @@ Summary: These brief instructions will help you get started quickly with the the
 
 ## Plataforma de Seguimiento de Indicadores
 
-Iniciativa promovida para proporcionar al usuario un panorama general del avance de la construcción de indicadores de la ''Línea Base de Unicef''..
+Iniciativa promovida para proporcionar al usuario un panorama general en el avance de la construcción de indicadores ''Línea Base de Unicef''.
 
 ### 1. Download the theme
 
