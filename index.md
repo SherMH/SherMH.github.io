@@ -15,11 +15,11 @@ Iniciativa promovida para proporcionar al usuario un panorama general en el avan
 
 ### 1. Introducción
 
-Fundación ARU es la institución contratada para desarrollar el cálculo de indicadores para Unicef, razón por la que se crea esta plataforma para ofrecer de manera sencilla e intuitiva el avance de los productos requeridos en la consultoria.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
+**Fundación ARU** es la institución contratada para desarrollar el cálculo de indicadores para **Unicef**, razón por la que se crea esta plataforma para ofrecer de manera sencilla e intuitiva el avance de los productos requeridos en la consultoria.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
-### 2. Install Jekyll
+### 2. Indicadores
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+**“Al que no sabe para dónde va, todos los destinos son buenos”**, y es en este sentido que los indicadores calculados esperan convertirse en una guía:
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
