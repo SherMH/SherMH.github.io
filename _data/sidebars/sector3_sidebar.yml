@@ -33,37 +33,27 @@ entries:
   - title: Indicador 2
     output: web, pdf
     folderitems:
-    - title: Sample 4
+    - title: Ficha Técnica
       url: /Ficha_Tecnica_p32.html
-      output: web, pdf
+      output: web
 
     - title: Sample 5
       url: /p1_sample5.html
       output: web, pdf
-
-    - title: Sample 6
-      url: /p1_sample6.html
-      output: web, pdf
-
-    - title: Sample 7
-      url: /p1_sample7.html
-      output: web, pdf
-                     	  
+                                         	  
   - title: Indicador 3
     output: web, pdf
     folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
+    - title: Ficha Técnica
+      url: /Ficha_Tecnica_p33.html
       output: web, pdf
 
     - title: Sample 5
       url: /p1_sample5.html
       output: web, pdf
 
-    - title: Sample 6
-      url: /p1_sample6.html
-      output: web, pdf
-
-    - title: Sample 7
-      url: /p1_sample7.html
-      output: web, pdf
+  - title: Indicador 4
+    output: web, pdf
+    folderitems:
+    - title: Ficha Técnica	
+      url: /Ficha_Tecnica_p33.html                            
