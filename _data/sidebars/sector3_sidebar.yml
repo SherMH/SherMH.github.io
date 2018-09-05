@@ -23,7 +23,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Ficha Técnica
-      url: /Ficha_Tecnica_p11.html
+      url: /Ficha_Tecnica_p31.html
       output: web
                              
     - title: Sample 1
@@ -34,7 +34,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Sample 4
-      url: /p1_sample4.html
+      url: /Ficha_Tecnica_p32.html
       output: web, pdf
 
     - title: Sample 5
