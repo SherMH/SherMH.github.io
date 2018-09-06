@@ -2,9 +2,9 @@
 title: Ficha Técnica
 keywords: sample
 summary: "  "
-sidebar: indicador3_sidebar
+sidebar: sector3_sidebar
 permalink: Ficha_Tecnica_p31.html
-folder: indicador3
+folder: sector3
 ---
 
 ## Contenido
