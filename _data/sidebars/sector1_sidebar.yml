@@ -74,21 +74,21 @@ entries:
     - title: Ficha Técnica	
       url: /Ficha_Tecnica_r11.html
       output: web, pdf
-                                    	  
+                                                             	  
   - title: Indicador 9
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
       url: /Ficha_Tecnica_r12.html
       output: web, pdf
-                       
+                                                 
   - title: Indicador 10
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
       url: /Ficha_Tecnica_r13.html
       output: web, pdf
-                             
+                                                          
   - title: Indicador 11
     output: web, pdf
     folderitems:
