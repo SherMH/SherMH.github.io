@@ -13,10 +13,10 @@ topnav_dropdowns:
     - title: Sectores
       folderitems:
         - title: Sector I
-          url: /Sector_III.html
+          url: /Sector_I.html
         - title: Sector II
-          url: /p2_landing_page.html
+          url: /Sector_II.html
         - title: Sector III
           url: /Sector_III.html
         - title: Sector IV
-          url: /p2_landing_page.html		  
+          url: /Sector_IV.html		  
