@@ -23,62 +23,68 @@ entries:
     output: web, pdf
     folderitems:
     - title: Ficha Técnica
-      url: /Ficha_Tecnica_p31.html
+      url: /Ficha_Tecnica_p21.html
       output: web
-                             
-    - title: Sample 1
-      url: /p1_sample2.html
-      output: web, pdf
-                 
+                      
   - title: Indicador 2
     output: web, pdf
     folderitems:
     - title: Ficha Técnica
-      url: /Ficha_Tecnica_p32.html
+      url: /Ficha_Tecnica_p22.html
       output: web
-
-    - title: Sample 5
-      url: /p1_sample5.html
-      output: web, pdf
-                                         	  
+                                                                  	  
   - title: Indicador 3
     output: web, pdf
     folderitems:
     - title: Ficha Técnica
-      url: /Ficha_Tecnica_p33.html
+      url: /Ficha_Tecnica_p23.html
       output: web, pdf
                       
   - title: Indicador 4
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
-      url: /Ficha_Tecnica_p34.html
+      url: /Ficha_Tecnica_r21.html
       output: web, pdf
                         	  
   - title: Indicador 5
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
-      url: /Ficha_Tecnica_p35.html
+      url: /Ficha_Tecnica_r22.html
       output: web, pdf
               
   - title: Indicador 6
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
-      url: /Ficha_Tecnica_p36.html
+      url: /Ficha_Tecnica_r23.html
       output: web, pdf
                  
   - title: Indicador 7
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
-      url: /Ficha_Tecnica_p37.html
+      url: /Ficha_Tecnica_r24.html
       output: web, pdf 
                    
   - title: Indicador 8
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
-      url: /Ficha_Tecnica_r31.html
-      output: web, pdf				   
+      url: /Ficha_Tecnica_r25.html
+      output: web, pdf
+                             	  
+  - title: Indicador 9
+    output: web, pdf
+    folderitems:
+    - title: Ficha Técnica	
+      url: /Ficha_Tecnica_r24.html
+      output: web, pdf 
+                                          
+  - title: Indicador 10
+    output: web, pdf
+    folderitems:
+    - title: Ficha Técnica	
+      url: /Ficha_Tecnica_r25.html
+      output: web, pdf		  
