@@ -55,28 +55,28 @@ entries:
       url: /Ficha_Tecnica_p34.html
       output: web, pdf
                         	  
- - title: Indicador 5
+  - title: Indicador 5
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
       url: /Ficha_Tecnica_p35.html
       output: web, pdf
               
- - title: Indicador 6
+  - title: Indicador 6
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
       url: /Ficha_Tecnica_p36.html
       output: web, pdf
                  
- - title: Indicador 7
+  - title: Indicador 7
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
       url: /Ficha_Tecnica_p37.html
       output: web, pdf 
                    
- - title: Indicador 8
+  - title: Indicador 8
     output: web, pdf
     folderitems:
     - title: Ficha Técnica	
