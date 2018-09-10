@@ -22,25 +22,25 @@ entries:
       url: /indicador p14.html
       output: web
     - title: Indicador 5
-      url: /indicador p14.html
+      url: /indicador_p14.html
       output: web
     - title: Indicador 6
-      url: /indicador p14.html
+      url: /indicador_p14.html
       output: web
     - title: Indicador 7
-      url: /indicador p14.html
+      url: /indicador_p14.html
       output: web	  
     - title: Indicador 8
-      url: /indicador p14.html
+      url: /indicador_p14.html
       output: web
     - title: Indicador 9
-      url: /indicador p14.html
+      url: /indicador_p14.html
       output: web
     - title: Indicador 10
       url: /indicador p14.html
       output: web	
     - title: Indicador 11
-      url: /indicador p14.html
+      url: /indicador_p14.html
       output: web
 
   - title: Sector II
@@ -48,5 +48,5 @@ entries:
     output: web
     folderitems:
     - title: Indicador 11
-      url: /indicador p14.html
+      url: /indicador_p14.html
       output: web	
