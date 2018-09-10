@@ -22,31 +22,74 @@ entries:
       url: /indicador p14.html
       output: web
     - title: Indicador 5
-      url: /indicador_p14.html
+      url: /indicador_p15.html
       output: web
     - title: Indicador 6
-      url: /indicador_p14.html
+      url: /indicador_p16.html
       output: web
     - title: Indicador 7
-      url: /indicador_p14.html
+      url: /indicador_p17.html
       output: web	  
     - title: Indicador 8
-      url: /indicador_p14.html
+      url: /indicador_r11.html
       output: web
     - title: Indicador 9
-      url: /indicador_p14.html
+      url: /indicador_r12.html
       output: web
     - title: Indicador 10
-      url: /indicador p14.html
+      url: /indicador r13.html
       output: web	
     - title: Indicador 11
-      url: /indicador_p14.html
+      url: /indicador_r14.html
       output: web
 
   - title: Sector II
     url: /Sector_2.html 
     output: web
     folderitems:
-    - title: Indicador 11
-      url: /indicador_p14.html
-      output: web	
+    - title: Indicador 1
+      url: /indicador_p21.html
+      output: web
+    - title: Indicador 2
+      url: /indicador_p22.html
+      output: web
+    - title: Indicador 3
+      url: /indicador_p23.html
+      output: web
+    - title: Indicador 4
+      url: /indicador_r21.html
+      output: web
+    - title: Indicador 5
+      url: /indicador_r22.html
+      output: web
+    - title: Indicador 6
+      url: /indicador_r23.html
+      output: web
+    - title: Indicador 7
+      url: /indicador_r24.html
+      output: web
+    - title: Indicador 8
+      url: /indicador_r25.html
+      output: web
+    - title: Indicador 9
+      url: /indicador_r26.html
+      output: web
+    - title: Indicador 10
+      url: /indicador_r27.html
+      output: web	  	  
+                      
+  - title: Sector III
+    url: /Sector_3.html 
+    output: web
+    folderitems:
+    - title: Indicador 1
+      url: /indicador_p31.html
+      output: web
+
+  - title: Sector IV
+    url: /Sector_4.html 
+    output: web
+    folderitems:
+    - title: Indicador 1
+      url: /indicador_p41.html
+      output: web		  
