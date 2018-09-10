@@ -6,6 +6,7 @@ entries:
   folders:
 
   - title: Sector I
+    url: /Sector_1.html 
     output: web
     folderitems:
     - title: Indiccador 1
@@ -20,3 +21,32 @@ entries:
     - title: Indicador 4
       url: /indicador p14.html
       output: web
+    - title: Indicador 5
+      url: /indicador p14.html
+      output: web
+    - title: Indicador 6
+      url: /indicador p14.html
+      output: web
+    - title: Indicador 7
+      url: /indicador p14.html
+      output: web	  
+    - title: Indicador 8
+      url: /indicador p14.html
+      output: web
+    - title: Indicador 9
+      url: /indicador p14.html
+      output: web
+    - title: Indicador 10
+      url: /indicador p14.html
+      output: web	
+    - title: Indicador 11
+      url: /indicador p14.html
+      output: web
+
+  - title: Sector II
+    url: /Sector_2.html 
+    output: web
+    folderitems:
+    - title: Indicador 11
+      url: /indicador p14.html
+      output: web	
