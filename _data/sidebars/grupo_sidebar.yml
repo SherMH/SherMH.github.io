@@ -9,7 +9,7 @@ entries:
     url: /Sector_1.html 
     output: web
     folderitems:
-    - title: Indiccador 1
+    - title: Indicador 1
       url: /indicador_p11.html
       output: web
     - title: Indicador 2
