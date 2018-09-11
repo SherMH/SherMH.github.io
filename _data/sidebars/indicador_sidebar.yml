@@ -5,8 +5,8 @@ entries:
   levels: one
   folders:
 
-  - title: Sector I
-    url: /Sector_1.html 
+  - title: Outcome 1
+    url: 
     output: web
     folderitems:
     - title: Indicador 1
@@ -43,8 +43,8 @@ entries:
       url: /indicador_r14.html
       output: web
 
-  - title: Sector II
-    url: /Sector_2.html 
+  - title: Outcome 2
+    url: 
     output: web
     folderitems:
     - title: Indicador 1
@@ -78,8 +78,8 @@ entries:
       url: /indicador_r27.html
       output: web	  	  
                       
-  - title: Sector III
-    url: /Sector_3.html 
+  - title: Outcome 3
+    url: /
     output: web
     folderitems:
     - title: Indicador 1
@@ -107,8 +107,8 @@ entries:
       url: /indicador_r31.html
       output: web	  
 
-  - title: Sector IV
-    url: /Sector_4.html 
+  - title: Outcome 4
+    url: 
     output: web
     folderitems:
     - title: Indicador 1

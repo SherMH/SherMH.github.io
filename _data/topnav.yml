@@ -3,22 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/SherMH/SherMH.github.io
     - title: Indicadores 
-      url: /grupo
-
-#Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: Sectores
-      folderitems:
-        - title: Sector I
-          url: /Sector_I.html
-        - title: Sector II
-          url: /Sector_II.html
-        - title: Sector III
-          url: /Sector_III.html
-        - title: Sector IV
-          url: /Sector_IV.html		  
+      url: /Indicadores
+    - title: Progreso Gobal
+      url: /progreso	
+	  
