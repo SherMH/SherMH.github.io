@@ -5,7 +5,7 @@ topnav:
   items:
     - title: Indicador
       url: /Indicador 
-    - title: News
+    - title: Progreso Global
       url: /news
 
 #Topnav dropdowns
