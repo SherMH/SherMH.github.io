@@ -6,7 +6,6 @@ entries:
   folders:
 
   - title: Outcome 1
-    url: 
     output: web
     folderitems:
     - title: Indicador 1
@@ -43,8 +42,7 @@ entries:
       url: /indicador_r14.html
       output: web
 
-  - title: Outcome 2
-    url: 
+  - title: Outcome 2 
     output: web
     folderitems:
     - title: Indicador 1
@@ -79,7 +77,6 @@ entries:
       output: web	  	  
                       
   - title: Outcome 3
-    url: /
     output: web
     folderitems:
     - title: Indicador 1
@@ -108,7 +105,6 @@ entries:
       output: web	  
 
   - title: Outcome 4
-    url: 
     output: web
     folderitems:
     - title: Indicador 1
