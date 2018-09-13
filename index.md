@@ -62,13 +62,13 @@ El resposable de la plataforma de seguimiento deberá mantener actualizado :
 
 <pre>
 ---
-title: Alerts
-tags: [formatting]
-keywords: notes, tips, cautions, warnings, admonitions
-last_updated: July 3, 2016
-summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
-<span class="red">sidebar: mydoc_sidebar</span>
-permalink: mydoc_alerts
+Título: Plataforma de seguimiento
+Objetivo: Actualización de reportes
+Temas: Información general, indicadores
+Última actualización: Septiembre 13, 2018
+Reporte: "Revisión documental, elaboración de fichas técnicas, operativo de recolección de información en campo, operativo  de recolección de información documental, cálculo del indicador"
+<span class="red">Alertas: Peligro de cálculo</span>
+Marcación: Fase del indicador
 ---
 </pre>
 
