@@ -11,15 +11,15 @@ Summary: These brief instructions will help you get started quickly with the the
 
 ## Plataforma de Seguimiento de Indicadores
 
-Iniciativa promovida para proporcionar al usuario un panorama general en el avance de la construcción de indicadores ''Línea Base de Unicef''.
+Iniciativa promovida para proporcionar al usuario un panorama general del avance en la construcción de indicadores, a través de gráficos sencillos.
 
 ### 1. Introducción
 
-**Fundación ARU** es la institución contratada para desarrollar el cálculo de indicadores para **Unicef**, razón por la que se crea esta plataforma para ofrecer de manera sencilla e intuitiva el avance de los productos requeridos en la consultoria.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
+**Fundación ARU** es la institución contratada para desarrollar el cálculo de indicadores para la línea base de **Unicef**.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
 ### 2. Indicadores
 
-**“Al que no sabe para dónde va, todos los destinos son buenos”**, y es en este sentido, que los indicadores calculados esperan convertirse en una guía:
+Una de las ventajas de utilizar indicadores es la objetividad y comparabilidad;  representan un lenguaje común que facilita una medida estandarizada. Son   herramientas útiles porque permiten valorar diferentes magnitudes como, por ejemplo, el grado de cumplimiento de un objetivo o el grado de satisfacción de un participante en la formación.
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
@@ -42,7 +42,7 @@ La Fundación Aru es un instituto de investigación de políticas públicas sin 
 
 El Fondo de las Naciones Unidas para la infancia o Unicef ​ es un programa de la Organización de las Naciones Unidas con base en Nueva York y que provee ayuda humanitaria y de desarrollo a niños y madres en países en desarrollo.
 
-## Running the site in Docker
+## La Plataforma 
 
 You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
 ```
