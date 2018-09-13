@@ -40,25 +40,25 @@ La Fundación Aru es un instituto de investigación de políticas públicas sin 
 
 ### 5. Unicef
 
-El Fondo de las Naciones Unidas para la infancia o Unicef ​ es un programa de la Organización de las Naciones Unidas con base en Nueva York y que provee ayuda humanitaria y de desarrollo a niños y madres en países en desarrollo.
+El Fondo de las Naciones Unidas para la infancia o Unicef ​es un programa de la Organización de las Naciones Unidas con base en Nueva York y que provee ayuda humanitaria y de desarrollo a niños y madres en países en desarrollo.
 
-## La Plataforma 
+## Características de la Plataforma 
 
-You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
+La plataforma presenta al inicio, información general de los instrumentos empleados en el proyecto, así como una descripción general de las instituciones participantes.
 ```
-docker-compose build --no-cache && docker-compose up
+Plataforma-Indicadores --Git-Github && gráficos-tablas resúmen
 ```
-The site should now be running at [http://localhost:4000/](http://localhost:4000/).
+La plataforma también ofrece acceso directo al código de plantilla  [http://localhost:4000/](http://localhost:4000/).
 
-This is perhaps the easiest way to see how your site would actually look.
+En la plataforma, se presenta un progreso del cálculo del indicador con respecto a la recolección de información en campo y revisión documental.
 
-## Configure the sidebar
+## Progreso de los indicadores
 
-There are several products in this theme. Each product uses a different sidebar. This is the essence of what makes this theme unique -- different sidebars for different product documentation. The idea is that when users are reading documentation for a specific product, the sidebar navigation should be specific to that product. (You can read more of my thoughts on why multiple sidebars are important in this [blog post](http://idratherbewriting.com/2016/03/23/release-of-documentation-theme-for-jekyll-50/).)
+El progreso de los indicadores será presentando, a través de la: revisión documental, elaboración de fichas técnicas, operativo de recolección de información en campo, operativo  de recolección de información documental, cálculo del indicador  [blog post](http://idratherbewriting.com/2016/03/23/release-of-documentation-theme-for-jekyll-50/).)
 
-The top navigation usually remains the same, because it allows users to navigate across products. But the sidebar navigation adapts to the product.
+El progreso será presentado, dado los reportes al responsable de la plataforma de seguimiento.
 
-In each page's frontmatter, you must specify the sidebar you want that page to use. Here's an example of the page frontmatter showing the sidebar property:
+El resposable de la plataforma de seguimiento deberá mantener actualizado :
 
 <pre>
 ---
