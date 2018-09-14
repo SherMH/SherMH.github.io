@@ -1,5 +1,5 @@
 ---
-title: "Plataforma de seguimiento de Indicadores ''Línea Base'' - Unicef"
+title: "Plataforma de seguimiento ''Línea Base de Indicadores - Unicef'' "
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
@@ -11,15 +11,15 @@ Summary: These brief instructions will help you get started quickly with the the
 
 ## Plataforma de Seguimiento de Indicadores
 
-Iniciativa promovida para proporcionar al usuario un panorama general en el avance de la construcción de indicadores ''Línea Base de Unicef''.
+Iniciativa promovida para proporcionar al usuario un panorama general del avance en la construcción de indicadores, a través de gráficos sencillos.
 
 ### 1. Introducción
 
-**Fundación ARU** es la institución contratada para desarrollar el cálculo de indicadores para **Unicef**, razón por la que se crea esta plataforma para ofrecer de manera sencilla e intuitiva el avance de los productos requeridos en la consultoria.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
+**Fundación ARU** es la institución contratada para desarrollar el cálculo de indicadores para la línea base de **Unicef**.     [Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
 ### 2. Indicadores
 
-**“Al que no sabe para dónde va, todos los destinos son buenos”**, y es en este sentido, que los indicadores calculados esperan convertirse en una guía:
+Una de las ventajas de utilizar indicadores es la objetividad y comparabilidad;  representan un lenguaje común que facilita una medida estandarizada. Son   herramientas útiles porque permiten valorar diferentes magnitudes como, por ejemplo, el grado de cumplimiento de un objetivo o el grado de satisfacción de un participante en la formación.
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
@@ -40,35 +40,35 @@ La Fundación Aru es un instituto de investigación de políticas públicas sin 
 
 ### 5. Unicef
 
-El Fondo de las Naciones Unidas para la infancia o Unicef ​ es un programa de la Organización de las Naciones Unidas con base en Nueva York y que provee ayuda humanitaria y de desarrollo a niños y madres en países en desarrollo.
+El Fondo de las Naciones Unidas para la infancia o Unicef ​es un programa de la Organización de las Naciones Unidas con base en Nueva York y que provee ayuda humanitaria y de desarrollo a niños y madres en países en desarrollo.
 
-## Running the site in Docker
+## Características de la Plataforma 
 
-You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
+La plataforma presenta al inicio, información general de los instrumentos empleados en el proyecto, así como una descripción general de las instituciones participantes.
 ```
-docker-compose build --no-cache && docker-compose up
+Plataforma-Indicadores --Git-Github && gráficos-tablas resúmen
 ```
-The site should now be running at [http://localhost:4000/](http://localhost:4000/).
+La plataforma también ofrece acceso directo al código de plantilla  [http://localhost:4000/](http://localhost:4000/).
 
-This is perhaps the easiest way to see how your site would actually look.
+En la plataforma, se presenta un progreso del cálculo del indicador con respecto a la recolección de información en campo y revisión documental.
 
-## Configure the sidebar
+## Progreso de los indicadores
 
-There are several products in this theme. Each product uses a different sidebar. This is the essence of what makes this theme unique -- different sidebars for different product documentation. The idea is that when users are reading documentation for a specific product, the sidebar navigation should be specific to that product. (You can read more of my thoughts on why multiple sidebars are important in this [blog post](http://idratherbewriting.com/2016/03/23/release-of-documentation-theme-for-jekyll-50/).)
+El progreso de los indicadores será presentando, a través de la: revisión documental, elaboración de fichas técnicas, operativo de recolección de información en campo, operativo  de recolección de información documental, cálculo del indicador  [blog post](http://idratherbewriting.com/2016/03/23/release-of-documentation-theme-for-jekyll-50/).)
 
-The top navigation usually remains the same, because it allows users to navigate across products. But the sidebar navigation adapts to the product.
+El progreso será presentado, dado los reportes al responsable de la plataforma de seguimiento.
 
-In each page's frontmatter, you must specify the sidebar you want that page to use. Here's an example of the page frontmatter showing the sidebar property:
+El resposable de la plataforma de seguimiento deberá mantener actualizado :
 
 <pre>
 ---
-title: Alerts
-tags: [formatting]
-keywords: notes, tips, cautions, warnings, admonitions
-last_updated: July 3, 2016
-summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
-<span class="red">sidebar: mydoc_sidebar</span>
-permalink: mydoc_alerts
+Título: Plataforma de seguimiento
+Objetivo: Actualización de reportes
+Temas: Información general, indicadores
+Última actualización: Septiembre 13, 2018
+Reporte: "Revisión documental, elaboración de fichas técnicas, operativo de recolección de información en campo, operativo  de recolección de información documental, cálculo del indicador"
+<span class="red">Alertas: Peligro de cálculo</span>
+Marcación: Fase del indicador
 ---
 </pre>
 
