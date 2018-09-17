@@ -52,7 +52,7 @@ La plataforma también ofrece acceso directo al código de plantilla  [http://lo
 
 En la plataforma, se presenta un progreso del cálculo del indicador con respecto a la recolección de información en campo y revisión documental.
 
-## Progreso de los indicadores
+## Progreso de indicadores
 
 El progreso de los indicadores será presentando, a través de la: revisión documental, elaboración de fichas técnicas, operativo de recolección de información en campo, operativo  de recolección de información documental, cálculo del indicador  [blog post](http://idratherbewriting.com/2016/03/23/release-of-documentation-theme-for-jekyll-50/).)
 
@@ -72,13 +72,11 @@ Marcación: Fase del indicador
 ---
 </pre>
 
-The `sidebar: mydoc_sidebar` refers to the \_data/sidebars/mydoc_sidebar.yml file.
+La `tabla de resumen de avance de los indicadores` es la referencia más proxima de cumplimiento de etapas que debe pasar cada indicador.
 
-Note that your sidebar can only have 2 levels (expand the **Tag archives** option to see an example of the second level). Given that each product has its own sidebar, this depth should be sufficient (it's really like 3 levels). Deeper nesting goes against usability recommendations.
+Cada indicador tendrá una actualización, que corresponda al progreso reportado a la plataforma de seguimiento desde su planificación hasta el análisis presentado en el documento final de proyecto.
 
-You can optionally turn off the sidebar on any page (e.g. landing pages). To turn off the sidebar for a page, you should set the page frontmatter tag as `hide_sidebar: true`.
-
-If you don't declare a sidebar, the `home_sidebar` file gets used as the default because this is the default specified in the config file:
+Además de la existencia 
 
 ```yaml
 -
