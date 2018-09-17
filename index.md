@@ -76,19 +76,18 @@ La `tabla de resumen de avance de los indicadores` es la referencia más proxima
 
 Cada indicador tendrá una actualización, que corresponda al progreso reportado a la plataforma de seguimiento desde su planificación hasta el análisis presentado en el documento final de proyecto.
 
-Además de la existencia 
+Además de la existencia de una tabla que marca el cumplimiento de las etapas para cada indicador, también esta presente la **la tabla de avance general** que denota el cumplimiento de las etapas para cada indicador.
 
 ```yaml
 -
-  scope:
-    path: ""
-    type: "pages"
-  values:
-    layout: "page"
-    comments: true
-    search: true
-    sidebar: home_sidebar
-    topnav: topnav
+  Tabla Resumen:
+    Ficha Técnica : ""
+	Protocolos: ""
+    Recopilación de información: "Documental, campo, etc."
+  Anáilisis:
+    Indicador: "Cálculo"
+    Anáilisis: Documento
+    
 ```
 
 If you want to set different sidebar defaults based on different folders for your pages, specify your defaults like this:
