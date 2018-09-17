@@ -11,7 +11,7 @@ Summary: These brief instructions will help you get started quickly with the the
 
 ## Plataforma de Seguimiento de Indicadores
 
-Iniciativa promovida para proporcionar al usuario un panorama general del avance en la construcción de indicadores, a través de gráficos sencillos.
+Iniciativa promovida para proporcionar al usuario un panorama general a través de gráficos sencillos, del avance en la construcción de indicadores.
 
 ### 1. Introducción
 
@@ -21,6 +21,10 @@ Iniciativa promovida para proporcionar al usuario un panorama general del avance
 
 Una de las ventajas de utilizar indicadores es la objetividad y comparabilidad;  representan un lenguaje común que facilita una medida estandarizada. Son   herramientas útiles porque permiten valorar diferentes magnitudes como, por ejemplo, el grado de cumplimiento de un objetivo o el grado de satisfacción de un participante en la formación.
 
+* [Outcome1][mydoc_install_jekyll_on_mac]
+* [Outcome2][mydoc_install_jekyll_on_mac]
+* [Outcome3][mydoc_install_jekyll_on_mac]
+* [Outcome4][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
 
@@ -76,19 +80,18 @@ La `tabla de resumen de avance de los indicadores` es la referencia más proxima
 
 Cada indicador tendrá una actualización, que corresponda al progreso reportado a la plataforma de seguimiento desde su planificación hasta el análisis presentado en el documento final de proyecto.
 
-Además de la existencia 
+Además de la existencia de una tabla que marca el cumplimiento de las etapas para cada indicador, también esta presente la **la tabla de avance general** que denota el cumplimiento de las etapas para cada indicador.
 
 ```yaml
 -
-  scope:
-    path: ""
-    type: "pages"
-  values:
-    layout: "page"
-    comments: true
-    search: true
-    sidebar: home_sidebar
-    topnav: topnav
+  Tabla Resumen:
+    Ficha Técnica : ""
+	Protocolos: ""
+    Recopilación de información: "Documental, campo, etc."
+  Anáilisis:
+    Indicador: "Cálculo"
+    Anáilisis: Documento
+    
 ```
 
 If you want to set different sidebar defaults based on different folders for your pages, specify your defaults like this:
