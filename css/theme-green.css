@@ -5,12 +5,10 @@
 }
 
 
-h3 {color: #440418; }
-h4 {color: #5b0520; }
-h5 {color: #720728; }
-
+h3 {color: #E50E51; }
+h4 {color: #808080; }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #9d260a;
+    background-color: #248ec2;
     color: white;
 }
 
