@@ -37,7 +37,7 @@ entries:
       url: /indicador_r12.html
       output: web
     - title: Indicador 10
-      url: /indicador r13.html
+      url: /indicador_r13.html
       output: web	
     - title: Indicador 11
       url: /indicador_r14.html
