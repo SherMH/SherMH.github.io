@@ -6,19 +6,6 @@ entries:
   levels: one
   folders:
   
-   - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
   - title: Outcome 1
     output: web
     folderitems:
