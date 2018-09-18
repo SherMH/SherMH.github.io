@@ -1,12 +1,11 @@
 .summary {
-    color: #808080;
+    color: #400000;
     border-left: 5px solid #ED1951;
     font-size:16px;
 }
 
-h3 {color: #440418; }
-h4 {color: #5b0520; }
-h5 {color: #720728; }
+h3 {color: #800000;  }
+h4 {color: #fe2e2e; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #9d260a;
@@ -14,7 +13,7 @@ h5 {color: #720728; }
 }
 
 .nav > li.active > a {
-    background-color: #347DBE;
+    background-color: 	#fe8181;
 }
 
 .nav > li > a:hover {
