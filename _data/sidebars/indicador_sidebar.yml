@@ -10,7 +10,7 @@ entries:
     output: web
     folderitems:
     - title: Indicador 1
-      url: /indicador_p13.html
+      url: /indicador_p11.html
       output: web
     - title: Indicador 2
       url: /indicador_p12.html
