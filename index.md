@@ -1,5 +1,5 @@
 ---
-title: "Plataforma de seguimiento ''Línea Base de Indicadores - Unicef'' "
+title: 
 keywords: 
 sidebar: indicador_sidebar
 toc: false
@@ -9,7 +9,7 @@ Summary:
 
 
 
-<img class="img-rounded img-responsibe" src="/images/cara.jpg" alt="" width="565" height="211">
+<img class="img-rounded img-responsibe" src="/images/cara2.jpg" alt="" width="500" height="500">
 
 
 {% include links.html %}
