@@ -9,7 +9,7 @@ Summary:
 
 
 
-<img class="img-rounded img-responsibe" src="/images/fichas/p11_f.jpg" alt="" width="565" height="211"> </td>
+<img class="img-rounded img-responsibe" src="/images/cara.jpg" alt="" width="565" height="211"> </td>
 
 
 {% include links.html %}
