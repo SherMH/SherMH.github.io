@@ -53,7 +53,7 @@ Summary:
 #grad1 {
     height: 400px;
     
-    background-image: url(/images/hoja_i.jpg);
+    background-image: url(/images/fondo-1.jpg);
 }
 
 }
