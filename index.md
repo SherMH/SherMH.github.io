@@ -59,6 +59,6 @@ Summary:
 </style>
 
 
-<div id="grad1"></div>
+
 
 
