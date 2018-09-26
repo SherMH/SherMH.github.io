@@ -52,7 +52,7 @@ Summary:
         <div class="col-lg-12" style="background-image:url(/images/fondo-1.jpg);">
 		
           <background-image:url(/images/fonfo-1.jpg)>
-           <h1>hola si 18</h1>
+           <h1>hola si 19</h1>
 		</div> 
     </div> 		
  </body>
