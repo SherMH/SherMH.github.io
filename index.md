@@ -8,7 +8,7 @@ Summary:
 ---
 
 
-<section id="global-header2">
+<section id="global-header1">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
