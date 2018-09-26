@@ -18,7 +18,7 @@ Summary:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">
 
     /**
-    * Array con las imagenes que se iran mostrando en la web
+    * Array con las imagenes que se iran mostrando en la web rrrr
     */
     var index = 0;
 
