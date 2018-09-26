@@ -57,5 +57,5 @@ Summary:
 <body>
  
 <background-imagen src="" id="rotar">
- <hi>hola si</h1>
+ <h1>hola si</h1>
 </body>
