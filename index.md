@@ -26,7 +26,7 @@ Summary:
      function rotarImagenes()
      {
 	  
-          $(grad1).css({'background-image', 'url(' + imagenes[index] + ')';          
+          $('grad1').css({"background-image", 'url(' + imagenes[index] + ')'});          
            index++;
            if(index == 4)
       index = 0;
@@ -51,8 +51,7 @@ Summary:
 
 <style>
 #grad1 {
-    height: 400px;
-    
+    height: 400px;   
     background-image: url(/images/fondo-1.jpg);
 }
 
@@ -62,4 +61,4 @@ Summary:
 
 <div id="grad1"></div>
 
-<p>agregarm 236 190deg axe starting red and finishing blue:</p>
+
