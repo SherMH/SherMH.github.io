@@ -49,6 +49,6 @@ Summary:
  
 <body>
  
-<background-imagen src="" id="rotar">
+<background-image src="" id="rotar">
  <h1>hola si 3</h1>
 </body>
