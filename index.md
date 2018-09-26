@@ -27,7 +27,7 @@ Summary:
     function rotarImagenes()
     {
 	  
-        $('body').css("background-image", 'url(' + imagenes[index] + ')');          
+        $('page').css("background-image", 'url(' + imagenes[index] + ')');          
            index++;
            if(index == 4)
       index = 0;
@@ -47,7 +47,5 @@ Summary:
 </script>
 </head>
  
-
- 
 <background-image:url(/images/fonfo-1.jpg)>
- <h1>hola si 15</h1>
+ <h1>hola si 16</h1>
