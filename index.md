@@ -24,7 +24,7 @@ Summary:
 }
 </style>
 </head>
-<body>
+
 
 <h3>Repeating Linear Gradient</h3>
 
