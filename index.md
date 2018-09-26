@@ -27,7 +27,7 @@ Summary:
     function rotarImagenes()
     {
 	  
-       document.getElementById("rotar").src=(' + imagenes[index] + ');              
+       document.getElementById("rotar").url((' + imagenes[index] + '));              
            index++;
            if(index == 4)
       index = 0;
@@ -49,6 +49,6 @@ Summary:
  
 <body>
  
-<background-image src="" id="rotar">
+<background-image:url(/images/fonfo-1.jpg) id="rotar">
  <h1>hola si 3</h1>
 </body>
