@@ -61,4 +61,4 @@ Summary:
 
 <div id="grad1"></div>
 
-<p>A repeating gradient on 190deg axe starting red and finishing blue:</p>
+<p>agregar 190deg axe starting red and finishing blue:</p>
