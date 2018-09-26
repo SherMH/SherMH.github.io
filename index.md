@@ -16,6 +16,7 @@ Summary:
 
 <head>
 <script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     /**
     * Array con las imagenes que se iran mostrando en la web
     */
@@ -33,11 +34,12 @@ Summary:
     */
     function rotarImagenes()
     {
-        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
-        listaimg index=Math.floor((Math.random()*imagenes.length));
  
         // cambiamos la imagen
-        document.getElementById("imagen").src=imagenes[index];
+        document.getElementById("background-image1").src=listaimg[index];
+		index++;
+		if(index==4)
+		   index=0
     }
  
     /**
@@ -51,11 +53,11 @@ Summary:
         // Indicamos que cada 5 segundos cambie la imagen
         setInterval(rotarImagenes,5000);
     }
-</script>
+</script >
 </head>
  
 <body>
  
-<img src="" id="imagen">
+<background-image src="images/fondo-1.jpg" id="background-image1" >
  
 </body>
