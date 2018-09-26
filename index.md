@@ -7,7 +7,7 @@ permalink: index.html
 Summary:
 ---
 
-    <!-- Slider Start -->
+
 <section id="global-header2">
     <div class="container">
         <div class="row">
