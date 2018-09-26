@@ -26,7 +26,7 @@ Summary:
      function rotarImagenes()
      {
 	  
-          document.getElementById("grad1").'url(' + imagenes[index] + ')';          
+          $(grad1).css({'background-image', 'url(' + imagenes[index] + ')';          
            index++;
            if(index == 4)
       index = 0;
