@@ -8,45 +8,45 @@ Summary:
 ---
 
 <head>
-<script>
-    /**
-    * Array con las imagenes que se iran mostrando en la web
-    */
-	var index=0
-    var imagenes=new Array(
+ <script>
+     /**
+     * Array con las imagenes que se iran mostrando en la web
+     */
+	 var index=0
+     var imagenes=new Array(
         'images/fondo-1.jpg',
         'images/fondo-2.jpg',
         'images/fondo-3.jpg',
         'images/fondo-4.jpg'
-    );
+     );
  
-    /**
-    * Funcion para cambiar la imagen
-    */
-    function rotarImagenes()
-    {
+     /**
+     * Funcion para cambiar la imagen
+     */
+     function rotarImagenes()
+     {
 	  
         $('body').css("background-image", 'url(' + imagenes[index] + ')');          
            index++;
            if(index == 4)
       index = 0;
-    }
+     }
  
-    /**
-    * Función que se ejecuta una vez cargada la página
-    */
-    onload=function()
-    {
+     /**
+     * Función que se ejecuta una vez cargada la página
+     */
+     onload=function()
+     {
         // Cargamos una imagen aleatoria
         rotarImagenes();
  
         // Indicamos que cada  segundos cambie la imagen
         setInterval(rotarImagenes,3000);
-    }
-</script>
+     }
+    </script>
 </head>
 
- 
+ <body>
     <div class="row">
         
         <div class="col-lg-12" style="background-image:url(/images/fondo-1.jpg);">
@@ -55,4 +55,4 @@ Summary:
            <h1>hola si 18</h1>
 		</div> 
     </div> 		
- 
+ </body>
