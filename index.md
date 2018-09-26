@@ -27,7 +27,7 @@ Summary:
     function rotarImagenes()
     {
 	  
-        $('page').css("background-image", 'url(' + imagenes[index] + ')');          
+        $('content').css("background-image", 'url(' + imagenes[index] + ')');          
            index++;
            if(index == 4)
       index = 0;
