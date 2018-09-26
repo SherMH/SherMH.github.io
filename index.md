@@ -14,7 +14,7 @@ Summary:
 
 {% include links.html %}
 
-<head>
+<body>
 <script type="text/javascript" src="js/cambiar-fondo.js"></script>
 
  <style>
@@ -23,10 +23,9 @@ body  {
     background-color: #cccccc;
 }
 </style>
-</head>
-<body>
+
+
 
 <h1>hola</h1>
 
 </body>
-</html>
