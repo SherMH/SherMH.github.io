@@ -44,6 +44,7 @@ Summary:
         setInterval(rotarImagenes,3000);
      }
     </script>
+	</head>
 
 
 
@@ -61,4 +62,4 @@ Summary:
 
 <div id="grad1"></div>
 
-<p>agregar 190deg axe starting red and finishing blue:</p>
+<p>agregarm 236 190deg axe starting red and finishing blue:</p>
