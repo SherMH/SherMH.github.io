@@ -8,9 +8,6 @@ Summary:
 ---
 
 
-
-<img class="img-rounded img-responsibe" src="/images/cara2.jpg" alt="" width="500" height="500">
-
 <head>
 <script>
     /**
@@ -30,15 +27,11 @@ Summary:
     function rotarImagenes()
     {
 	  
-       document.getElementById("rotar").src=(' + imagenes[index] + ');
-                  
-   index++;
-                  
-   if(index == 4)
+       document.getElementById("rotar").src=(' + imagenes[index] + ');              
+           index++;
+           if(index == 4)
       index = 0;
-    
-    
-}
+    }
  
     /**
     * Función que se ejecuta una vez cargada la página
@@ -57,5 +50,5 @@ Summary:
 <body>
  
 <background-imagen src="" id="rotar">
- <h1>hola si</h1>
+ <h1>hola si 3</h1>
 </body>
