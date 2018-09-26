@@ -17,12 +17,12 @@ Summary:
 <body>
 <script type="text/javascript" src="js/cambiar-fondo.js"></script>
 
- <style>
-body  {
+ 
+
     background-image: src="/images/fondo-1.jpg";
     background-color: #cccccc;
-}
-</style>
+
+
 
 
 

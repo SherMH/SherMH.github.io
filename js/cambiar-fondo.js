@@ -4,7 +4,7 @@ $( function(){
     var arrImagenes = [ 'fondo-1.jpg','fondo-2.jpg', 'fondo-3.jpg', 'fondo-4.jpg' ];
     var imagenActual = 'fondo-1.jpg';
 	var tiempo = 3000;
-	var id_contenedor = 'main-wrap'
+	var id_contenedor = 'background-image'
     setInterval( function(){
         do{
             var randImage = arrImagenes[Math.ceil(Math.random()*(arrImagenes.length-1))];
