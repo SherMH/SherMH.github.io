@@ -7,7 +7,6 @@ permalink: index.html
 Summary:
 ---
 
-
 <head>
 <script>
     /**
@@ -27,7 +26,7 @@ Summary:
     function rotarImagenes()
     {
 	  
-        $('content').css("background-image", 'url(' + imagenes[index] + ')');          
+        $('body').css("background-image", 'url(' + imagenes[index] + ')');          
            index++;
            if(index == 4)
       index = 0;
@@ -46,6 +45,14 @@ Summary:
     }
 </script>
 </head>
+
  
-<background-image:url(/images/fonfo-1.jpg)>
- <h1>hola si 17</h1>
+    <div class="row">
+        
+        <div class="col-lg-12" style="background-image:url(/images/fondo-1.jpg);">
+		
+          <background-image:url(/images/fonfo-1.jpg)>
+           <h1>hola si 18</h1>
+		</div> 
+    </div> 		
+ 
