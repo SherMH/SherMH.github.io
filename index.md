@@ -15,49 +15,18 @@ Summary:
 {% include links.html %}
 
 <head>
-<script>
+<script type="text/javascript" src="js/cambiar-fondo.js"></script>
 
-    /**
-    * Array con las imagenes que se iran mostrando en la web rrrr
-    */
-    var index = 0;
-
-    var listaimg = [
-        'images/fondo-1.jpg',
-        'images/fondo-2.jpg',
-        'images/fondo-3.jpg',
-        'images/fondo-4.jpg'
-    ];
- 
-    /**
-    * Funcion para cambiar la imagen
-    */
-    function rotarImagenes()
-    {
- 
-        // cambiamos la imagen
-        document.getElementById("background-image1").src=listaimg[index];
-		index++;
-		if(index==4)
-		   index=0
-    }
- 
-    /**
-    * Función que se ejecuta una vez cargada la página
-    */
-    onload=function()
-    {
-        // Cargamos una imagen aleatoria
-        rotarImagenes();
- 
-        // Indicamos que cada 5 segundos cambie la imagen
-        setInterval(rotarImagenes,5000);
-    }
-</script >
+ <style>
+body  {
+    background-image: src="/images/fondo-1.jpg";
+    background-color: #cccccc;
+}
+</style>
 </head>
- 
 <body>
- 
-<background-image src="images/fondo-1.jpg" id="background-image1" >
- 
+
+<h1>hola</h1>
+
 </body>
+</html>
