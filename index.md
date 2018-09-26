@@ -9,7 +9,7 @@ Summary:
 
 
 
- <body>
+ 
     <div class="row"style="background-image:url(/images/fondo-1.jpg);">
         
         <div class="col-lg-12" >
@@ -18,4 +18,4 @@ Summary:
            <h1>hola si 19</h1>
 		</div> 
     </div> 		
- </body>
+ 
