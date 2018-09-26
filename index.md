@@ -34,7 +34,7 @@ Summary:
     function rotarImagenes()
     {
         // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
-        var listaimg index=Math.floor((Math.random()*imagenes.length));
+        listaimg index=Math.floor((Math.random()*imagenes.length));
  
         // cambiamos la imagen
         document.getElementById("imagen").src=imagenes[index];
