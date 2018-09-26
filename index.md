@@ -26,7 +26,7 @@ Summary:
      function rotarImagenes()
      {
 	  
-          $('grad1').css({"background-image", 'url(' + imagenes[index] + ')'});          
+          $("grad1").css({"background-image", 'url(' + imagenes[index] + ')'});          
            index++;
            if(index == 4)
       index = 0;
@@ -47,6 +47,11 @@ Summary:
 	</head>
 
 
+<body>
+ 
+<img src="" id="imagen">
+ 
+</body>
 
 
 <style>
@@ -58,7 +63,7 @@ Summary:
 }
 </style>
 
-
+<div id="grad1"></div>
 
 
 
