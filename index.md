@@ -6,16 +6,15 @@ toc: false
 permalink: index.html
 Summary:
 ---
+<style>
+body { 
+    background: lightblue url("/images/hoja_i.jpg);") no-repeat fixed center; 
+}
+</style>
+</head>
+<body>	
+<h1>The background Property</h1>
 
-
-
+<p>This is some text</p>	
  
-    <div class="row"style="background-image:url(/images/fondo-1.jpg);">
-        
-        <div class="col-lg-12" >
-		
-          <background-image:url(/images/fonfo-1.jpg)>
-           <h1>hola si 19</h1>
-		</div> 
-    </div> 		
- 
+</body>
