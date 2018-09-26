@@ -14,7 +14,7 @@ Summary:
             <div class="col-md-12">
                 <div class="block">
                     <h1>Nuestros Servicios.</h1>
-                    <p>Producción de información con temáticas de interés social, democratizando el acceso a la información a través de  la promoción de la cultura del dato y la evidencia.  </p>
+                    <p>Producción de información con temáticas.  </p>
                 </div>
             </div>
         </div>
