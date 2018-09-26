@@ -42,13 +42,12 @@ Summary:
         rotarImagenes();
  
         // Indicamos que cada  segundos cambie la imagen
-        setInterval(rotarImagenes,1000);
+        setInterval(rotarImagenes,3000);
     }
 </script>
 </head>
  
-<body>
+
  
 <background-image:url(/images/fonfo-1.jpg)>
- <h1>hola si 11</h1>
-</body>
+ <h1>hola si 15</h1>
