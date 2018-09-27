@@ -12,7 +12,7 @@ Summary:
      /**
      * Array con las imagenes que se iran mostrando en la web
      */
-	 var index=0
+	
      var imagenes=new Array(
         'images/fondo-1.jpg',
         'images/fondo-2.jpg',
@@ -24,8 +24,9 @@ Summary:
      * Funcion para cambiar la imagen
      */
      function rotarImagenes()
-     {	  
-		  document.getElementById("imagen").src="imagenes[index]+ ";
+     {	 
+  var index=Math.floor((Math.random()*imagenes.length));	 
+		  document.getElementById("imagen").src=imagenes[index];
            index++;
            if(index == 4)
            index = 0;
