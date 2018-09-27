@@ -8,15 +8,55 @@ Summary:
 ---
 
 <head>
- /**
-     * creando un background en una seccion del cuerpo
-     */
+     
 <style>
+     /**
+     * Creando un background en una seccion del cuerpo
+     */
 #grad1 {
     height: 200px;
     width: 400px;
     background-image: repeating-linear-gradient(45deg,red,blue 7%,green 10%);
 }
+
+<script>
+     /**
+     * Array con las imagenes que se iran mostrando en la web
+     */
+	
+     var imagenes1=new Array(
+        'images/fondo-1.jpg',
+        'images/fondo-2.jpg',
+        'images/fondo-3.jpg',
+        'images/fondo-4.jpg'
+        );
+      var conteo1=0
+     /**
+     * Funcion para cambiar la imagen
+     */
+     function rotarImagenes()
+     {	  
+		  $('grad1').css("background-image", url(imagenes1[conteo]);
+		  if(conteo1<imagenes1.length-1)
+           {conteo1 ++}
+		   else
+		   {conteo1=0}
+           
+     }
+ 
+     /**
+     * Función que se ejecuta una vez cargada la página
+     */
+     onload=function()
+     {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+ 
+        // Indicamos que cada  segundos cambie la imagen
+        setInterval(rotarImagenes,3000);
+     }
+    </script>
+
 </style>
 
  <script>
