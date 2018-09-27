@@ -48,8 +48,8 @@ Summary:
 	</head>
 
 
+<body>
 
-<font size=5>
 <h1 style="color:#bf0000;"> Plataforma de Seguimeinto</h1>
 <h1 style="color:#bf0000;"> Línea Base de Indicadores UNICEF</h1>
 
