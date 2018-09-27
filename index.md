@@ -18,18 +18,19 @@ Summary:
         'images/fondo-2.jpg',
         'images/fondo-3.jpg',
         'images/fondo-4.jpg'
-     );
- 
+        );
+      var conteo=0
      /**
      * Funcion para cambiar la imagen
      */
      function rotarImagenes()
-     {	 
-  var index=Math.floor((Math.random()*imagenes.length));	 
-		  document.getElementById("imagen").src=imagenes[index];
-           index++;
-           if(index == 4)
-           index = 0;
+     {	  
+		  document.getElementById("imagen").src=imagenes[conteo];
+		  if(conteo<imagenes.length-1)
+           {conteo ++}
+		   else
+		   {conteo=0}
+           
      }
  
      /**
