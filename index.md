@@ -49,9 +49,10 @@ Summary:
 
 
 <body>
-<h1> Plataforma de Seguimeinto</h1>
-<h1> Línea Base de Indicadores</h1>
-<h1> UNICEF</h1>
+<font size=5>
+<h1 style="color:#bf0000;"> Plataforma de Seguimeinto</h1>
+<h1 style="color:#bf0000;"> Línea Base de Indicadores UNICEF</h1>
+ </font>
  
 <img src="" id="imagen">
  
