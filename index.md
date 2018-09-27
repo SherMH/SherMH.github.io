@@ -46,7 +46,7 @@ Summary:
 	</head>
 
 
-<<body>
+<body>
  
 <img src="" id="imagen">
  
