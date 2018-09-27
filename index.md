@@ -25,10 +25,10 @@ Summary:
      */
      function rotarImagenes()
      {	  
-		  document.getElementById("imagen").src=' +imagenes[index]+ ';
+		  document.getElementById("imagen").src="imagenes[index]+ ";
            index++;
            if(index == 4)
-      index = 0;
+           index = 0;
      }
  
      /**
@@ -53,16 +53,6 @@ Summary:
 </body>
 
 
-<style>
-#grad1 {
-    height: 300px;   
-    background-image: url(/images/fondo-1.jpg);
-}
-
-}
-</style>
-
-<div id="grad1"></div>
 
 
 
