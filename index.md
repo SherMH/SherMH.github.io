@@ -16,7 +16,7 @@ Summary:
 #grad1 {
     height: 200px;
     width: 400px;
-    background-image: repeating-linear-gradient(45deg,red,blue 7%,green 10%);
+    background-image: url(images/fondo-1.jpg);
 }
 
 <script>
