@@ -24,9 +24,8 @@ Summary:
      * Funcion para cambiar la imagen
      */
      function rotarImagenes()
-     {
-	  
-          $("grad1").css({"background-image", 'url(' + imagenes[index] + ')'});          
+     {	  
+		  document.getElementById("imagen").src=' +imagenes[index]+ ';
            index++;
            if(index == 4)
       index = 0;
@@ -47,7 +46,7 @@ Summary:
 	</head>
 
 
-<body>
+<<body>
  
 <img src="" id="imagen">
  
@@ -56,7 +55,7 @@ Summary:
 
 <style>
 #grad1 {
-    height: 400px;   
+    height: 300px;   
     background-image: url(/images/fondo-1.jpg);
 }
 
