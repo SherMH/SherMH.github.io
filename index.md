@@ -53,9 +53,9 @@ Summary:
 <h1 style="color:#bf0000;" align="center"> Plataforma de Seguimiento</h1>
 <h1 style="color:#bf0000;" align="center"> Línea Base de Indicadores UNICEF</h1>
 
- 
+ <center> 
 <img src="" id="imagen" align="center">
- 
+ </center> 
 </body>
 
 
