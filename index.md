@@ -103,7 +103,7 @@ Summary:
  
 <img src="" id="imagen">
 
-<div id="grad1"></div>
+<div id="grad1" style="background-image:url(/images/fondo-4.jpg);" ></div>
  
 </body>
 
