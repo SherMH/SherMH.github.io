@@ -8,6 +8,17 @@ Summary:
 ---
 
 <head>
+ /**
+     * creando un background en una seccion del cuerpo
+     */
+<style>
+#grad1 {
+    height: 200px;
+    width: 400px;
+    background-image: repeating-linear-gradient(45deg,red,blue 7%,green 10%);
+}
+</style>
+
  <script>
      /**
      * Array con las imagenes que se iran mostrando en la web
@@ -51,6 +62,8 @@ Summary:
 <body>
  
 <img src="" id="imagen">
+
+<div id="grad1"></div>
  
 </body>
 
