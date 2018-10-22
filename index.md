@@ -1,5 +1,5 @@
 ---
-title: Hola
+title: 
 keywords: 
 sidebar: indicador_sidebar
 toc: false
