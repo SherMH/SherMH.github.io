@@ -42,6 +42,9 @@ entries:
     - title: Indicador r14
       url: /indicador_r14.html
       output: web
+    - title: Indicador r15
+      url: /indicador_r15.html
+      output: web  
 
   - title: Outcome 2 
     output: web
