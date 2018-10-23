@@ -78,7 +78,16 @@ entries:
       output: web
     - title: Indicador r27
       url: /indicador_r27.html
-      output: web	  	  
+      output: web
+    - title: Indicador r28
+      url: /indicador_r28.html
+      output: web
+    - title: Indicador r29
+      url: /indicador_r29.html
+      output: web
+    - title: Indicador r30
+      url: /indicador_r30.html
+      output: web	  
                       
   - title: Outcome 3
     output: web
